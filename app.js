@@ -1,9 +1,14 @@
+// app.js
+
+// Including dependencies
 var express  = require("express"),
     app      = express(),
     http     = require("http"),
     server   = http.createServer(app),
-    mongoose = require('mongoose'); 
+    mongoose = require('mongoose'),
+    port     = process.env.PORT || 5555; 
 
+// Configuring the app to be able to work with REST method
 app.configure(function () {
   app.use(express.bodyParser()); //JSON parser
   app.use(express.methodOverride()); // HTTP PUT and DELETE support
@@ -16,6 +21,7 @@ app.get('/', function(req, res) {
 
 routes = require('./routes/species')(app);
 
+// Conection DB 
 mongoose.connect('mongodb://localhost/species', function(err, res) {
 	if(err) {
 		console.log('ERROR: connecting to Database. ' + err);
@@ -24,6 +30,7 @@ mongoose.connect('mongodb://localhost/species', function(err, res) {
 	}
 });
 
-server.listen(5555, function() {
-  console.log("Node server running on http://localhost:5555");
+// Configuring the app's listen port
+server.listen(port, function() {
+  console.log("Node server running on -> http://localhost:" + port);
 });
