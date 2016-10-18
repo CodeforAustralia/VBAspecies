@@ -6,6 +6,7 @@ var express  = require("express"),
     http     = require("http"),
     server   = http.createServer(app),
     mongoose = require('mongoose'),
+    cors = require('cors'),
     port     = process.env.PORT || 8080; 
 
 // Configuring the app to be able to work with REST method
@@ -14,6 +15,7 @@ app.configure(function () {
   app.use(express.bodyParser()); //JSON parser
   app.use(express.methodOverride()); // HTTP PUT and DELETE support
   app.use(app.router); // Route management
+  app.use(cors());
 });
 
 app.get('/', function(req, res) {

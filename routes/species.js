@@ -4,7 +4,7 @@ module.exports = function(app) {
   var SpeciesModel = require('../models/specie.js');
 
   //GET - Return all species in the DB
-  findSpeciesModelBy = function(req, res) {
+  findSpeciesModelBy = function(req, res, next) {
       var sn = req.param('SCIENTIFIC_NAME');
       var pd = req.param('PRIMARY_DISCIPLINE');
       var cn = req.param('COMMON_NAME');
@@ -107,5 +107,5 @@ module.exports = function(app) {
         };
   };
   //Link routes and functions
-  app.get('/species', findSpeciesModelBy);
+  app.get('/species', findSpeciesModelBy(req, res, next));
 }
