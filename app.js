@@ -6,7 +6,7 @@ var express  = require("express"),
     http     = require("http"),
     server   = http.createServer(app),
     mongoose = require('mongoose'),
-    port     = process.env.PORT || 5555; 
+    port     = process.env.PORT || 8080; 
 
 // Configuring the app to be able to work with REST method
 app.configure(function () {
