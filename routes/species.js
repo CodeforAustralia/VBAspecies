@@ -9,43 +9,55 @@ module.exports = function(app) {
       var pd = req.param('PRIMARY_DISCIPLINE');
       var cn = req.param('COMMON_NAME');
       var ti = req.param('TAXON_ID');
+      var ssn = req.param('SCIENTIFIC_NME_SYNONYM'); 
       console.log('GET /speciesP sn ' + sn + pd + cn + ti);
+      
+      //Autocomplete function by SCIENTIFIC_NME_SYNONYM
       if(sn != null){
-          SpeciesModel.find({ SCIENTIFIC_NAME: sn  }, function(err, species) {
-              if(!err) {
-                res.send(species);
-                console.log(species);
+           var regex = new RegExp(req.param('SCIENTIFIC_NAME'), 'i');
+           console.log('regex' + regex);
+           var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex });
+           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
+           
+           query.exec(function(err, species) {
+              if (!err) {
+                  res.send(species, {'Content-Type': 'application/json'}, 200);
+                  console.log(species);
               } else {
-                res.statusCode = 500;
-                console.log('Internal error(%d): %s',res.statusCode,err.message);
-                res.send({ error: 'Server Error'});
+                  res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
               }
           });
       }
         // Searching by Primary Discipline
         else if(pd != null){
-            SpeciesModel.find({ PRIMARY_DISCIPLINE: pd  }, function(err, species) {
-                if(!err) {
-                  res.send(species);
+           var regex = new RegExp(req.param('PRIMARY_DISCIPLINE'), 'i');
+           console.log('regex' + regex);
+           var query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex });
+           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
+           
+           query.exec(function(err, species) {
+              if (!err) {
+                  res.send(species, {'Content-Type': 'application/json'}, 200);
                   console.log(species);
-                } else {
-                  res.statusCode = 500;
-                  console.log('Internal error(%d): %s',res.statusCode,err.message);
-                  res.send({ error: 'Server Error'});
-                }
+              } else {
+                  res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+              }
           });
         }
         // Searching by Common Name
         else if(cn != null){
-            SpeciesModel.find({ COMMON_NAME: cn  }, function(err, species) {
-                if(!err) {
-                  res.send(species);
+           var regex = new RegExp(req.param('COMMON_NAME'), 'i');
+           console.log('regex' + regex);
+           var query = SpeciesModel.find({ COMMON_NAME: regex });
+           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
+           
+           query.exec(function(err, species) {
+              if (!err) {
+                  res.send(species, {'Content-Type': 'application/json'}, 200);
                   console.log(species);
-                } else {
-                  res.statusCode = 500;
-                  console.log('Internal error(%d): %s',res.statusCode,err.message);
-                  res.send({ error: 'Server Error'});
-                }
+              } else {
+                  res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+              }
           });
         }
         // Searching by Taxon ID
@@ -60,6 +72,22 @@ module.exports = function(app) {
                   console.log('Internal error(%d): %s',res.statusCode,err.message);
                   res.send({ error: 'Server Error'});
                 }
+          });
+        }
+        // Searching by Sinonym
+        else if(ssn != null){
+           var regex = new RegExp(req.param('SCIENTIFIC_NME_SYNONYM'), 'i');
+           console.log('regex' + regex);
+           var query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex });
+           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
+           
+           query.exec(function(err, species) {
+              if (!err) {
+                  res.send(species, {'Content-Type': 'application/json'}, 200);
+                  console.log(species);
+              } else {
+                  res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+              }
           });
         }
       //Searching by All Species

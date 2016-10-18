@@ -10,6 +10,7 @@ var express  = require("express"),
 
 // Configuring the app to be able to work with REST method
 app.configure(function () {
+  app.use(express.logger('dev')); /* 'default', 'short', 'tiny', 'dev' */
   app.use(express.bodyParser()); //JSON parser
   app.use(express.methodOverride()); // HTTP PUT and DELETE support
   app.use(app.router); // Route management
