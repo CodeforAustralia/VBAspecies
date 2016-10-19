@@ -33,7 +33,7 @@ module.exports = function(app) {
         else if(pd != null){
            var regex = new RegExp(req.param('PRIMARY_DISCIPLINE'), 'i');
            console.log('regex' + regex);
-           var query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex });
+           var query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex }).limit(20);
            //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
            
            query.exec(function(err, species) {
@@ -49,7 +49,7 @@ module.exports = function(app) {
         else if(cn != null){
            var regex = new RegExp(req.param('COMMON_NAME'), 'i');
            console.log('regex' + regex);
-           var query = SpeciesModel.find({ COMMON_NAME: regex });
+           var query = SpeciesModel.find({ COMMON_NAME: regex }).limit(20);
            //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
            
            query.exec(function(err, species) {
@@ -79,7 +79,7 @@ module.exports = function(app) {
         else if(ssn != null){
            var regex = new RegExp(req.param('SCIENTIFIC_NME_SYNONYM'), 'i');
            console.log('regex' + regex);
-           var query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex });
+           var query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex }).limit(20);
            //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
            
            query.exec(function(err, species) {
