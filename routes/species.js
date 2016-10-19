@@ -1,10 +1,11 @@
 //File: routes/species.js
+var cors = require('cors');
 module.exports = function(app) {
 
   var SpeciesModel = require('../models/specie.js');
 
   //GET - Return all species in the DB
-  findSpeciesModelBy = function(req, res, next) {
+  findSpeciesModelBy = function(req, res) {
       var sn = req.param('SCIENTIFIC_NAME');
       var pd = req.param('PRIMARY_DISCIPLINE');
       var cn = req.param('COMMON_NAME');
@@ -16,7 +17,7 @@ module.exports = function(app) {
       if(sn != null){
            var regex = new RegExp(req.param('SCIENTIFIC_NAME'), 'i');
            console.log('regex' + regex);
-           var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex });
+           var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(20);
            //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
            
            query.exec(function(err, species) {
@@ -107,5 +108,5 @@ module.exports = function(app) {
         };
   };
   //Link routes and functions
-  app.get('/species', findSpeciesModelBy(req, res, next));
+  app.get('/species', cors(), findSpeciesModelBy);
 }
