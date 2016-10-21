@@ -10,6 +10,7 @@ module.exports = function(app) {
       var pd = req.param('PRIMARY_DISCIPLINE');
       var cn = req.param('COMMON_NAME');
       var ti = req.param('TAXON_ID');
+      var all = req.param('ALL');
       var ssn = req.param('SCIENTIFIC_NME_SYNONYM'); 
       console.log('GET /speciesP sn ' + sn + pd + cn + ti);
       
@@ -91,6 +92,29 @@ module.exports = function(app) {
               }
           });
         }
+
+        // Searching by all
+        else if(all != null){
+           var regex = new RegExp(req.param('ALL'), 'i');
+           console.log('regex' + regex);
+           var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex} ]}).limit(20);
+           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
+
+           query.exec(function(err, species) {
+              if (!err) {
+                  res.send(species, {'Content-Type': 'application/json'}, 200);
+                  console.log(species);
+              } else {
+                  res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+              }
+          });
+        }
+
+
+
+
+
+
       //Searching by All Species
       else
         {

@@ -1,5 +1,4 @@
 // app.js
-
 // Including dependencies
 var express  = require("express"),
     app      = express(),
