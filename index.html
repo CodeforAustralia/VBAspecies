@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script>
+    $(document).ready(function(){
+        var speciesTags = [];
+
+        function callByTag(tag) {
+            console.log(tag);
+            speciesTags = [];
+            if (tag != '') {
+                $.get("http://54.206.104.145:8080/species?ALL=" + tag,
+                function(data,status){
+                    $("#output").html("");
+                    for(key in data) {
+                        speciesTags.push(data[key].SCIENTIFIC_NAME);
+                        $("#output").append( "<p>" + data[key].SCIENTIFIC_NAME + " - " + data[key].COMMON_NAME  + "</p>" );
+                    }
+                });
+            } else {
+                $("#output").html("");
+            }
+        }
+        
+        $( "#tags" ).keyup(function(){
+            callByTag($( "#tags" ).val());
+        });
+    });
+    </script>
+</head>
+<body>
+
+<div class="">
+  <label for="tags">Species: </label>
+  <input id="tags">
+</div>
+
+<div id="output">
+
+</div>
+
+</body>
+</html>

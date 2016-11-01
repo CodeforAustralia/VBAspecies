@@ -4,7 +4,7 @@ module.exports = function(app) {
 
   var SpeciesModel = require('../models/specie.js');
 
-  //GET - Return all species in the DB
+  //GET - Return species in the DB
   findSpeciesModelBy = function(req, res) {
       var sn = req.param('SCIENTIFIC_NAME');
       var pd = req.param('PRIMARY_DISCIPLINE');
@@ -12,7 +12,7 @@ module.exports = function(app) {
       var ti = req.param('TAXON_ID');
       var all = req.param('ALL');
       var ssn = req.param('SCIENTIFIC_NME_SYNONYM'); 
-      console.log('GET /speciesP sn ' + sn + pd + cn + ti);
+      console.log('GET /species SCIENTIFIC_NAME:' + sn + ' PRIMARY_DISCIPLINE: ' + pd + ' COMMON_NAME: ' + cn + ' TAXON_ID: ' + ti + ' ALL: ' + all );
       
       //Autocomplete function by SCIENTIFIC_NME_SYNONYM
       if(sn != null){
@@ -20,7 +20,6 @@ module.exports = function(app) {
            console.log('regex' + regex);
            var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(20);
            //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
-           
            query.exec(function(err, species) {
               if (!err) {
                   res.send(species, {'Content-Type': 'application/json'}, 200);
@@ -35,8 +34,6 @@ module.exports = function(app) {
            var regex = new RegExp(req.param('PRIMARY_DISCIPLINE'), 'i');
            console.log('regex' + regex);
            var query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex }).limit(20);
-           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
-           
            query.exec(function(err, species) {
               if (!err) {
                   res.send(species, {'Content-Type': 'application/json'}, 200);
@@ -51,8 +48,6 @@ module.exports = function(app) {
            var regex = new RegExp(req.param('COMMON_NAME'), 'i');
            console.log('regex' + regex);
            var query = SpeciesModel.find({ COMMON_NAME: regex }).limit(20);
-           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
-           
            query.exec(function(err, species) {
               if (!err) {
                   res.send(species, {'Content-Type': 'application/json'}, 200);
@@ -76,13 +71,11 @@ module.exports = function(app) {
                 }
           });
         }
-        // Searching by Sinonym
+        // Searching by Synonym of species
         else if(ssn != null){
            var regex = new RegExp(req.param('SCIENTIFIC_NME_SYNONYM'), 'i');
            console.log('regex' + regex);
            var query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex }).limit(20);
-           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
-           
            query.exec(function(err, species) {
               if (!err) {
                   res.send(species, {'Content-Type': 'application/json'}, 200);
@@ -92,33 +85,28 @@ module.exports = function(app) {
               }
           });
         }
-
-        // Searching by all
-        else if(all != null){
-           var regex = new RegExp(req.param('ALL'), 'i');
-           console.log('regex' + regex);
-           var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex} ]}).limit(20);
-           //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
-
-           query.exec(function(err, species) {
-              if (!err) {
+        // Searching in SCIENTIFIC_NAME, COMMON_NAME or SCIENTIFIC_NME_SYNONYM for autocomplete
+        else if( all != null ){
+           if (!all){ 
+               res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+           } else {
+               var regex = new RegExp(req.param('ALL'), 'i');
+               console.log('regex ALL' + regex);
+               var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex} ]}).limit(20);
+               query.exec(function(err, species) {
+               if (!err) {
                   res.send(species, {'Content-Type': 'application/json'}, 200);
                   console.log(species);
-              } else {
+               } else {
                   res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+               }
+               });
               }
-          });
         }
-
-
-
-
-
-
       //Searching by All Species
       else
         {
-          console.log('Saliendo de todos los if anteriores');
+          console.log('List of all species');
             SpeciesModel.find(function(err, species) {
                 if(!err) {
                   res.send(species);
