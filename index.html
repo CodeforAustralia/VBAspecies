@@ -10,12 +10,14 @@
             console.log(tag);
             speciesTags = [];
             if (tag != '') {
-                $.get("http://localhost:8080/species?ALL=" + tag,
+                $.get("http://54.206.104.145:8080/species?ALL=" + tag,
+
                 function(data,status){
                     $("#output").html("");
                     for(key in data) {
+                    	var UrlTag = "https://en.wikipedia.org/wiki/" + data[key].SCIENTIFIC_NAME.replace(/ /g,"_")
                         speciesTags.push(data[key].SCIENTIFIC_NAME);
-                        $("#output").append( "<p>" + data[key].SCIENTIFIC_NAME + " - " + data[key].COMMON_NAME  + "</p>" );
+                        $("#output").append( "<p>" + data[key].SCIENTIFIC_NAME.italics() + " - " + data[key].COMMON_NAME  + " - " + data[key].TAXON_ID.fontcolor("green") + " - " + "<a target='_blank' href="+UrlTag+">"+UrlTag+"</a>" + "</p>" );
                     }
                 });
             } else {
