@@ -10,7 +10,7 @@
             console.log(tag);
             speciesTags = [];
             if (tag != '') {
-                $.get("http://54.206.104.145:8080/species?ALL=" + tag,
+                $.get("http://localhost:8080/species?ALL=" + tag,
                 function(data,status){
                     $("#output").html("");
                     for(key in data) {

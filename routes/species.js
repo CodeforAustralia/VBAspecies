@@ -59,16 +59,15 @@ module.exports = function(app) {
         }
         // Searching by Taxon ID
         else if(ti != null){
-            var tii = parseInt(ti);
-            SpeciesModel.find({ TAXON_ID: tii  }, function(err, species) {
-                if(!err) {
-                  res.send(species);
+           console.log('regex' + regex);
+           var query = SpeciesModel.find({ TAXON_ID: ti }).limit(20);
+           query.exec(function(err, species) {
+              if (!err) {
+                  res.send(species, {'Content-Type': 'application/json'}, 200);
                   console.log(species);
-                } else {
-                  res.statusCode = 500;
-                  console.log('Internal error(%d): %s',res.statusCode,err.message);
-                  res.send({ error: 'Server Error'});
-                }
+              } else {
+                  res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+              }
           });
         }
         // Searching by Synonym of species
@@ -92,7 +91,7 @@ module.exports = function(app) {
            } else {
                var regex = new RegExp(req.param('ALL'), 'i');
                console.log('regex ALL' + regex);
-               var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex} ]}).limit(20);
+               var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex}, { TAXON_ID: regex } ]}).limit(20);
                query.exec(function(err, species) {
                if (!err) {
                   res.send(species, {'Content-Type': 'application/json'}, 200);

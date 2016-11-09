@@ -9,7 +9,7 @@ jsonfile = './data/SpeciesList.json'
 SpeciesListFile = urllib.URLopener()
 SpeciesListFile.retrieve(urlGetFile, cvsFile) 
 
-data = pandas.read_csv(cvsFile, usecols=[0,1,2,4,17])
+data = pandas.read_csv(cvsFile, usecols=['TAXON_ID','SCIENTIFIC_NAME','COMMON_NAME','PRIMARY_DISCIPLINE','SCIENTIFIC_NME_SYNONYM'],  dtype=object)
 json_file = open(jsonfile, 'w')
 
 for line in data.iterrows():
