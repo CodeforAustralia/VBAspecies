@@ -1,23 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script>
-    $(document).ready(function(){
-        var speciesTags = [];
+  <meta charset="utf-8">
+  <title>jQuery API Species by Verofa</title>
+  <style>
+  img {
+    height: 100px;
+    float: left;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+     <script>
+        function fnSimpleAjax(WikiSpecieWordIn) 
+        {
+          return jQuery.ajax({
+            url: "https://en.wikipedia.org/w/api.php?action=query&format=json&titles="+WikiSpecieWordIn+"&callback=?",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            async: false,
+            error : function(jqXHR, textStatus, errorThrown) {
+            },
+            timeout: 120000,
+            });
+        };
 
+    $(document).ready(function(){
+        var ValidLinkSpecies = "";
+        var WikiLinkPattern = "https://en.wikipedia.org/?curid=";
         function callByTag(tag) {
             console.log(tag);
-            speciesTags = [];
             if (tag != '') {
                 $.get("http://54.206.104.145:8080/species?ALL=" + tag,
-
                 function(data,status){
                     $("#output").html("");
                     for(key in data) {
-                    	var UrlTag = "https://en.wikipedia.org/wiki/" + data[key].SCIENTIFIC_NAME.replace(/ /g,"_")
-                        speciesTags.push(data[key].SCIENTIFIC_NAME);
-                        $("#output").append( "<p>" + data[key].SCIENTIFIC_NAME.italics() + " - " + data[key].COMMON_NAME  + " - " + data[key].TAXON_ID.fontcolor("green") + " - " + "<a target='_blank' href="+UrlTag+">"+UrlTag+"</a>" + "</p>" );
+                      var UrlTag = "https://en.wikipedia.org/wiki/" + data[key].SCIENTIFIC_NAME.replace(/ /g,"_");
+                      var WikiSpecieWord = data[key].SCIENTIFIC_NAME.replace(/ /g,"_");
+                      var promise = fnSimpleAjax(WikiSpecieWord);
+                      //execution and access to the succes event
+                      promise.success(function(JsonRes) 
+                      {
+                        $.each( JsonRes.query.pages, function( i, pages ) {
+                         if (typeof pages.pageid != "undefined") {
+                          ValidLinkSpecies = " - <a target='_blank' href="+WikiLinkPattern+pages.pageid+">"+UrlTag+"</a>"
+                         } else {
+                           ValidLinkSpecies = "";
+                           console.log(pages.pageid);
+                         }
+                        });
+                      });
+                      $("#output").append( "<p>" + data[key].SCIENTIFIC_NAME.italics() + " - " + data[key].COMMON_NAME  + " - " + data[key].TAXON_ID.fontcolor("green") + ValidLinkSpecies+"</p>" );
                     }
                 });
             } else {
@@ -32,15 +64,12 @@
     </script>
 </head>
 <body>
-
+ 
 <div class="">
   <label for="tags">Species: </label>
   <input id="tags">
 </div>
 
-<div id="output">
-
-</div>
-
+<div id="output"></div>
 </body>
 </html>
