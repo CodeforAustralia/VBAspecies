@@ -1,75 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>jQuery API Species by Verofa</title>
-  <style>
-  img {
-    height: 100px;
-    float: left;
-  }
-  </style>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-     <script>
-        function fnSimpleAjax(WikiSpecieWordIn) 
-        {
-          return jQuery.ajax({
-            url: "https://en.wikipedia.org/w/api.php?action=query&format=json&titles="+WikiSpecieWordIn+"&callback=?",
-            contentType: "application/json; charset=utf-8",
-            dataType: "json",
-            async: false,
-            error : function(jqXHR, textStatus, errorThrown) {
-            },
-            timeout: 120000,
-            });
-        };
-
-    $(document).ready(function(){
-        var ValidLinkSpecies = "";
-        var WikiLinkPattern = "https://en.wikipedia.org/?curid=";
-        function callByTag(tag) {
-            console.log(tag);
-            if (tag != '') {
-                $.get("http://54.206.104.145:8080/species?ALL=" + tag,
-                function(data,status){
-                    $("#output").html("");
-                    for(key in data) {
-                      var UrlTag = "https://en.wikipedia.org/wiki/" + data[key].SCIENTIFIC_NAME.replace(/ /g,"_");
-                      var WikiSpecieWord = data[key].SCIENTIFIC_NAME.replace(/ /g,"_");
-                      var promise = fnSimpleAjax(WikiSpecieWord);
-                      //execution and access to the succes event
-                      promise.success(function(JsonRes) 
-                      {
-                        $.each( JsonRes.query.pages, function( i, pages ) {
-                         if (typeof pages.pageid != "undefined") {
-                          ValidLinkSpecies = " - <a target='_blank' href="+WikiLinkPattern+pages.pageid+">"+UrlTag+"</a>"
-                         } else {
-                           ValidLinkSpecies = "";
-                           console.log(pages.pageid);
-                         }
-                        });
-                      });
-                      $("#output").append( "<p>" + data[key].SCIENTIFIC_NAME.italics() + " - " + data[key].COMMON_NAME  + " - " + data[key].TAXON_ID.fontcolor("green") + ValidLinkSpecies+"</p>" );
-                    }
-                });
-            } else {
-                $("#output").html("");
-            }
-        }
-        
-        $( "#tags" ).keyup(function(){
-            callByTag($( "#tags" ).val());
-        });
-    });
-    </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Autocomplete by Verofa</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    function log( message ) {
+      $( "<div>" ).text( message ).prependTo( "#log" );
+      $( "#log" ).scrollTop( 0 );
+    }
+  });
+  </script>
 </head>
 <body>
+<div class="ui-widget">	
+  <label for="Species">Species: </label>
+  <input id="Species">
+</div>
  
-<div class="">
-  <label for="tags">Species: </label>
-  <input id="tags">
+<div class="ui-widget" style="margin-top:2em; font-family:Arial">
+  Result:
+  <div id="log" style="height: 200px; width: 500px; overflow: auto;" class="ui-widget-content"></div>
 </div>
 
-<div id="output"></div>
+<script src="js/WikiApi.js" type="text/javascript"></script> 
+<script src="js/autocomplete_species.js" type="text/javascript"></script> 
 </body>
 </html>
