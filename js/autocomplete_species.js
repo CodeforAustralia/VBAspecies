@@ -11,8 +11,8 @@
             console.log(data);
             response($.map(data, function(v,i){
              return {
-                label: v.COMMON_NAME,
-                value: v.SCIENTIFIC_NAME,
+                label: v.COMMON_NAME + " - " + v.SCIENTIFIC_NAME,
+                value: v.SCIENTIFIC_NAME ,
                 //extend values
                 taxon_id: v.TAXON_ID
              };
@@ -39,7 +39,7 @@
                   console.log(ValidLinkSpecies);
                   } else {
                   ValidLinkSpecies = "";
-                  $("#log").append( "<p>" + "<b>Scientific Name: </b>" + ui.item.value.italics()  + "<br/><b>Common Name: </b>" + ui.item.label 
+                  $("#log").prepend( "<p>" + "<b>Scientific Name: </b>" + ui.item.value.italics()  + "<br/><b>Common Name: </b>" + ui.item.label 
                   	+ "<br/><b>Taxon ID:</b> " + ui.item.taxon_id.fontcolor("green") + "<br/>" + "There is not Wikipedia Reference"+"</p>");
                   console.log(pages.pageid);
                   }
