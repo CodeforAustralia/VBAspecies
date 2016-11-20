@@ -344,8 +344,6 @@
 {"TAXON_ID":"3028","SCIENTIFIC_NAME":"Alloecella longispina","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3029","SCIENTIFIC_NAME":"Alloecella pilosa","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529839","SCIENTIFIC_NAME":"Allohelea harpagonifera","COMMON_NAME":"biting midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3686","SCIENTIFIC_NAME":"Allomatus nannup","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3685","SCIENTIFIC_NAME":"Allomatus wilsoni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4198","SCIENTIFIC_NAME":"Allometriocnemus coloensis","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4199","SCIENTIFIC_NAME":"Allometriocnemus pictus","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"712","SCIENTIFIC_NAME":"Allonais pectinata","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -417,6 +415,13 @@
 {"TAXON_ID":"529870","SCIENTIFIC_NAME":"Anabarhynchus tristis","COMMON_NAME":"stiletto fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529871","SCIENTIFIC_NAME":"Anabarhynchus varipes","COMMON_NAME":"stiletto fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529872","SCIENTIFIC_NAME":"Anabarhynchus yeatesi","COMMON_NAME":"stiletto fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3818","SCIENTIFIC_NAME":"Anacaena eremita","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paranacaena eremita"}
+{"TAXON_ID":"3816","SCIENTIFIC_NAME":"Anacaena horni","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paranacaena horni"}
+{"TAXON_ID":"3819","SCIENTIFIC_NAME":"Anacaena lindi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paranacaena lindi"}
+{"TAXON_ID":"3817","SCIENTIFIC_NAME":"Anacaena littorolis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paranacaena littorolis"}
+{"TAXON_ID":"3822","SCIENTIFIC_NAME":"Anacaena nitens","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paranacaena nitens"}
+{"TAXON_ID":"3821","SCIENTIFIC_NAME":"Anacaena sublineata","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paranacaena sublineata"}
+{"TAXON_ID":"3820","SCIENTIFIC_NAME":"Anacaena wattsi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paranacaena wattsi"}
 {"TAXON_ID":"528841","SCIENTIFIC_NAME":"Anacephaleus minutus","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2057","SCIENTIFIC_NAME":"Anaciaeschna jaspidea","COMMON_NAME":"dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"528842","SCIENTIFIC_NAME":"Anacornutipo lignosa","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -528,10 +533,10 @@
 {"TAXON_ID":"2216","SCIENTIFIC_NAME":"Antipodophlebia asthenes","COMMON_NAME":"darner dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"683","SCIENTIFIC_NAME":"Antipodrilus davidis","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"684","SCIENTIFIC_NAME":"Antipodrilus timmsi","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3616","SCIENTIFIC_NAME":"Antiporus bakewelli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3616","SCIENTIFIC_NAME":"Antiporus bakewellii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3614","SCIENTIFIC_NAME":"Antiporus blakei","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3617","SCIENTIFIC_NAME":"Antiporus femoralis","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3619","SCIENTIFIC_NAME":"Antiporus gilberti","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3619","SCIENTIFIC_NAME":"Antiporus gilbertii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3620","SCIENTIFIC_NAME":"Antiporus interrogationis","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3618","SCIENTIFIC_NAME":"Antiporus simplex","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75217","SCIENTIFIC_NAME":"Antiporus williamsi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Antiporus Antiporus williamsi"}
@@ -917,57 +922,57 @@
 {"TAXON_ID":"1976","SCIENTIFIC_NAME":"Austrolestes leda","COMMON_NAME":"damselfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1982","SCIENTIFIC_NAME":"Austrolestes minjerriba","COMMON_NAME":"damselfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1980","SCIENTIFIC_NAME":"Austrolestes psyche","COMMON_NAME":"damselfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3910","SCIENTIFIC_NAME":"Austrolimnius alcine","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3927","SCIENTIFIC_NAME":"Austrolimnius amanus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3918","SCIENTIFIC_NAME":"Austrolimnius anytus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3934","SCIENTIFIC_NAME":"Austrolimnius atriceps","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3911","SCIENTIFIC_NAME":"Austrolimnius atys","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3912","SCIENTIFIC_NAME":"Austrolimnius bustardi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3913","SCIENTIFIC_NAME":"Austrolimnius caicus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3914","SCIENTIFIC_NAME":"Austrolimnius capys","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3921","SCIENTIFIC_NAME":"Austrolimnius carus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3916","SCIENTIFIC_NAME":"Austrolimnius celsus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3948","SCIENTIFIC_NAME":"Austrolimnius ceto","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3925","SCIENTIFIC_NAME":"Austrolimnius cheops","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3915","SCIENTIFIC_NAME":"Austrolimnius codrus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3909","SCIENTIFIC_NAME":"Austrolimnius dayi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3923","SCIENTIFIC_NAME":"Austrolimnius didas","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3930","SCIENTIFIC_NAME":"Austrolimnius diemensis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3929","SCIENTIFIC_NAME":"Austrolimnius evansi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3928","SCIENTIFIC_NAME":"Austrolimnius fallax","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3926","SCIENTIFIC_NAME":"Austrolimnius hera","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3932","SCIENTIFIC_NAME":"Austrolimnius isus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3924","SCIENTIFIC_NAME":"Austrolimnius keyi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3919","SCIENTIFIC_NAME":"Austrolimnius luridus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3922","SCIENTIFIC_NAME":"Austrolimnius mackerrasi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3931","SCIENTIFIC_NAME":"Austrolimnius maro","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3920","SCIENTIFIC_NAME":"Austrolimnius medon","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3917","SCIENTIFIC_NAME":"Austrolimnius menopon","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3949","SCIENTIFIC_NAME":"Austrolimnius messa","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3945","SCIENTIFIC_NAME":"Austrolimnius metasternalis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3943","SCIENTIFIC_NAME":"Austrolimnius mila","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3947","SCIENTIFIC_NAME":"Austrolimnius miletus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3935","SCIENTIFIC_NAME":"Austrolimnius montanus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3933","SCIENTIFIC_NAME":"Austrolimnius mormo","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3937","SCIENTIFIC_NAME":"Austrolimnius nicon","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3938","SCIENTIFIC_NAME":"Austrolimnius nomia","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3940","SCIENTIFIC_NAME":"Austrolimnius oblongus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3941","SCIENTIFIC_NAME":"Austrolimnius ochus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3942","SCIENTIFIC_NAME":"Austrolimnius olenus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3944","SCIENTIFIC_NAME":"Austrolimnius opis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3950","SCIENTIFIC_NAME":"Austrolimnius politus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3958","SCIENTIFIC_NAME":"Austrolimnius punctulatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3957","SCIENTIFIC_NAME":"Austrolimnius resa","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3956","SCIENTIFIC_NAME":"Austrolimnius suffusus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3955","SCIENTIFIC_NAME":"Austrolimnius sul","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3954","SCIENTIFIC_NAME":"Austrolimnius sulmo","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3936","SCIENTIFIC_NAME":"Austrolimnius thyas","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3953","SCIENTIFIC_NAME":"Austrolimnius troilus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3939","SCIENTIFIC_NAME":"Austrolimnius tropicus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3952","SCIENTIFIC_NAME":"Austrolimnius variabilis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3946","SCIENTIFIC_NAME":"Austrolimnius victoriensis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3951","SCIENTIFIC_NAME":"Austrolimnius waterhousei","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3959","SCIENTIFIC_NAME":"Austrolimnius wigglesworthi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3921","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) carus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius carus"}
+{"TAXON_ID":"3948","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) ceto","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius ceto"}
+{"TAXON_ID":"3925","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) cheops","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius cheops"}
+{"TAXON_ID":"3915","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) codrus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius codrus"}
+{"TAXON_ID":"3928","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) fallax","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius fallax"}
+{"TAXON_ID":"3919","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) luridus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius luridus"}
+{"TAXON_ID":"3944","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) opis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius opis"}
+{"TAXON_ID":"3950","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) politus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius politus"}
+{"TAXON_ID":"3957","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) resa","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius resa"}
+{"TAXON_ID":"3936","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) thyas","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius thyas"}
+{"TAXON_ID":"3952","SCIENTIFIC_NAME":"Austrolimnius (Austrolimnius) variabilis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius variabilis"}
+{"TAXON_ID":"3958","SCIENTIFIC_NAME":"Austrolimnius (Baltelmis) punctulatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius punctulatus"}
+{"TAXON_ID":"3956","SCIENTIFIC_NAME":"Austrolimnius (Baltelmis) suffusus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius suffusus"}
+{"TAXON_ID":"3938","SCIENTIFIC_NAME":"Austrolimnius (Helonastes) nomia","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius nomia"}
+{"TAXON_ID":"3940","SCIENTIFIC_NAME":"Austrolimnius (Helonastes) oblongus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius oblongus"}
+{"TAXON_ID":"3926","SCIENTIFIC_NAME":"Austrolimnius (Helonelmis) hera","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius hera"}
+{"TAXON_ID":"3951","SCIENTIFIC_NAME":"Austrolimnius (Helonelmis) waterhousei","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius waterhousei"}
+{"TAXON_ID":"3959","SCIENTIFIC_NAME":"Austrolimnius (Helonelmis) wigglesworthi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius wigglesworthi"}
+{"TAXON_ID":"3912","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) bustardi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius bustardi"}
+{"TAXON_ID":"3916","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) celsus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius celsus"}
+{"TAXON_ID":"3931","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) maro","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius maro"}
+{"TAXON_ID":"3920","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) medon","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius medon"}
+{"TAXON_ID":"3949","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) messa","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius messa"}
+{"TAXON_ID":"3943","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) mila","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius mila"}
+{"TAXON_ID":"3947","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) miletus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius miletus"}
+{"TAXON_ID":"3937","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) nicon","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius nicon"}
+{"TAXON_ID":"3955","SCIENTIFIC_NAME":"Austrolimnius (Limnelmis) sul","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius sul"}
+{"TAXON_ID":"3934","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) atriceps","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius atriceps"}
+{"TAXON_ID":"3913","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) caicus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius caicus"}
+{"TAXON_ID":"3914","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) capys","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius capys"}
+{"TAXON_ID":"3923","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) didas","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius didas"}
+{"TAXON_ID":"3929","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) evansi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius evansi"}
+{"TAXON_ID":"3935","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) montanus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius montanus"}
+{"TAXON_ID":"3941","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) ochus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius ochus"}
+{"TAXON_ID":"3942","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) olenus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius olenus"}
+{"TAXON_ID":"3939","SCIENTIFIC_NAME":"Austrolimnius (Neosolus) tropicus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius tropicus"}
+{"TAXON_ID":"3911","SCIENTIFIC_NAME":"Austrolimnius (Pelonaetes) atys","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius atys"}
+{"TAXON_ID":"3910","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) alcine","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius alcine"}
+{"TAXON_ID":"3927","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) amanus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius amanus"}
+{"TAXON_ID":"3918","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) anytus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius anytus"}
+{"TAXON_ID":"3909","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) dayi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius dayi"}
+{"TAXON_ID":"3930","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) diemenensis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius diemenensis"}
+{"TAXON_ID":"3932","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) isus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius isus"}
+{"TAXON_ID":"3924","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) keyi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius keyi"}
+{"TAXON_ID":"3922","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) mackerrasi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius mackerrasi"}
+{"TAXON_ID":"3917","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) menopon","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius menopon"}
+{"TAXON_ID":"3945","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) metasternalis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius metasternalis"}
+{"TAXON_ID":"3933","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) mormo","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius mormo"}
+{"TAXON_ID":"3954","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) sulmo","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius sulmo"}
+{"TAXON_ID":"3953","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) troilus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius troilus"}
+{"TAXON_ID":"3946","SCIENTIFIC_NAME":"Austrolimnius (Telmatelmis) victoriensis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Austrolimnius victoriensis"}
 {"TAXON_ID":"529958","SCIENTIFIC_NAME":"Austrolimnophila (Austrolimnophila) antiqua","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529959","SCIENTIFIC_NAME":"Austrolimnophila (Austrolimnophila) interventa","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529960","SCIENTIFIC_NAME":"Austrolimnophila (Austrolimnophila) munifica","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -1078,7 +1083,9 @@
 {"TAXON_ID":"529996","SCIENTIFIC_NAME":"Bathypogon nigrinus","COMMON_NAME":"robber fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529997","SCIENTIFIC_NAME":"Bathypogon posticus","COMMON_NAME":"robber fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3688","SCIENTIFIC_NAME":"Batrachomatus daemeli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3689","SCIENTIFIC_NAME":"Batrachomatus wingi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3686","SCIENTIFIC_NAME":"Batrachomatus nannup","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Allomatus nannup"}
+{"TAXON_ID":"3685","SCIENTIFIC_NAME":"Batrachomatus wilsoni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Allomatus wilsoni"}
+{"TAXON_ID":"3689","SCIENTIFIC_NAME":"Batrachomatus wingii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529998","SCIENTIFIC_NAME":"Batrachomyia dubia","COMMON_NAME":"frit fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529999","SCIENTIFIC_NAME":"Batrachomyia varipes","COMMON_NAME":"frit fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"528944","SCIENTIFIC_NAME":"Batracomorphus angustatus","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -1093,38 +1100,38 @@
 {"TAXON_ID":"1178","SCIENTIFIC_NAME":"Bennelongia nimala","COMMON_NAME":"seed shrimp","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1179","SCIENTIFIC_NAME":"Bennelongia pinpi","COMMON_NAME":"seed shrimp","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"530000","SCIENTIFIC_NAME":"Bergrothomyia tregellasi","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3786","SCIENTIFIC_NAME":"Berosus amoenus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3781","SCIENTIFIC_NAME":"Berosus approximans","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3782","SCIENTIFIC_NAME":"Berosus aquilo","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3779","SCIENTIFIC_NAME":"Berosus arcus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3791","SCIENTIFIC_NAME":"Berosus australiae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3788","SCIENTIFIC_NAME":"Berosus dallasae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3783","SCIENTIFIC_NAME":"Berosus debilipennis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3789","SCIENTIFIC_NAME":"Berosus decipiens","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3790","SCIENTIFIC_NAME":"Berosus discolor","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3777","SCIENTIFIC_NAME":"Berosus duplopunctatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3794","SCIENTIFIC_NAME":"Berosus gibbae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3784","SCIENTIFIC_NAME":"Berosus involutus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3785","SCIENTIFIC_NAME":"Berosus josephenae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3807","SCIENTIFIC_NAME":"Berosus juxtadiscolor","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3787","SCIENTIFIC_NAME":"Berosus macropunctatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3778","SCIENTIFIC_NAME":"Berosus macumbensis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3780","SCIENTIFIC_NAME":"Berosus majusculus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3806","SCIENTIFIC_NAME":"Berosus munitipennis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3796","SCIENTIFIC_NAME":"Berosus nicholasi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3799","SCIENTIFIC_NAME":"Berosus niger","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3795","SCIENTIFIC_NAME":"Berosus nutans","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3797","SCIENTIFIC_NAME":"Berosus pulchellus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3798","SCIENTIFIC_NAME":"Berosus quadrapunctatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3808","SCIENTIFIC_NAME":"Berosus queenslandicus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3801","SCIENTIFIC_NAME":"Berosus ralphi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3792","SCIENTIFIC_NAME":"Berosus reardoni","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3800","SCIENTIFIC_NAME":"Berosus sadieae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3802","SCIENTIFIC_NAME":"Berosus subovatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3804","SCIENTIFIC_NAME":"Berosus timmsi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3803","SCIENTIFIC_NAME":"Berosus trishae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3793","SCIENTIFIC_NAME":"Berosus veronicae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3805","SCIENTIFIC_NAME":"Berosus vijae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3781","SCIENTIFIC_NAME":"Berosus (Berosus) approximans","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus approximans"}
+{"TAXON_ID":"3779","SCIENTIFIC_NAME":"Berosus (Berosus) arcus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus arcus"}
+{"TAXON_ID":"3783","SCIENTIFIC_NAME":"Berosus (Berosus) debilipennis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus debilipennis"}
+{"TAXON_ID":"3790","SCIENTIFIC_NAME":"Berosus (Berosus) discolor","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus discolor"}
+{"TAXON_ID":"3777","SCIENTIFIC_NAME":"Berosus (Berosus) duplopunctatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus duplopunctatus"}
+{"TAXON_ID":"3784","SCIENTIFIC_NAME":"Berosus (Berosus) involutus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus involutus"}
+{"TAXON_ID":"3807","SCIENTIFIC_NAME":"Berosus (Berosus) juxtadiscolor","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus juxtadiscolor"}
+{"TAXON_ID":"3787","SCIENTIFIC_NAME":"Berosus (Berosus) macropunctatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus macropunctatus"}
+{"TAXON_ID":"3799","SCIENTIFIC_NAME":"Berosus (Berosus) niger","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus niger"}
+{"TAXON_ID":"3795","SCIENTIFIC_NAME":"Berosus (Berosus) nutans","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus nutans"}
+{"TAXON_ID":"3797","SCIENTIFIC_NAME":"Berosus (Berosus) pulchellus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus pulchellus"}
+{"TAXON_ID":"3798","SCIENTIFIC_NAME":"Berosus (Berosus) quadrapunctatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus quadrapunctatus"}
+{"TAXON_ID":"3808","SCIENTIFIC_NAME":"Berosus (Berosus) queenslandicus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus queenslandicus"}
+{"TAXON_ID":"3801","SCIENTIFIC_NAME":"Berosus (Berosus) ralphi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus ralphi"}
+{"TAXON_ID":"3792","SCIENTIFIC_NAME":"Berosus (Berosus) reardoni","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus reardoni"}
+{"TAXON_ID":"3802","SCIENTIFIC_NAME":"Berosus (Berosus) subovatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus subovatus"}
+{"TAXON_ID":"3804","SCIENTIFIC_NAME":"Berosus (Berosus) timmsi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus timmsi"}
+{"TAXON_ID":"3803","SCIENTIFIC_NAME":"Berosus (Berosus) trishae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus trishae"}
+{"TAXON_ID":"3786","SCIENTIFIC_NAME":"Berosus (Enoplurus) amoenus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus amoenus"}
+{"TAXON_ID":"3782","SCIENTIFIC_NAME":"Berosus (Enoplurus) aquilo","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus aquilo"}
+{"TAXON_ID":"3791","SCIENTIFIC_NAME":"Berosus (Enoplurus) australiae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus australiae"}
+{"TAXON_ID":"3788","SCIENTIFIC_NAME":"Berosus (Enoplurus) dallasae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus dallasae"}
+{"TAXON_ID":"3789","SCIENTIFIC_NAME":"Berosus (Enoplurus) decipiens","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus decipiens"}
+{"TAXON_ID":"3794","SCIENTIFIC_NAME":"Berosus (Enoplurus) gibbae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus gibbae"}
+{"TAXON_ID":"3785","SCIENTIFIC_NAME":"Berosus (Enoplurus) josephenae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus josephenae"}
+{"TAXON_ID":"3778","SCIENTIFIC_NAME":"Berosus (Enoplurus) macumbensis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus macumbensis"}
+{"TAXON_ID":"3780","SCIENTIFIC_NAME":"Berosus (Enoplurus) majusculus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus majusculus"}
+{"TAXON_ID":"3806","SCIENTIFIC_NAME":"Berosus (Enoplurus) munitipennis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus munitipennis"}
+{"TAXON_ID":"3796","SCIENTIFIC_NAME":"Berosus (Enoplurus) nicholasi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus nicholasi"}
+{"TAXON_ID":"3800","SCIENTIFIC_NAME":"Berosus (Enoplurus) sadieae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus sadieae"}
+{"TAXON_ID":"3793","SCIENTIFIC_NAME":"Berosus (Enoplurus) veronicae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus veronicae"}
+{"TAXON_ID":"3805","SCIENTIFIC_NAME":"Berosus (Enoplurus) vijae","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Berosus vijae"}
 {"TAXON_ID":"74581","SCIENTIFIC_NAME":"Bibio imitator","COMMON_NAME":"Garden Maggot","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1800","SCIENTIFIC_NAME":"Bibulmena kadjina","COMMON_NAME":"mayfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"74582","SCIENTIFIC_NAME":"Bifronsina bifrons","COMMON_NAME":"small dung fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -1471,7 +1478,7 @@
 {"TAXON_ID":"529008","SCIENTIFIC_NAME":"Cerococcus stellatus","COMMON_NAME":"ornate pit scale insect","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"74672","SCIENTIFIC_NAME":"Ceromya norma","COMMON_NAME":"horse fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529009","SCIENTIFIC_NAME":"Ceroplastes sinensis","COMMON_NAME":"Chinese Wax Scale","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3824","SCIENTIFIC_NAME":"Chaetarthria nigerrimus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3824","SCIENTIFIC_NAME":"Chaetarthria nigerrima","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529010","SCIENTIFIC_NAME":"Chaetedus longiceps","COMMON_NAME":"plant bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"74673","SCIENTIFIC_NAME":"Chaetocoelopa sydneyensis","COMMON_NAME":"Sydney Kelp Fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"724","SCIENTIFIC_NAME":"Chaetogaster diaphanus","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -1538,7 +1545,7 @@
 {"TAXON_ID":"2268","SCIENTIFIC_NAME":"Choristhemis flavoterminata","COMMON_NAME":"Yellowtipped Tigertail Dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2269","SCIENTIFIC_NAME":"Choristhemis olivei","COMMON_NAME":"Delicate Tigertail Dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3610","SCIENTIFIC_NAME":"Chostonectes gigas","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3609","SCIENTIFIC_NAME":"Chostonectes johnsoni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3609","SCIENTIFIC_NAME":"Chostonectes johnsonii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3612","SCIENTIFIC_NAME":"Chostonectes nebulosus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3611","SCIENTIFIC_NAME":"Chostonectes sharpi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"74698","SCIENTIFIC_NAME":"Chryseutria nigrina","COMMON_NAME":"robber fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -1720,9 +1727,9 @@
 {"TAXON_ID":"2972","SCIENTIFIC_NAME":"Costora ramosa","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2965","SCIENTIFIC_NAME":"Costora rotosca","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2966","SCIENTIFIC_NAME":"Costora seposita","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"4008","SCIENTIFIC_NAME":"Coxelmis novemnotata","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"4008","SCIENTIFIC_NAME":"Coxelmis novemnotatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4007","SCIENTIFIC_NAME":"Coxelmis trinotata","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"4009","SCIENTIFIC_NAME":"Coxelmis v.fasciatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"4009","SCIENTIFIC_NAME":"Coxelmis vfasciatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"550","SCIENTIFIC_NAME":"Coxiella exsposita","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"548","SCIENTIFIC_NAME":"Coxiella gilesi","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"554","SCIENTIFIC_NAME":"Coxiella glabra","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -1978,8 +1985,8 @@
 {"TAXON_ID":"529099","SCIENTIFIC_NAME":"Dimorphopterus pilosus","COMMON_NAME":"chinch bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529100","SCIENTIFIC_NAME":"Dindymus versicolor","COMMON_NAME":"Harlequin Bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"786","SCIENTIFIC_NAME":"Dineta cylindrica","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3766","SCIENTIFIC_NAME":"Dineutus australis","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3767","SCIENTIFIC_NAME":"Dineutus neohollandicus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3766","SCIENTIFIC_NAME":"Dineutus (Cyclous) australis","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Dineutus australis"}
+{"TAXON_ID":"3767","SCIENTIFIC_NAME":"Dineutus (Spinosodineutes) neohollandicus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Dineutus neohollandicus"}
 {"TAXON_ID":"2403","SCIENTIFIC_NAME":"Dinotoperla arcuata","COMMON_NAME":"Stonefly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2404","SCIENTIFIC_NAME":"Dinotoperla bassae","COMMON_NAME":"Stonefly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2402","SCIENTIFIC_NAME":"Dinotoperla brevipennis","COMMON_NAME":"Stonefly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -2226,7 +2233,7 @@
 {"TAXON_ID":"3435","SCIENTIFIC_NAME":"Enithares hackeri","COMMON_NAME":"backswimmer","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3438","SCIENTIFIC_NAME":"Enithares loria","COMMON_NAME":"backswimmer","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3434","SCIENTIFIC_NAME":"Enithares woodwardi","COMMON_NAME":"backswimmer","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3826","SCIENTIFIC_NAME":"Enochrus elongatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3826","SCIENTIFIC_NAME":"Enochrus elongatulus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Enochrus elongatus"}
 {"TAXON_ID":"3827","SCIENTIFIC_NAME":"Enochrus eyrensis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3828","SCIENTIFIC_NAME":"Enochrus maculiceps","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1321","SCIENTIFIC_NAME":"Eodiaptomus lumholtzi","COMMON_NAME":"copepod","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -2513,6 +2520,7 @@
 {"TAXON_ID":"3324","SCIENTIFIC_NAME":"Goondnomdanepa brittoni","COMMON_NAME":"water scorpion","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3326","SCIENTIFIC_NAME":"Goondnomdanepa prominens","COMMON_NAME":"water scorpion","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3325","SCIENTIFIC_NAME":"Goondnomdanepa weiri","COMMON_NAME":"water scorpion","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"4019","SCIENTIFIC_NAME":"Graphelmis pallidipes","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Stenelmis pallidipes"}
 {"TAXON_ID":"529244","SCIENTIFIC_NAME":"Graptostethus varipictus","COMMON_NAME":"Large Milkweed Bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529245","SCIENTIFIC_NAME":"Greeniella truncata","COMMON_NAME":"scale insect","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"518482","SCIENTIFIC_NAME":"Gretacarus abnormipalpis","COMMON_NAME":"water mite","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -2527,6 +2535,7 @@
 {"TAXON_ID":"2006","SCIENTIFIC_NAME":"Griseargiolestes intermedius","COMMON_NAME":"Alpine Flatwing Damselfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2003","SCIENTIFIC_NAME":"Griseargiolestes metallicus","COMMON_NAME":"flatwing damselfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529246","SCIENTIFIC_NAME":"Grossander major","COMMON_NAME":"seed bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3897","SCIENTIFIC_NAME":"Gymnochthebius australis","COMMON_NAME":"minute moss beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Ochthebius australis"}
 {"TAXON_ID":"4214","SCIENTIFIC_NAME":"Gymnometriocnemus nitidulus","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4215","SCIENTIFIC_NAME":"Gymnometriocnemus wilsoni","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2065","SCIENTIFIC_NAME":"Gynacantha dobsoni","COMMON_NAME":"Lesser Duskhawker Dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -2591,7 +2600,7 @@
 {"TAXON_ID":"592","SCIENTIFIC_NAME":"Gyraulus meridionalis","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"593","SCIENTIFIC_NAME":"Gyraulus scottianus","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"591","SCIENTIFIC_NAME":"Gyraulus tasmanicus","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3769","SCIENTIFIC_NAME":"Gyrinus convexiusculus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3769","SCIENTIFIC_NAME":"Gyrinus (Gyrinus) convexiusculus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Gyrinus convexiusculus"}
 {"TAXON_ID":"529247","SCIENTIFIC_NAME":"Hackeriana huonensis","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529248","SCIENTIFIC_NAME":"Hackeriana translucens","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75039","SCIENTIFIC_NAME":"Halaedes australis","COMMON_NAME":"mosquito","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -2633,8 +2642,8 @@
 {"TAXON_ID":"4317","SCIENTIFIC_NAME":"Harrisius montanus","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529252","SCIENTIFIC_NAME":"Havinthus rufovarius","COMMON_NAME":"assassin bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75040","SCIENTIFIC_NAME":"Hebetula tonnoiri","COMMON_NAME":"biting midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3209","SCIENTIFIC_NAME":"Hebrus (Hebrus) axillaris","COMMON_NAME":"velvet water bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hebrus woodwardi"}
 {"TAXON_ID":"3210","SCIENTIFIC_NAME":"Hebrus (Hebrus) axillaris","COMMON_NAME":"riffle bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hebrus axillaris"}
+{"TAXON_ID":"3209","SCIENTIFIC_NAME":"Hebrus (Hebrus) axillaris","COMMON_NAME":"velvet water bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hebrus woodwardi"}
 {"TAXON_ID":"3207","SCIENTIFIC_NAME":"Hebrus (Hebrus) monteithii","COMMON_NAME":"velvet water bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hebrus monteithii"}
 {"TAXON_ID":"3208","SCIENTIFIC_NAME":"Hebrus (Hebrus) nourlangiei","COMMON_NAME":"velvet water bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hebrus nourlangiei"}
 {"TAXON_ID":"3430","SCIENTIFIC_NAME":"Heleocoris (Heleocoris) nebulosus thienemanni","COMMON_NAME":"creeping water bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Heleocoris nebulosus thienemanni"}
@@ -2684,9 +2693,9 @@
 {"TAXON_ID":"2682","SCIENTIFIC_NAME":"Hellyethira vernoni","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2683","SCIENTIFIC_NAME":"Hellyethira veruta","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"519317","SCIENTIFIC_NAME":"Heloccabus buccinatus","COMMON_NAME":"caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3830","SCIENTIFIC_NAME":"Helochares australis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3831","SCIENTIFIC_NAME":"Helochares percyi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3832","SCIENTIFIC_NAME":"Helochares tenuirostris","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3832","SCIENTIFIC_NAME":"Helochares tenuistriatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3830","SCIENTIFIC_NAME":"Helochares tristis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Helochares australis"}
 {"TAXON_ID":"75045","SCIENTIFIC_NAME":"Helosciomyza australica","COMMON_NAME":"fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75046","SCIENTIFIC_NAME":"Helosciomyza ferruginea","COMMON_NAME":"fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75047","SCIENTIFIC_NAME":"Helosciomyza fuscinevris","COMMON_NAME":"fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -2784,17 +2793,17 @@
 {"TAXON_ID":"3727","SCIENTIFIC_NAME":"Hydaticus bihamatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3723","SCIENTIFIC_NAME":"Hydaticus consanguineus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3721","SCIENTIFIC_NAME":"Hydaticus daemeli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3724","SCIENTIFIC_NAME":"Hydaticus fabrici","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3724","SCIENTIFIC_NAME":"Hydaticus fabricii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3725","SCIENTIFIC_NAME":"Hydaticus finus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3722","SCIENTIFIC_NAME":"Hydaticus microdaemeli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3718","SCIENTIFIC_NAME":"Hydaticus modestus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3720","SCIENTIFIC_NAME":"Hydaticus parallelus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3726","SCIENTIFIC_NAME":"Hydaticus pulcher","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3719","SCIENTIFIC_NAME":"Hydaticus variegatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3728","SCIENTIFIC_NAME":"Hydaticus vittatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3718","SCIENTIFIC_NAME":"Hydaticus wattsi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydaticus modestus"}
 {"TAXON_ID":"3714","SCIENTIFIC_NAME":"Hyderodes crassus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3713","SCIENTIFIC_NAME":"Hyderodes shuckardi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"4014","SCIENTIFIC_NAME":"Hydora laticaps","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3713","SCIENTIFIC_NAME":"Hyderodes schuckardi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"4014","SCIENTIFIC_NAME":"Hydora laticeps","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"857","SCIENTIFIC_NAME":"Hydrachna approximata","COMMON_NAME":"water mite","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3879","SCIENTIFIC_NAME":"Hydraena ambiflagellata","COMMON_NAME":"minute moss beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3885","SCIENTIFIC_NAME":"Hydraena australica","COMMON_NAME":"minute moss beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -2870,16 +2879,16 @@
 {"TAXON_ID":"3220","SCIENTIFIC_NAME":"Hydrometra papuana","COMMON_NAME":"water measurer bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrometra hoplogastra"}
 {"TAXON_ID":"3219","SCIENTIFIC_NAME":"Hydrometra risbeci","COMMON_NAME":"water measurer bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3216","SCIENTIFIC_NAME":"Hydrometra strigosa","COMMON_NAME":"water measurer bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3855","SCIENTIFIC_NAME":"Hydrophilus albipes","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3855","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) albipes","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus albipes"}
+{"TAXON_ID":"3851","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) bilineatus caschmirensis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus picicornis"}
+{"TAXON_ID":"3852","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) brevispina","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus brevispina"}
+{"TAXON_ID":"3856","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) infrequens","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus infrequens"}
+{"TAXON_ID":"3854","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) latipalpus","COMMON_NAME":"Large Water Beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus latipalpus"}
+{"TAXON_ID":"3857","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) macronyx","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus macronyx"}
+{"TAXON_ID":"3849","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) pedipalpus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus pedipalpus"}
+{"TAXON_ID":"3858","SCIENTIFIC_NAME":"Hydrophilus (Hydrophilus) wattsi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydrophilus viridis"}
 {"TAXON_ID":"3853","SCIENTIFIC_NAME":"Hydrophilus australis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3852","SCIENTIFIC_NAME":"Hydrophilus brevispina","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3856","SCIENTIFIC_NAME":"Hydrophilus infrequens","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3854","SCIENTIFIC_NAME":"Hydrophilus latipalpus","COMMON_NAME":"Large Water Beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3850","SCIENTIFIC_NAME":"Hydrophilus loriai","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3857","SCIENTIFIC_NAME":"Hydrophilus macronyx","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3849","SCIENTIFIC_NAME":"Hydrophilus pedipalpus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3851","SCIENTIFIC_NAME":"Hydrophilus picicornis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3858","SCIENTIFIC_NAME":"Hydrophilus viridis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2693","SCIENTIFIC_NAME":"Hydroptila acinacis","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2701","SCIENTIFIC_NAME":"Hydroptila calcara","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2697","SCIENTIFIC_NAME":"Hydroptila explicata","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hydroptila obscura"}
@@ -2904,14 +2913,6 @@
 {"TAXON_ID":"3558","SCIENTIFIC_NAME":"Hyphydrus effeminatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3555","SCIENTIFIC_NAME":"Hyphydrus elegans","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3554","SCIENTIFIC_NAME":"Hyphydrus lyratus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3625","SCIENTIFIC_NAME":"Hypodes alastairi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3628","SCIENTIFIC_NAME":"Hypodes centralis","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3624","SCIENTIFIC_NAME":"Hypodes collaris","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3627","SCIENTIFIC_NAME":"Hypodes denticulatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3626","SCIENTIFIC_NAME":"Hypodes giuliani","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3629","SCIENTIFIC_NAME":"Hypodes josepheni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3622","SCIENTIFIC_NAME":"Hypodes tambreyi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3623","SCIENTIFIC_NAME":"Hypodes undecimaculatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"618","SCIENTIFIC_NAME":"Hyridella australis","COMMON_NAME":"Freshwater Mussel","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Unio australis, Unio lessoni, Hyridella australis australis, Propehyridella nepeanensis novata, Propehyridella nepeanensis apportuna, Unio dorsuosus"}
 {"TAXON_ID":"619","SCIENTIFIC_NAME":"Hyridella depressa","COMMON_NAME":"Freshwater Mussel","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Unio depressa, Rugoshyria depressa vicinalis, Rugoshyria depressa lowana, Rugoshyria depressa bega, Hyridella depressa depressa, Rugoshyria depressa monticola, Unio cultelliformis, Unio mutabilis, Unio paramattensis"}
 {"TAXON_ID":"620","SCIENTIFIC_NAME":"Hyridella drapeta","COMMON_NAME":"Freshwater Mussel","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hyridunio australis drapeta, Hyridunio australis orion, Hyridunio renutus, Hyridella drapeta drapeta, Hyridunio australis casus"}
@@ -3033,8 +3034,8 @@
 {"TAXON_ID":"2563","SCIENTIFIC_NAME":"Kimminsoperla kaputaris","COMMON_NAME":"Stonefly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2560","SCIENTIFIC_NAME":"Kimminsoperla mcalpinei","COMMON_NAME":"Stonefly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2562","SCIENTIFIC_NAME":"Kimminsoperla williamsi","COMMON_NAME":"Stonefly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"4003","SCIENTIFIC_NAME":"Kingolus aeratus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3999","SCIENTIFIC_NAME":"Kingolus cupreus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"4003","SCIENTIFIC_NAME":"Kingolus aerata","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3999","SCIENTIFIC_NAME":"Kingolus cuprea","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3996","SCIENTIFIC_NAME":"Kingolus davisi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4000","SCIENTIFIC_NAME":"Kingolus flavoplagiatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4001","SCIENTIFIC_NAME":"Kingolus flavosignatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -3064,9 +3065,8 @@
 {"TAXON_ID":"529302","SCIENTIFIC_NAME":"Kybos lindbergi","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1956","SCIENTIFIC_NAME":"Labidiosticta vallisi","COMMON_NAME":"damselfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3812","SCIENTIFIC_NAME":"Laccobius clarus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3811","SCIENTIFIC_NAME":"Laccobius zeitzi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3537","SCIENTIFIC_NAME":"Laccophilus cingulatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Laccophilus unifasciatus"}
-{"TAXON_ID":"3536","SCIENTIFIC_NAME":"Laccophilus cingulatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3811","SCIENTIFIC_NAME":"Laccobius zietzi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3536","SCIENTIFIC_NAME":"Laccophilus cingulatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Laccophilus unifasciatus"}
 {"TAXON_ID":"3535","SCIENTIFIC_NAME":"Laccophilus clarki","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3539","SCIENTIFIC_NAME":"Laccophilus quadrimaculatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3534","SCIENTIFIC_NAME":"Laccophilus religatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -3336,7 +3336,7 @@
 {"TAXON_ID":"75283","SCIENTIFIC_NAME":"Limnophila recedens","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75284","SCIENTIFIC_NAME":"Limnophila vera","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4221","SCIENTIFIC_NAME":"Limnophyes vestitus","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3836","SCIENTIFIC_NAME":"Limnoxenus zelandicus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3836","SCIENTIFIC_NAME":"Limnoxenus zealandicus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Limnoxenus zelandicus"}
 {"TAXON_ID":"529330","SCIENTIFIC_NAME":"Limotettix incertus","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529331","SCIENTIFIC_NAME":"Limotettix pullatus","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529332","SCIENTIFIC_NAME":"Lindingaspis rossi","COMMON_NAME":"Araucaria Black Scale Insect","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -3381,21 +3381,21 @@
 {"TAXON_ID":"529342","SCIENTIFIC_NAME":"Macroceps tonnoiri","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"518613","SCIENTIFIC_NAME":"Macrocheles tenuirostris","COMMON_NAME":"mite","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2351","SCIENTIFIC_NAME":"Macrodiplax cora","COMMON_NAME":"skimmer dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3754","SCIENTIFIC_NAME":"Macrogyrus angustatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3748","SCIENTIFIC_NAME":"Macrogyrus australis","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3762","SCIENTIFIC_NAME":"Macrogyrus darlingtoni","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3755","SCIENTIFIC_NAME":"Macrogyrus elongatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3757","SCIENTIFIC_NAME":"Macrogyrus finschi","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3758","SCIENTIFIC_NAME":"Macrogyrus globosus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3760","SCIENTIFIC_NAME":"Macrogyrus gouldii","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3753","SCIENTIFIC_NAME":"Macrogyrus howittii","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3752","SCIENTIFIC_NAME":"Macrogyrus oblongus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3761","SCIENTIFIC_NAME":"Macrogyrus paradoxus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3750","SCIENTIFIC_NAME":"Macrogyrus reichei","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3751","SCIENTIFIC_NAME":"Macrogyrus rivularis","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3749","SCIENTIFIC_NAME":"Macrogyrus striolatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3759","SCIENTIFIC_NAME":"Macrogyrus venator","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3756","SCIENTIFIC_NAME":"Macrogyrus viridisulcatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3752","SCIENTIFIC_NAME":"Macrogyrus (Australogyrus) oblongus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus oblongus"}
+{"TAXON_ID":"3751","SCIENTIFIC_NAME":"Macrogyrus (Australogyrus) rivularis","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus rivularis"}
+{"TAXON_ID":"3756","SCIENTIFIC_NAME":"Macrogyrus (Australogyrus) viridisulcatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus viridisulcatus"}
+{"TAXON_ID":"3750","SCIENTIFIC_NAME":"Macrogyrus (Clarkogyrus) reichei","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus reichei"}
+{"TAXON_ID":"3753","SCIENTIFIC_NAME":"Macrogyrus (Macrogyrus) howittii","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus howittii"}
+{"TAXON_ID":"3749","SCIENTIFIC_NAME":"Macrogyrus (Megalogyrus) striolatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus striolatus"}
+{"TAXON_ID":"3762","SCIENTIFIC_NAME":"Macrogyrus (Orectomimus) darlingtoni","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus darlingtoni"}
+{"TAXON_ID":"3761","SCIENTIFIC_NAME":"Macrogyrus (Orectomimus) paradoxus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus paradoxus"}
+{"TAXON_ID":"3754","SCIENTIFIC_NAME":"Macrogyrus (Tribologyrus) angustatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus angustatus"}
+{"TAXON_ID":"3748","SCIENTIFIC_NAME":"Macrogyrus (Tribologyrus) australis","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus australis"}
+{"TAXON_ID":"3755","SCIENTIFIC_NAME":"Macrogyrus (Tribologyrus) elongatus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus elongatus"}
+{"TAXON_ID":"3757","SCIENTIFIC_NAME":"Macrogyrus (Tribologyrus) finschi","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus finschi"}
+{"TAXON_ID":"3758","SCIENTIFIC_NAME":"Macrogyrus (Tribologyrus) gibbosus","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus gibbosus"}
+{"TAXON_ID":"3759","SCIENTIFIC_NAME":"Macrogyrus (Tribologyrus) venator","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus venator"}
+{"TAXON_ID":"3760","SCIENTIFIC_NAME":"Macrogyrus (Tribolomimus) gouldii","COMMON_NAME":"whirligig beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Macrogyrus gouldii"}
 {"TAXON_ID":"2305","SCIENTIFIC_NAME":"Macromia tillyardi","COMMON_NAME":"Australian Cruiser Dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2306","SCIENTIFIC_NAME":"Macromia viridescens","COMMON_NAME":"Rainforest Cruiser Dragonfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4144","SCIENTIFIC_NAME":"Macropelopia (Alotanypus) dalyupensis","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Alotanypus dalyupensis"}
@@ -3442,9 +3442,9 @@
 {"TAXON_ID":"75304","SCIENTIFIC_NAME":"Medetera nigrohalterata","COMMON_NAME":"long-legged fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4250","SCIENTIFIC_NAME":"Megacentron erebeum","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3665","SCIENTIFIC_NAME":"Megaporus fischeri","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3663","SCIENTIFIC_NAME":"Megaporus gardeneri","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3663","SCIENTIFIC_NAME":"Megaporus gardnerii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3664","SCIENTIFIC_NAME":"Megaporus hamatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3666","SCIENTIFIC_NAME":"Megaporus howitti","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3666","SCIENTIFIC_NAME":"Megaporus howittii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3667","SCIENTIFIC_NAME":"Megaporus nativigi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3660","SCIENTIFIC_NAME":"Megaporus ruficeps","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3662","SCIENTIFIC_NAME":"Megaporus solidus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -3731,12 +3731,11 @@
 {"TAXON_ID":"3653","SCIENTIFIC_NAME":"Necterosoma aphrodite","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3655","SCIENTIFIC_NAME":"Necterosoma darwini","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3654","SCIENTIFIC_NAME":"Necterosoma dispar","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3652","SCIENTIFIC_NAME":"Necterosoma penicillatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3652","SCIENTIFIC_NAME":"Necterosoma penicillatum","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3650","SCIENTIFIC_NAME":"Necterosoma regulare","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3656","SCIENTIFIC_NAME":"Necterosoma schmelzi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3651","SCIENTIFIC_NAME":"Necterosoma susanna","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3658","SCIENTIFIC_NAME":"Necterosoma undecimlineatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3657","SCIENTIFIC_NAME":"Necterosoma wollastoni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3658","SCIENTIFIC_NAME":"Necterosoma undecimlineatum","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Necterosoma wollastoni"}
 {"TAXON_ID":"75442","SCIENTIFIC_NAME":"Negrobovia aculicita","COMMON_NAME":"long-legged fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75443","SCIENTIFIC_NAME":"Negrobovia australensis","COMMON_NAME":"long-legged fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75444","SCIENTIFIC_NAME":"Neoaratus hercules","COMMON_NAME":"robber fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -3895,22 +3894,17 @@
 {"TAXON_ID":"3975","SCIENTIFIC_NAME":"Notriolus barretti","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3981","SCIENTIFIC_NAME":"Notriolus davidsoni","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3980","SCIENTIFIC_NAME":"Notriolus dorrigoensis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3985","SCIENTIFIC_NAME":"Notriolus galstonensis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3987","SCIENTIFIC_NAME":"Notriolus hopsoni","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3985","SCIENTIFIC_NAME":"Notriolus galstonius","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3976","SCIENTIFIC_NAME":"Notriolus humeralis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3988","SCIENTIFIC_NAME":"Notriolus irregularis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3977","SCIENTIFIC_NAME":"Notriolus maculatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3977","SCIENTIFIC_NAME":"Notriolus maculata","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3978","SCIENTIFIC_NAME":"Notriolus minor","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3982","SCIENTIFIC_NAME":"Notriolus minutus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3992","SCIENTIFIC_NAME":"Notriolus nicholsoni","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3979","SCIENTIFIC_NAME":"Notriolus quadriplagiatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3979","SCIENTIFIC_NAME":"Notriolus quadriplagiata","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3973","SCIENTIFIC_NAME":"Notriolus setosus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3974","SCIENTIFIC_NAME":"Notriolus simsoni","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3989","SCIENTIFIC_NAME":"Notriolus subplanatus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3991","SCIENTIFIC_NAME":"Notriolus tasmanica","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3984","SCIENTIFIC_NAME":"Notriolus taylori","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3986","SCIENTIFIC_NAME":"Notriolus tropicus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3990","SCIENTIFIC_NAME":"Notriolus vestita","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3983","SCIENTIFIC_NAME":"Notriolus victoriae","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1811","SCIENTIFIC_NAME":"Nousia (Australonousia) delicatula","COMMON_NAME":"mayfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Nousia delicatula"}
 {"TAXON_ID":"1812","SCIENTIFIC_NAME":"Nousia (Australonousia) fuscula","COMMON_NAME":"mayfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Nousia fuscula"}
@@ -3967,7 +3961,6 @@
 {"TAXON_ID":"529425","SCIENTIFIC_NAME":"Ochterus secundus","COMMON_NAME":"velvety shore bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3348","SCIENTIFIC_NAME":"Ochterus secundus pseudosecundus","COMMON_NAME":"velvety shore bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3340","SCIENTIFIC_NAME":"Ochterus secundus secundus","COMMON_NAME":"velvety shore bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3897","SCIENTIFIC_NAME":"Ochthebius australis","COMMON_NAME":"minute moss beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529426","SCIENTIFIC_NAME":"Ocirrhoe cavenda","COMMON_NAME":"shield bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529427","SCIENTIFIC_NAME":"Ocirrhoe dallasi","COMMON_NAME":"shield bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529428","SCIENTIFIC_NAME":"Ocirrhoe inconspicua","COMMON_NAME":"shield bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -4184,8 +4177,7 @@
 {"TAXON_ID":"1460","SCIENTIFIC_NAME":"Paracorophium excavatum","COMMON_NAME":"amphipod","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1353","SCIENTIFIC_NAME":"Paracyclops chiltoni","COMMON_NAME":"copepod","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1354","SCIENTIFIC_NAME":"Paracyclops timmsi","COMMON_NAME":"copepod","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3845","SCIENTIFIC_NAME":"Paracymus desolatus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3844","SCIENTIFIC_NAME":"Paracymus pygmaeus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3844","SCIENTIFIC_NAME":"Paracymus pygmaeus","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Paracymus desolatus"}
 {"TAXON_ID":"3846","SCIENTIFIC_NAME":"Paracymus spenceri","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529478","SCIENTIFIC_NAME":"Paradictyotus fuscus","COMMON_NAME":"shield bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529479","SCIENTIFIC_NAME":"Paradorydium brighami","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -4231,13 +4223,6 @@
 {"TAXON_ID":"75554","SCIENTIFIC_NAME":"Paramixogaster variegatus","COMMON_NAME":"hover fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75555","SCIENTIFIC_NAME":"Paramonova taylori","COMMON_NAME":"window fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"1522","SCIENTIFIC_NAME":"Paramphisopus palustris","COMMON_NAME":"freshwater isopod","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3818","SCIENTIFIC_NAME":"Paranacaena eremita","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3816","SCIENTIFIC_NAME":"Paranacaena horni","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3819","SCIENTIFIC_NAME":"Paranacaena lindi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3817","SCIENTIFIC_NAME":"Paranacaena littorolis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3822","SCIENTIFIC_NAME":"Paranacaena nitens","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3821","SCIENTIFIC_NAME":"Paranacaena sublineata","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3820","SCIENTIFIC_NAME":"Paranacaena wattsi","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"726","SCIENTIFIC_NAME":"Paranais litoralis","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3477","SCIENTIFIC_NAME":"Paranisops endymion","COMMON_NAME":"backswimmer","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3476","SCIENTIFIC_NAME":"Paranisops inconstans","COMMON_NAME":"backswimmer","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -4407,15 +4392,14 @@
 {"TAXON_ID":"529541","SCIENTIFIC_NAME":"Platyeurymela semifascia","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"284","SCIENTIFIC_NAME":"Platyias quadricornis","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529542","SCIENTIFIC_NAME":"Platyledra acuminata","COMMON_NAME":"leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3670","SCIENTIFIC_NAME":"Platynectes aenescens","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3673","SCIENTIFIC_NAME":"Platynectes bakewelli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3671","SCIENTIFIC_NAME":"Platynectes decempunctatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3672","SCIENTIFIC_NAME":"Platynectes decempunctatus var. polygrammus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3675","SCIENTIFIC_NAME":"Platynectes lauriana","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3674","SCIENTIFIC_NAME":"Platynectes monostigma","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3677","SCIENTIFIC_NAME":"Platynectes multimaculatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3669","SCIENTIFIC_NAME":"Platynectes reticulosus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3676","SCIENTIFIC_NAME":"Platynectes tasmaniae","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3673","SCIENTIFIC_NAME":"Platynectes (Gueorguievtes) bakewelli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes bakewelli"}
+{"TAXON_ID":"3677","SCIENTIFIC_NAME":"Platynectes (Gueorguievtes) darlingtoni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes multimaculatus"}
+{"TAXON_ID":"3671","SCIENTIFIC_NAME":"Platynectes (Gueorguievtes) decempunctatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes decempunctatus"}
+{"TAXON_ID":"3674","SCIENTIFIC_NAME":"Platynectes (Gueorguievtes) monostigma","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes monostigma"}
+{"TAXON_ID":"3676","SCIENTIFIC_NAME":"Platynectes (Gueorguievtes) tasmaniae","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes tasmaniae"}
+{"TAXON_ID":"3670","SCIENTIFIC_NAME":"Platynectes (Platynectes) aenescens","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes aenescens"}
+{"TAXON_ID":"3675","SCIENTIFIC_NAME":"Platynectes (Platynectes) laurianus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes laurianus"}
+{"TAXON_ID":"3669","SCIENTIFIC_NAME":"Platynectes (Platynectes) reticulosus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Platynectes reticulosus"}
 {"TAXON_ID":"529543","SCIENTIFIC_NAME":"Platyobria lewisi","COMMON_NAME":"psyllid bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75601","SCIENTIFIC_NAME":"Platyphasia wilsoni","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529544","SCIENTIFIC_NAME":"Platypsalta dubia","COMMON_NAME":"cicada","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -4711,9 +4695,8 @@
 {"TAXON_ID":"3236","SCIENTIFIC_NAME":"Rhagovelia australica","COMMON_NAME":"riffle bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75658","SCIENTIFIC_NAME":"Rhamphomyia albidipennis","COMMON_NAME":"dance fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3732","SCIENTIFIC_NAME":"Rhantaticus congestus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3680","SCIENTIFIC_NAME":"Rhantus morneri","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3681","SCIENTIFIC_NAME":"Rhantus saturalis","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3679","SCIENTIFIC_NAME":"Rhantus simulans","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3681","SCIENTIFIC_NAME":"Rhantus suturalis","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Rhantus morneri"}
 {"TAXON_ID":"75659","SCIENTIFIC_NAME":"Rhegmoclema bifurcatum","COMMON_NAME":"black scavenger fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75660","SCIENTIFIC_NAME":"Rhegmoclemina (Austroclemina) eximia","COMMON_NAME":"black scavenger fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4121","SCIENTIFIC_NAME":"Rheochlus wirthi","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -4855,7 +4838,7 @@
 {"TAXON_ID":"3307","SCIENTIFIC_NAME":"Saldula psammobia","COMMON_NAME":"shore bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3306","SCIENTIFIC_NAME":"Saldula reuteriella","COMMON_NAME":"shore bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3312","SCIENTIFIC_NAME":"Salduncula swezeyi","COMMON_NAME":"shore bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3730","SCIENTIFIC_NAME":"Sandrocottus bakewelli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3730","SCIENTIFIC_NAME":"Sandracottus bakewelli","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75688","SCIENTIFIC_NAME":"Sapromyza alboatra","COMMON_NAME":"acalyptrate fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75689","SCIENTIFIC_NAME":"Sapromyza brunneovittata","COMMON_NAME":"acalyptrate fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75690","SCIENTIFIC_NAME":"Sapromyza flavimana","COMMON_NAME":"acalyptrate fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -4985,12 +4968,17 @@
 {"TAXON_ID":"3963","SCIENTIFIC_NAME":"Simsonia angusta","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3964","SCIENTIFIC_NAME":"Simsonia brooksi","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3970","SCIENTIFIC_NAME":"Simsonia cotterensis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3971","SCIENTIFIC_NAME":"Simsonia deani","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3971","SCIENTIFIC_NAME":"Simsonia deanei","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3962","SCIENTIFIC_NAME":"Simsonia eborica","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3987","SCIENTIFIC_NAME":"Simsonia hopsoni","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3988","SCIENTIFIC_NAME":"Simsonia irregularis","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3968","SCIENTIFIC_NAME":"Simsonia leai","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3966","SCIENTIFIC_NAME":"Simsonia longipes","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3992","SCIENTIFIC_NAME":"Simsonia nicholsoni","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3961","SCIENTIFIC_NAME":"Simsonia purpurea","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3991","SCIENTIFIC_NAME":"Simsonia tasmanicus","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3969","SCIENTIFIC_NAME":"Simsonia tonnoiri","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3990","SCIENTIFIC_NAME":"Simsonia vestita","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3967","SCIENTIFIC_NAME":"Simsonia wilsoni","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4484","SCIENTIFIC_NAME":"Simulium (Gomphostilbia) peregrinum","COMMON_NAME":"black fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Simulium peregrinum"}
 {"TAXON_ID":"4480","SCIENTIFIC_NAME":"Simulium (Morops) aureonigrum","COMMON_NAME":"black fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Simulium aureonigrum"}
@@ -5060,7 +5048,6 @@
 {"TAXON_ID":"75757","SCIENTIFIC_NAME":"Staurostichus fuscanus","COMMON_NAME":"bee fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4255","SCIENTIFIC_NAME":"Stempellina australiensis","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4254","SCIENTIFIC_NAME":"Stempellina johni","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"4019","SCIENTIFIC_NAME":"Stenelmis pallidipes","COMMON_NAME":"riffle beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3289","SCIENTIFIC_NAME":"Stenobates australicus","COMMON_NAME":"water strider","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4319","SCIENTIFIC_NAME":"Stenochironomus (Stenochironomus) watsoni","COMMON_NAME":"midge","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Stenochironomus watsoni"}
 {"TAXON_ID":"529709","SCIENTIFIC_NAME":"Stenocotis depressa","COMMON_NAME":"Black Flat-head Leafhopper","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -5081,12 +5068,12 @@
 {"TAXON_ID":"1883","SCIENTIFIC_NAME":"Stenosialis hollowayi","COMMON_NAME":"alderfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529713","SCIENTIFIC_NAME":"Stenozygum miniatulum","COMMON_NAME":"shield bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"148","SCIENTIFIC_NAME":"Stephanoceros fimbriatus","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3860","SCIENTIFIC_NAME":"Sternolophus marginicollis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3860","SCIENTIFIC_NAME":"Sternolophus (Neosternolophus) marginicollis","COMMON_NAME":"water scavenger beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Sternolophus marginicollis"}
 {"TAXON_ID":"3640","SCIENTIFIC_NAME":"Sternopriscus browni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3635","SCIENTIFIC_NAME":"Sternopriscus cervus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3631","SCIENTIFIC_NAME":"Sternopriscus hansardi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"3632","SCIENTIFIC_NAME":"Sternopriscus maedfooti","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3631","SCIENTIFIC_NAME":"Sternopriscus hansardii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3639","SCIENTIFIC_NAME":"Sternopriscus marginatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3632","SCIENTIFIC_NAME":"Sternopriscus meadfootii","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3636","SCIENTIFIC_NAME":"Sternopriscus minimus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3641","SCIENTIFIC_NAME":"Sternopriscus montanus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"3637","SCIENTIFIC_NAME":"Sternopriscus multimaculatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -5324,6 +5311,14 @@
 {"TAXON_ID":"1806","SCIENTIFIC_NAME":"Tillyardophlebia tristis","COMMON_NAME":"mayfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"529751","SCIENTIFIC_NAME":"Tinganina dimorpha","COMMON_NAME":"shield bug","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"2923","SCIENTIFIC_NAME":"Tinodes radona","COMMON_NAME":"Caddisfly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"3625","SCIENTIFIC_NAME":"Tiporus alastairi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes alastairi"}
+{"TAXON_ID":"3628","SCIENTIFIC_NAME":"Tiporus centralis","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes centralis"}
+{"TAXON_ID":"3624","SCIENTIFIC_NAME":"Tiporus collaris","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes collaris"}
+{"TAXON_ID":"3627","SCIENTIFIC_NAME":"Tiporus denticulatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes denticulatus"}
+{"TAXON_ID":"3626","SCIENTIFIC_NAME":"Tiporus giuliani","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes giuliani"}
+{"TAXON_ID":"3629","SCIENTIFIC_NAME":"Tiporus josepheni","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes josepheni"}
+{"TAXON_ID":"3622","SCIENTIFIC_NAME":"Tiporus tambreyi","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes tambreyi"}
+{"TAXON_ID":"3623","SCIENTIFIC_NAME":"Tiporus undecimaculatus","COMMON_NAME":"diving beetle","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":"Hypodes undecimaculatus"}
 {"TAXON_ID":"74540","SCIENTIFIC_NAME":"Tipulidae sp. 1","COMMON_NAME":"Crane Fly sp. 1","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"4540","SCIENTIFIC_NAME":"Tipulidae sp. 1 (EPA)","COMMON_NAME":"crane fly","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"74541","SCIENTIFIC_NAME":"Tipulidae sp. 10","COMMON_NAME":"Crane Fly sp. 10","PRIMARY_DISCIPLINE":"Aquatic invertebrates","SCIENTIFIC_NME_SYNONYM":null}
@@ -6137,7 +6132,7 @@
 {"TAXON_ID":"500216","SCIENTIFIC_NAME":"Amsinckia lycopsoides","COMMON_NAME":"Bugloss Fiddle-neck","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amsinckia lycopsoides, Lithospermum lycopsoides"}
 {"TAXON_ID":"503634","SCIENTIFIC_NAME":"Amsinckia menziesii","COMMON_NAME":"Rigid Fiddle-neck","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amsinckia menziesii, Echium menziesii"}
 {"TAXON_ID":"508048","SCIENTIFIC_NAME":"Amsinckia spp.","COMMON_NAME":"Fiddle Neck","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amsinckia spp."}
-{"TAXON_ID":"500217","SCIENTIFIC_NAME":"Amyema linophylla subsp. orientale","COMMON_NAME":"Buloke Mistletoe","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amyema linophyllum subsp. orientale, Amyema linophyllum ssp. orientale, Amyema linophylla subsp. orientale, Amyema linophylla ssp. orientale"}
+{"TAXON_ID":"500217","SCIENTIFIC_NAME":"Amyema linophylla subsp. orientale","COMMON_NAME":"Buloke Mistletoe","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amyema linophyllum subsp. orientale, Amyema linophyllum ssp. orientale, Amyema linophylla subsp. orientale, Amyema linophylla ssp. orientale, Amyema linophylla subsp. orientalis"}
 {"TAXON_ID":"500218","SCIENTIFIC_NAME":"Amyema miquelii","COMMON_NAME":"Box Mistletoe","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amyema miquelii"}
 {"TAXON_ID":"500219","SCIENTIFIC_NAME":"Amyema miraculosa subsp. boormanii","COMMON_NAME":"Fleshy Mistletoe","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amyema miraculosa ssp. boormanii, Amyema miraculosum subsp. boormanii, Amyema miraculosa subsp. boormanii, Amyema miraculosum ssp. boormanii"}
 {"TAXON_ID":"500220","SCIENTIFIC_NAME":"Amyema pendula","COMMON_NAME":"Drooping Mistletoe","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amyema pendula"}
@@ -8452,7 +8447,7 @@
 {"TAXON_ID":"503702","SCIENTIFIC_NAME":"Elachanthus glaber","COMMON_NAME":"Smooth Elachanth","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Elachanthus glaber"}
 {"TAXON_ID":"501135","SCIENTIFIC_NAME":"Elachanthus pusillus","COMMON_NAME":"Small Elachanth","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Elachanthus pusillus"}
 {"TAXON_ID":"508380","SCIENTIFIC_NAME":"Elachanthus spp.","COMMON_NAME":"Elachanth","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Elachanthus spp."}
-{"TAXON_ID":"502196","SCIENTIFIC_NAME":"Elacholoma prostratus","COMMON_NAME":"Small Monkey-flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus prostratus, Mimulus prostratus"}
+{"TAXON_ID":"502196","SCIENTIFIC_NAME":"Elacholoma prostrata","COMMON_NAME":"Small Monkey-flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus pusillus, Mimulus prostratus, Elacholoma prostrata"}
 {"TAXON_ID":"501136","SCIENTIFIC_NAME":"Elaeocarpus holopetalus","COMMON_NAME":"Black Oliveberry","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Elaeocarpus holopetalus"}
 {"TAXON_ID":"501137","SCIENTIFIC_NAME":"Elaeocarpus reticulatus","COMMON_NAME":"Blue Oliveberry","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Elaeocarpus cyaneus, Elaeocarpus reticulatus"}
 {"TAXON_ID":"508381","SCIENTIFIC_NAME":"Elaeocarpus spp.","COMMON_NAME":"Oliveberry","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Elaeocarpus spp."}
@@ -8653,7 +8648,9 @@
 {"TAXON_ID":"501240","SCIENTIFIC_NAME":"Eryngium vesiculosum","COMMON_NAME":"Prickfoot","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Eryngium vesiculosum"}
 {"TAXON_ID":"505247","SCIENTIFIC_NAME":"Erysimum cheiri","COMMON_NAME":"Wallflower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Cheiranthus cheiri, Erysimum cheiri"}
 {"TAXON_ID":"501241","SCIENTIFIC_NAME":"Erysimum repandum","COMMON_NAME":"Treacle Mustard","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Erysimum repandum"}
-{"TAXON_ID":"502195","SCIENTIFIC_NAME":"Erythranthe moschatus","COMMON_NAME":"Musk Monkey-flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus moschatus, Mimulus moschatus"}
+{"TAXON_ID":"502194","SCIENTIFIC_NAME":"Erythranthe guttata","COMMON_NAME":"Monkey Musk","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Erythranthe guttata, Mimulus guttatus, Mimulus luteus "}
+{"TAXON_ID":"502195","SCIENTIFIC_NAME":"Erythranthe moschata","COMMON_NAME":"Musk Monkey-flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Erythranthe moschata, Mimulus moschatus"}
+{"TAXON_ID":"903624","SCIENTIFIC_NAME":"Erythranthe spp.","COMMON_NAME":"Monkey Flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Erythranthe spp."}
 {"TAXON_ID":"102624","SCIENTIFIC_NAME":"Erythroclonium angustatum","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"102623","SCIENTIFIC_NAME":"Erythroclonium sedoides","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"504610","SCIENTIFIC_NAME":"Eschscholzia californica","COMMON_NAME":"Californian Poppy","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Eschscholzia californica"}
@@ -9973,7 +9970,7 @@
 {"TAXON_ID":"504590","SCIENTIFIC_NAME":"Hypoxis hygrometrica var. splendida","COMMON_NAME":"Golden Weather-glass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Hypoxis hygrometrica var. splendida"}
 {"TAXON_ID":"504591","SCIENTIFIC_NAME":"Hypoxis hygrometrica var. villosisepala","COMMON_NAME":"Golden Weather-glass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Hypoxis hygrometrica var. villosisepala"}
 {"TAXON_ID":"508557","SCIENTIFIC_NAME":"Hypoxis s.l. spp.","COMMON_NAME":"Hypoxis","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Hypoxis s.l. spp., Hypoxis spp."}
-{"TAXON_ID":"500350","SCIENTIFIC_NAME":"Hysterobaeckea behrii","COMMON_NAME":"Broom Baeckea","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Baeckea behrii, Babingtonia behrii, Babingtonia behrii"}
+{"TAXON_ID":"500350","SCIENTIFIC_NAME":"Hysterobaeckea behrii","COMMON_NAME":"Broom Baeckea","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Babingtonia behrii, Baeckea behrii, Camphoromyrtus behrii"}
 {"TAXON_ID":"501759","SCIENTIFIC_NAME":"Ilex aquifolium","COMMON_NAME":"English Holly","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Ilex aquifolium"}
 {"TAXON_ID":"505798","SCIENTIFIC_NAME":"Impatiens balfouri","COMMON_NAME":"Poor Man's Orchid","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Impatiens balfouri"}
 {"TAXON_ID":"501760","SCIENTIFIC_NAME":"Imperata cylindrica","COMMON_NAME":"Blady Grass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Imperata cylindrica var. major, Lagurus cylindricus, Imperata cylindrica, Imperata koenigii var. major, Imperata arundinacea"}
@@ -10045,7 +10042,7 @@
 {"TAXON_ID":"501792","SCIENTIFIC_NAME":"Isotoma axillaris","COMMON_NAME":"Rock Isotome","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Laurentia axillaris, Isotoma axillaris, Lobelia senecioides, Isotoma senecioides"}
 {"TAXON_ID":"501793","SCIENTIFIC_NAME":"Isotoma fluviatilis subsp. australis","COMMON_NAME":"Swamp Isotome","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Laurentia fluviatilis, Isotoma fluviatilis ssp. australis, Lobelia fluviatilis, Isotoma fluviatilis subsp. australis"}
 {"TAXON_ID":"508583","SCIENTIFIC_NAME":"Isotoma spp.","COMMON_NAME":"Isotome","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Isotoma spp."}
-{"TAXON_ID":"501757","SCIENTIFIC_NAME":"Isotoma tridens","COMMON_NAME":"Hypsela","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Hypsela tridens, Hypsela tridens"}
+{"TAXON_ID":"501757","SCIENTIFIC_NAME":"Isotoma tridens","COMMON_NAME":"Hypsela","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Hypsela tridens, Lobelia tridens"}
 {"TAXON_ID":"501794","SCIENTIFIC_NAME":"Iva axillaris subsp. robustior","COMMON_NAME":"Poverty Weed","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Iva axillaris ssp. robustior, Iva axillaris subsp. robustior"}
 {"TAXON_ID":"507645","SCIENTIFIC_NAME":"Ixia campanulata","COMMON_NAME":"Crimson Ixia","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Ixia campanulata, Ixia speciosa"}
 {"TAXON_ID":"505850","SCIENTIFIC_NAME":"Ixia flexuosa","COMMON_NAME":"Twisted Ixia","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Ixia columellaris, Ixia flexuosa"}
@@ -10248,8 +10245,8 @@
 {"TAXON_ID":"508636","SCIENTIFIC_NAME":"Lamarckia (monotypic)","COMMON_NAME":"Golden-top","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lamarckia (monotypic)"}
 {"TAXON_ID":"501865","SCIENTIFIC_NAME":"Lamarckia aurea","COMMON_NAME":"Golden-top","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lamarckia aurea, Cynosurus aureus"}
 {"TAXON_ID":"507251","SCIENTIFIC_NAME":"Lamiaceae spp.","COMMON_NAME":"Labiate","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Labiatae spp., Lamiaceae species, Lamiaceae spp., Lamiaceae spp."}
-{"TAXON_ID":"501866","SCIENTIFIC_NAME":"Lamium amplexicaule","COMMON_NAME":"Dead Nettle","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lamium amplexicaule, Lamium amplexicaule subsp. amplexicaule, Lamium amplexicaule var. clandestinum, Lamium amplexicaule var. amplexicaule, Lamium amplexicaule ssp. amplexicaule"}
-{"TAXON_ID":"504249","SCIENTIFIC_NAME":"Lamium galeobdolon subsp. argentatum","COMMON_NAME":"Aluminium Plant","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Galeobdolon luteum ssp. luteum cv. 'Variegatum', Lamiastrum galeobdolon, Lamium galeobdolon f. argentatum, Galeobdolon luteum, Lamium galeobdolon, Galeopsis galeobdolon, Lamium galeobdolon subsp. argentatum, Lamium galeobdolon ssp. argentatum, Lamium argentatum"}
+{"TAXON_ID":"501866","SCIENTIFIC_NAME":"Lamium amplexicaule","COMMON_NAME":"Dead Nettle","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lamium amplexicaule var. amplexicaule, Lamium amplexicaule ssp. amplexicaule, Lamium amplexicaule, Lamium amplexicaule var. clandestinum, Lamium amplexicaule subsp. amplexicaule"}
+{"TAXON_ID":"504249","SCIENTIFIC_NAME":"Lamium argentatum","COMMON_NAME":"Aluminium Plant","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Galeobdolon luteum ssp. luteum cv. 'Variegatum', Lamiastrum galeobdolon, Lamium galeobdolon subsp. argentatum, Galeobdolon argentatum, Lamium galeobdolon, Galeobdolon luteum, Lamium argentatum, Lamium galeobdolon subsp. argentatum, Lamium galeobdolon f. argentatum, Galeopsis galeobdolon, Lamium galeobdolon ssp. argentatum"}
 {"TAXON_ID":"501867","SCIENTIFIC_NAME":"Lamium purpureum","COMMON_NAME":"Red Dead-Nettle","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lamium purpureum"}
 {"TAXON_ID":"508637","SCIENTIFIC_NAME":"Lamium spp.","COMMON_NAME":"Dead Nettle","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lamium spp."}
 {"TAXON_ID":"505753","SCIENTIFIC_NAME":"Lampranthus immelmaniae","COMMON_NAME":"Lampranthus","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lampranthus immelmaniae, Lampranthus sp. (Fyansford)"}
@@ -10704,7 +10701,6 @@
 {"TAXON_ID":"502073","SCIENTIFIC_NAME":"Luzula novae-cambriae","COMMON_NAME":"Coarse Woodrush","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Luzula novae-cambriae, Luzula oldfieldii var. angustifolia"}
 {"TAXON_ID":"502074","SCIENTIFIC_NAME":"Luzula ovata","COMMON_NAME":"Oval Woodrush","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Luzula ovata"}
 {"TAXON_ID":"508690","SCIENTIFIC_NAME":"Luzula spp.","COMMON_NAME":"Woodrush","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Luzula spp."}
-{"TAXON_ID":"901298","SCIENTIFIC_NAME":"Lychnis flos-cuculi","COMMON_NAME":"Ragged Robin","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Coronaria flos-cuculi, Silene flos-cuculi"}
 {"TAXON_ID":"502075","SCIENTIFIC_NAME":"Lycium afrum","COMMON_NAME":"Kaffir Box-thorn","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lycium afrum"}
 {"TAXON_ID":"502076","SCIENTIFIC_NAME":"Lycium australe","COMMON_NAME":"Australian Box-thorn","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lycium australe"}
 {"TAXON_ID":"502077","SCIENTIFIC_NAME":"Lycium barbarum","COMMON_NAME":"Chinese Box-thorn","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lycium barbarum, Lycium chinense"}
@@ -10964,8 +10960,7 @@
 {"TAXON_ID":"502192","SCIENTIFIC_NAME":"Millotia tenuifolia var. tenuifolia","COMMON_NAME":"Soft Millotia","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Millotia hispidula, Millotia tenuifolia, Millotia tenuifolia var. nudescens, Millotia tenuifolia var. tenuifolia"}
 {"TAXON_ID":"507716","SCIENTIFIC_NAME":"Mimosa pigra","COMMON_NAME":"Giant Sensitive Tree","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimosa pigra, Mimosa pellita"}
 {"TAXON_ID":"502193","SCIENTIFIC_NAME":"Mimulus gracilis","COMMON_NAME":"Slender Monkey-flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus gracilis"}
-{"TAXON_ID":"502194","SCIENTIFIC_NAME":"Mimulus guttatus","COMMON_NAME":"Monkey Musk","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus guttatus, Mimulus luteus"}
-{"TAXON_ID":"508741","SCIENTIFIC_NAME":"Mimulus spp.","COMMON_NAME":"Monkey Flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus spp."}
+{"TAXON_ID":"508741","SCIENTIFIC_NAME":"Mimulus s.l. spp.","COMMON_NAME":"Monkey Flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus s.l. spp., Mimulus spp."}
 {"TAXON_ID":"502198","SCIENTIFIC_NAME":"Minuartia mediterranea","COMMON_NAME":"Fine-leaved Sandwort","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Minuartia hybrida, Minuartia mediterranea, Arenaria mediterranea, Minuartia tenuifolia"}
 {"TAXON_ID":"502199","SCIENTIFIC_NAME":"Minuria cunninghamii","COMMON_NAME":"Bush Minuria","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Minuria cunninghamii, Elachothamnus cunninghamii, Therogeron tenuifolius, Elachothamnos cunninghamii, Eurybiopsis intricata, Therogeron cunninghamii"}
 {"TAXON_ID":"502200","SCIENTIFIC_NAME":"Minuria denticulata","COMMON_NAME":"Woolly Minuria","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Minuria candollei, Minuria denticulata, Therogeron denticulatum, Minuria candollei p.p."}
@@ -12282,13 +12277,13 @@
 {"TAXON_ID":"502756","SCIENTIFIC_NAME":"Prunella laciniata","COMMON_NAME":"Cut-leaf Self-heal","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunella laciniata, Prunella vulgaris var. laciniata"}
 {"TAXON_ID":"508935","SCIENTIFIC_NAME":"Prunella spp.","COMMON_NAME":"Self-heal","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunella spp."}
 {"TAXON_ID":"502757","SCIENTIFIC_NAME":"Prunella vulgaris","COMMON_NAME":"Self-heal","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunella vulgaris"}
-{"TAXON_ID":"505759","SCIENTIFIC_NAME":"Prunus X domestica","COMMON_NAME":"Plum","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus domestica, Prunus X domestica"}
 {"TAXON_ID":"505231","SCIENTIFIC_NAME":"Prunus armeniaca","COMMON_NAME":"Apricot","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus armeniaca"}
 {"TAXON_ID":"505831","SCIENTIFIC_NAME":"Prunus avium","COMMON_NAME":"Sweet Cherry","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus avium"}
 {"TAXON_ID":"502758","SCIENTIFIC_NAME":"Prunus cerasifera","COMMON_NAME":"Cherry Plum","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus cerasifera"}
 {"TAXON_ID":"505233","SCIENTIFIC_NAME":"Prunus cerasifera 'Atropurpurea'","COMMON_NAME":"Purple-leaf Cherry-plum","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus cerasifera 'Atropurpurea', Prunus cerasifera 'Pissardii'"}
 {"TAXON_ID":"505232","SCIENTIFIC_NAME":"Prunus cerasifera 'Nigra'","COMMON_NAME":"Purple-leaf Cherry-plum","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus cerasifera 'Nigra'"}
 {"TAXON_ID":"505987","SCIENTIFIC_NAME":"Prunus cerasus","COMMON_NAME":"Sour Cherry","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus cerasus"}
+{"TAXON_ID":"505759","SCIENTIFIC_NAME":"Prunus domestica","COMMON_NAME":"Plum","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus domestica, Prunus X domestica"}
 {"TAXON_ID":"505530","SCIENTIFIC_NAME":"Prunus dulcis","COMMON_NAME":"Almond","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Amygdalus communis, Prunus amygdalus, Amygdalus dulcis, Prunus dulcis"}
 {"TAXON_ID":"502759","SCIENTIFIC_NAME":"Prunus laurocerasus","COMMON_NAME":"Cherry Laurel","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus laurocerasus"}
 {"TAXON_ID":"505235","SCIENTIFIC_NAME":"Prunus lusitanica","COMMON_NAME":"Portugal Laurel","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Prunus lusitanica"}
@@ -12332,7 +12327,6 @@
 {"TAXON_ID":"517044","SCIENTIFIC_NAME":"Pterostylis acuminata","COMMON_NAME":"Pointed Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis acuminata"}
 {"TAXON_ID":"502782","SCIENTIFIC_NAME":"Pterostylis aestiva","COMMON_NAME":"Long-tongue Summer-greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis aestiva, Diplodium aestivum"}
 {"TAXON_ID":"507376","SCIENTIFIC_NAME":"Pterostylis aestiva\/decurva spp. agg.","COMMON_NAME":"Summer Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis aestiva\/decurva, Pterostylis aestiva\/decurva spp. agg., Pterostylis decurva\/aestiva"}
-{"TAXON_ID":"505907","SCIENTIFIC_NAME":"Pterostylis aff. aciculiformis (Beechworth)","COMMON_NAME":"Beechworth Ruddyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis aff. aciculiformis (Beechworth), Pterostylis sp. aff. aciculiformis"}
 {"TAXON_ID":"505908","SCIENTIFIC_NAME":"Pterostylis aff. alpina (Wilsons Promontory)","COMMON_NAME":"Promontory Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis aff. alpina (Wilsons Promontory), Pterostylis sp. aff. alpina (Wilsons Promontory)"}
 {"TAXON_ID":"507629","SCIENTIFIC_NAME":"Pterostylis aff. despectans (Terrick Terrick)","COMMON_NAME":"Parna Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. despectans, Pterostylis sp. aff. despectans (Terrick Terrick), Pterostylis aff. despectans (Terrick Terrick)"}
 {"TAXON_ID":"507734","SCIENTIFIC_NAME":"Pterostylis agrestis","COMMON_NAME":"Sutton Grange Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. bicolor (Sutton Grange), Hymenochilus agrestis"}
@@ -12341,6 +12335,7 @@
 {"TAXON_ID":"504873","SCIENTIFIC_NAME":"Pterostylis alpina s.s.","COMMON_NAME":"Mountain Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis alpina s.s., Pterostylis scabrida"}
 {"TAXON_ID":"503956","SCIENTIFIC_NAME":"Pterostylis alveata","COMMON_NAME":"Coastal Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis alveata, Pterostylis crypta, Diplodium alveatum"}
 {"TAXON_ID":"507770","SCIENTIFIC_NAME":"Pterostylis aneba","COMMON_NAME":"Small Mountain Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis aneba, Pterostylis alpina p.p., Pterostylis monticola p.p."}
+{"TAXON_ID":"505625","SCIENTIFIC_NAME":"Pterostylis arenicola","COMMON_NAME":"Sandhill Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. boormanii (Sunset Country), Pterostylis sp. aff. boormanii 2, Pterostylis lepida, Oligochaetochilus arenicola, Pterostylis arenicola"}
 {"TAXON_ID":"502807","SCIENTIFIC_NAME":"Pterostylis atrans","COMMON_NAME":"Dark-tip Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis obtusa, Diplodium atrans, Pterostylis atrans"}
 {"TAXON_ID":"902777","SCIENTIFIC_NAME":"Pterostylis atrans x decurva","COMMON_NAME":"Dark-tip Greenhood x Summer Greenhood hybrid","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"502785","SCIENTIFIC_NAME":"Pterostylis baptistii","COMMON_NAME":"King Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis baptistii"}
@@ -12349,6 +12344,7 @@
 {"TAXON_ID":"502786","SCIENTIFIC_NAME":"Pterostylis biseta s.l.","COMMON_NAME":"Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis biseta s.l., Pterostylis biseta spp. agg."}
 {"TAXON_ID":"502787","SCIENTIFIC_NAME":"Pterostylis boormanii","COMMON_NAME":"Sikh's Whiskers","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Oligochaetochilus boormanii, Pterostylis boormanii"}
 {"TAXON_ID":"517064","SCIENTIFIC_NAME":"Pterostylis boormanii x setifera","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"517065","SCIENTIFIC_NAME":"Pterostylis boormannii","COMMON_NAME":"Sandhill Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"503916","SCIENTIFIC_NAME":"Pterostylis cheraphila","COMMON_NAME":"Floodplain Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Oligochaetochilus cheraphilus, Pterostylis cheraphila, Pterostylis sp. aff. biseta (Wimmera River)"}
 {"TAXON_ID":"504728","SCIENTIFIC_NAME":"Pterostylis chlorogramma","COMMON_NAME":"Green-striped Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Bunochilus chlorogrammus, Pterostylis chlorogramma"}
 {"TAXON_ID":"507804","SCIENTIFIC_NAME":"Pterostylis clivicola","COMMON_NAME":"Mountain Midget Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Hymenochilus clivicola, Pterostylis clivicola"}
@@ -12404,9 +12400,11 @@
 {"TAXON_ID":"502817","SCIENTIFIC_NAME":"Pterostylis robusta s.l.","COMMON_NAME":"Large Striped Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis robusta s.l."}
 {"TAXON_ID":"504875","SCIENTIFIC_NAME":"Pterostylis robusta s.s.","COMMON_NAME":"Large Striped Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Diplodium robustum, Pterostylis alata var. robusta, Pterostylis praecox var. robusta, Pterostylis scabra var. robusta, Pterostylis robusta s.s."}
 {"TAXON_ID":"503913","SCIENTIFIC_NAME":"Pterostylis rubescens","COMMON_NAME":"Inland Red-tip Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. parviflora (Inland Red-brown), Pterostylis sp. aff. parviflora (Large Red-brown), Pterostylis sp. aff. parviflora (Northern Victoria), Pterostylis rubescens, Speculantha rubescens, Pterostylis sp. aff. parviflora 2, Pterostylis sp. aff. parviflora p.p."}
+{"TAXON_ID":"903658","SCIENTIFIC_NAME":"Pterostylis rufa","COMMON_NAME":"Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis rufa, Oligochaetochilus rufus"}
 {"TAXON_ID":"503934","SCIENTIFIC_NAME":"Pterostylis sanguinea","COMMON_NAME":"Banded Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sanguinea, Pterostylis vittata, Urochilus sanguineus"}
 {"TAXON_ID":"503935","SCIENTIFIC_NAME":"Pterostylis setifera","COMMON_NAME":"Bristly Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis setifera, Oligochaetochilus setifer, Pterostylis mitchellii"}
 {"TAXON_ID":"503915","SCIENTIFIC_NAME":"Pterostylis smaragdyna","COMMON_NAME":"Emerald-lip Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Bunochilus smaragdynus, Pterostylis smaragdyna, Pterostylis sp. aff. longifolia (Greensborough)"}
+{"TAXON_ID":"505907","SCIENTIFIC_NAME":"Pterostylis sp. aff. aciculiformis (Beechworth)","COMMON_NAME":"Beechworth Ruddyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. aciculiformis, Pterostylis aff. aciculiformis (Beechworth), Pterostylis sp. aff. aciculiformis (Beechworth)"}
 {"TAXON_ID":"503918","SCIENTIFIC_NAME":"Pterostylis sp. aff. aciculiformis (Stawell)","COMMON_NAME":"Stawell Ruddyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. aciculiformis (Stawell)"}
 {"TAXON_ID":"507374","SCIENTIFIC_NAME":"Pterostylis sp. aff. alata (Coastal)","COMMON_NAME":"Coastal Striped Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. alata (Coastal)"}
 {"TAXON_ID":"505623","SCIENTIFIC_NAME":"Pterostylis sp. aff. alveata (Montane)","COMMON_NAME":"Hill Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. alveata (Montane)"}
@@ -12414,9 +12412,8 @@
 {"TAXON_ID":"505909","SCIENTIFIC_NAME":"Pterostylis sp. aff. biseta (Lara)","COMMON_NAME":"Stocky Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. biseta 2, Pterostylis sp. aff. biseta (Lara)"}
 {"TAXON_ID":"504851","SCIENTIFIC_NAME":"Pterostylis sp. aff. biseta (Pink Lakes)","COMMON_NAME":"Mallee Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. biseta (Pink Lakes), Pterostylis spp. aff. biseta (Striped), Pterostylis sp. aff. biseta 1, Pterostylis aff. biseta (Pink Lakes), Pterostylis aff. biseta"}
 {"TAXON_ID":"504874","SCIENTIFIC_NAME":"Pterostylis sp. aff. boormanii (Beechworth)","COMMON_NAME":"Granite Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. boormanii (Beechworth), Pterostylis sp. aff. boormanii 1"}
-{"TAXON_ID":"505625","SCIENTIFIC_NAME":"Pterostylis sp. aff. boormanii (Sunset Country)","COMMON_NAME":"Sunset Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. boormanii (Sunset Country), Pterostylis sp. aff. boormanii 2"}
 {"TAXON_ID":"505627","SCIENTIFIC_NAME":"Pterostylis sp. aff. dolichochila (Portland)","COMMON_NAME":"Portland Shell-orchid","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. dolichochila (Portland), Pterostylis robusta p.p."}
-{"TAXON_ID":"502803","SCIENTIFIC_NAME":"Pterostylis sp. aff. excelsa","COMMON_NAME":"Small Dryland Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. excelsa, Pterostylis excelsa"}
+{"TAXON_ID":"502803","SCIENTIFIC_NAME":"Pterostylis sp. aff. excelsa (Sunset Country)","COMMON_NAME":"Small Dryland Rustyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. excelsa (Sunset Country), Pterostylis excelsa, Pterostylis sp. aff. excelsa"}
 {"TAXON_ID":"528690","SCIENTIFIC_NAME":"Pterostylis sp. aff. parviflora (South-west Victoria)","COMMON_NAME":"Plump Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Speculantha corpulenta ms., Pterostylis sp. aff. parviflora (South-west Victoria)"}
 {"TAXON_ID":"505293","SCIENTIFIC_NAME":"Pterostylis sp. aff. parviflora (Southern Victoria)","COMMON_NAME":"Red-tip Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. parviflora 1, Pterostylis sp. aff. parviflora p.p., Pterostylis sp. aff. parviflora (Southern Victoria), Pterostylis sp. aff. parviflora (Eastern Victoria), Pterostylis sp. aff. parviflora (Eastern Melbourne), Speculantha clivosa ms."}
 {"TAXON_ID":"505482","SCIENTIFIC_NAME":"Pterostylis sp. aff. plumosa (Anglesea)","COMMON_NAME":"Large Plume-orchid","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. plumosa (Anglesea), Pterostylis sp. aff. plumosa 3"}
@@ -12426,7 +12423,8 @@
 {"TAXON_ID":"505869","SCIENTIFIC_NAME":"Pterostylis sp. aff. striata (Silurian)","COMMON_NAME":"Silurian Striped Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. striata (Silurian), Pterostylis nicholsiorum ms."}
 {"TAXON_ID":"505040","SCIENTIFIC_NAME":"Pterostylis spissa","COMMON_NAME":"Cygnet Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis sp. aff. cycnocephala (Woorndoo), Pterostylis sp. aff. cycnocephala 2"}
 {"TAXON_ID":"508946","SCIENTIFIC_NAME":"Pterostylis spp.","COMMON_NAME":"Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis spp."}
-{"TAXON_ID":"502816","SCIENTIFIC_NAME":"Pterostylis squamata","COMMON_NAME":"Common Ruddyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Oligochaetochilus squamatus, Pterostylis aff. rufa, Pterostylis sp. aff. rufa, Pterostylis squamata"}
+{"TAXON_ID":"502816","SCIENTIFIC_NAME":"Pterostylis squamata s.l.","COMMON_NAME":"Common Ruddyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis aff. rufa, Pterostylis sp. aff. rufa, Pterostylis squamata"}
+{"TAXON_ID":"903657","SCIENTIFIC_NAME":"Pterostylis squamata s.s.","COMMON_NAME":"Common Ruddyhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis squamata, Oligochaetochilus squamatus"}
 {"TAXON_ID":"507375","SCIENTIFIC_NAME":"Pterostylis striata","COMMON_NAME":"Striated Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis striata, Pterostylis sp. aff. alata, Pterostylis alata, Diplodium striatum"}
 {"TAXON_ID":"504853","SCIENTIFIC_NAME":"Pterostylis tasmanica","COMMON_NAME":"Southern Plume-orchid","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Pterostylis tasmanica, Plumatichilos tasmanicum, Pterostylis plumosa p.p."}
 {"TAXON_ID":"502819","SCIENTIFIC_NAME":"Pterostylis tenuissima","COMMON_NAME":"Swamp Greenhood","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Diplodium tenuissimum, Pterostylis tenuissima"}
@@ -13280,11 +13278,12 @@
 {"TAXON_ID":"503149","SCIENTIFIC_NAME":"Sigesbeckia orientalis subsp. orientalis","COMMON_NAME":"Indian Weed","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Sigesbeckia microcephala, Sigesbeckia orientalis, Sigesbeckia orientalis ssp. orientalis, Sigesbeckia orientalis subsp. orientalis"}
 {"TAXON_ID":"509064","SCIENTIFIC_NAME":"Sigesbeckia spp.","COMMON_NAME":"Sigesbeckia","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Sigesbeckia spp."}
 {"TAXON_ID":"503981","SCIENTIFIC_NAME":"Silene apetala var. apetala","COMMON_NAME":"Mallee Catchfly","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Silene apetala, Silene apetala var. apetala"}
-{"TAXON_ID":"901826","SCIENTIFIC_NAME":"Silene coelirosa","COMMON_NAME":"Rose Silene","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lychnis coelirosa, Agrostemma coelirosa"}
+{"TAXON_ID":"901826","SCIENTIFIC_NAME":"Silene coelirosa","COMMON_NAME":"Rose Silene","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Agrostemma coelirosa, Silene coeli-rosa, Silene coelirosa, Lychnis coelirosa"}
 {"TAXON_ID":"503150","SCIENTIFIC_NAME":"Silene conica","COMMON_NAME":"Striated Catchfly","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Silene conica"}
-{"TAXON_ID":"503830","SCIENTIFIC_NAME":"Silene coronaria","COMMON_NAME":"Rose Campion","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lychnis coronaria, Lychnis coronaria, Agrostemma coronaria"}
+{"TAXON_ID":"503830","SCIENTIFIC_NAME":"Silene coronaria","COMMON_NAME":"Rose Campion","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lychnis coronaria, Agrostemma coronaria"}
 {"TAXON_ID":"505318","SCIENTIFIC_NAME":"Silene dichotoma","COMMON_NAME":"Forked Catchfly","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Silene dichotoma"}
 {"TAXON_ID":"505319","SCIENTIFIC_NAME":"Silene dioica","COMMON_NAME":"Red Campion","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Melandrium dioicum, Melandrium rubrum, Lychnis dioica var. rubra, Lychnis diurna, Lychnis dioica, Silene diurna, Silene dioica, Melandrium diurnum"}
+{"TAXON_ID":"901298","SCIENTIFIC_NAME":"Silene flos-cuculi","COMMON_NAME":"Ragged Robin","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lychnis flos-cuculi, Silene flos-cuculi, Coronaria flos-cuculi"}
 {"TAXON_ID":"503151","SCIENTIFIC_NAME":"Silene gallica","COMMON_NAME":"French Catchfly","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Silene anglica, Silene gallica var. anglica, Silene gallica, Silene anglica var. gallica"}
 {"TAXON_ID":"504965","SCIENTIFIC_NAME":"Silene gallica var. gallica","COMMON_NAME":"French Catchfly","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Silene anglica, Silene gallica var. gallica"}
 {"TAXON_ID":"504966","SCIENTIFIC_NAME":"Silene gallica var. quinquevulnera","COMMON_NAME":"Spotted Catchfly","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Silene anglica var. quinquevulnera, Silene quinquevulnera, Silene gallica var. quinquevulnera"}
@@ -13451,10 +13450,11 @@
 {"TAXON_ID":"503239","SCIENTIFIC_NAME":"Spyridium vexilliferum","COMMON_NAME":"Winged Spyridium","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Spyridium vexilliferum, Spyridium vexilliferum var. vexilliferum"}
 {"TAXON_ID":"507179","SCIENTIFIC_NAME":"Spyridium vexilliferum var. latifolium","COMMON_NAME":"Winged Spyridium","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Spyridium vexilliferum var. latifolium"}
 {"TAXON_ID":"507180","SCIENTIFIC_NAME":"Spyridium vexilliferum var. vexilliferum","COMMON_NAME":"Winged Spyridium","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"503240","SCIENTIFIC_NAME":"Stachys arvensis","COMMON_NAME":"Stagger Weed","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stachys arvensis, Glechoma arvensis"}
-{"TAXON_ID":"505835","SCIENTIFIC_NAME":"Stachys byzantina","COMMON_NAME":"Lamb's Ears","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stachys byzantina, Stachys olympica, Stachys lanata"}
+{"TAXON_ID":"503240","SCIENTIFIC_NAME":"Stachys arvensis","COMMON_NAME":"Stagger Weed","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Glechoma arvensis, Stachys arvensis, Cardiaca arvensis, Glechoma marrubiastrum, Sideritis cordi, Trixago arvensis, Trixago colorata, Trixago cordifolia"}
+{"TAXON_ID":"505835","SCIENTIFIC_NAME":"Stachys byzantina","COMMON_NAME":"Lamb's Ears","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stachys lanata, Stachys byzantina, Stachys olympica, Eriostomum lanatum, Stachys sublanata"}
+{"TAXON_ID":"903612","SCIENTIFIC_NAME":"Stachys obtusifolia","COMMON_NAME":"Cape Woundwort","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stachys obtusifolia var. angustifolia, Stachys obtusifolia"}
 {"TAXON_ID":"509092","SCIENTIFIC_NAME":"Stachys spp.","COMMON_NAME":"Woundwort","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stachys spp."}
-{"TAXON_ID":"505806","SCIENTIFIC_NAME":"Stachys sylvatica","COMMON_NAME":"Hedge Woundwort","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stachys sylvatica"}
+{"TAXON_ID":"505806","SCIENTIFIC_NAME":"Stachys sylvatica","COMMON_NAME":"Hedge Woundwort","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stachys sylvatica, Stachys canariensis, Stachys canescens"}
 {"TAXON_ID":"503241","SCIENTIFIC_NAME":"Stackhousia aspericocca","COMMON_NAME":"Rough-nut Stackhousia","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stackhousia muelleri, Stackhousia monogyna var. muelleri, Stackhousia aspericocca"}
 {"TAXON_ID":"504963","SCIENTIFIC_NAME":"Stackhousia aspericocca subsp. 1","COMMON_NAME":"Rough-nut Stackhousia","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stackhousia annua, Stackhousia aspericocca ssp. A, Stackhousia aspericocca subsp. 1, Stackhousia aspericocca subsp. A, Stackhousia aspericocca ssp. 1"}
 {"TAXON_ID":"504964","SCIENTIFIC_NAME":"Stackhousia aspericocca subsp. 2","COMMON_NAME":"Rough-nut Stackhousia","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Stackhousia aspericocca ssp. 2, Stackhousia aspericocca ssp. B, Stackhousia aspericocca subsp. 2, Stackhousia aspericocca subsp. B"}
@@ -13787,8 +13787,8 @@
 {"TAXON_ID":"506775","SCIENTIFIC_NAME":"Thuidium subglaucinum","COMMON_NAME":"Monaro Weft-moss","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Thuidium subglaucinum"}
 {"TAXON_ID":"102668","SCIENTIFIC_NAME":"Thuretia australasica","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"504002","SCIENTIFIC_NAME":"Thymelaea passerina","COMMON_NAME":"Thymelaea","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Passerina annua, Stellera passerina, Stellera annua, Thymelaea passerina"}
-{"TAXON_ID":"500268","SCIENTIFIC_NAME":"Thynninorchis huntianus","COMMON_NAME":"Elbow Orchid","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Arthrochilus huntianus, Thynninorchis huntianus, Arthrochilus huntianus ssp. huntianus, Arthrochilus huntianus subsp. huntianus, Drakaea huntiana, Spiculaea huntiana"}
-{"TAXON_ID":"502197","SCIENTIFIC_NAME":"Thyridia repens","COMMON_NAME":"Creeping Monkey-flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus repens, Mimulus repens"}
+{"TAXON_ID":"500268","SCIENTIFIC_NAME":"Thynninorchis huntiana","COMMON_NAME":"Elbow Orchid","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Arthrochilus huntianus ssp. huntianus, Thynninorchis huntianus, Thynninorchis huntiana, Spiculaea huntiana, Drakaea huntiana, Arthrochilus huntianus, Arthrochilus huntianus subsp. huntianus"}
+{"TAXON_ID":"502197","SCIENTIFIC_NAME":"Thyridia repens","COMMON_NAME":"Creeping Monkey-flower","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Mimulus repens, Thyridia repens, Mimulus colensoi"}
 {"TAXON_ID":"503397","SCIENTIFIC_NAME":"Thysanotus baueri","COMMON_NAME":"Mallee Fringe-lily","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Thysanotus baueri"}
 {"TAXON_ID":"903641","SCIENTIFIC_NAME":"Thysanotus juncifolius","COMMON_NAME":"Rush Fringe-lily","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Chlamysporum juncifolium, Thysanotus juncifolius, Thysanotus junceus, Chlamysporum junceum, Thysanotus dichotomus"}
 {"TAXON_ID":"503399","SCIENTIFIC_NAME":"Thysanotus patersonii","COMMON_NAME":"Twining Fringe-lily","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Thysanotus patersonii"}
@@ -13926,7 +13926,7 @@
 {"TAXON_ID":"503446","SCIENTIFIC_NAME":"Triglochin minutissima","COMMON_NAME":"Tiny Arrowgrass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Triglochin minutissima, Triglochin minutissimum"}
 {"TAXON_ID":"503447","SCIENTIFIC_NAME":"Triglochin mucronata","COMMON_NAME":"Prickly Arrowgrass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Triglochin mucronata, Triglochin mucronatum"}
 {"TAXON_ID":"503444","SCIENTIFIC_NAME":"Triglochin nana","COMMON_NAME":"Dwarf Arrowgrass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Triglochin centrocarpum, Triglochin nana, Triglochin nanum"}
-{"TAXON_ID":"502004","SCIENTIFIC_NAME":"Triglochin scilloides","COMMON_NAME":"Lilaea","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lilaea scilloides, Lilaea scilloides, Phalangium scilloides"}
+{"TAXON_ID":"502004","SCIENTIFIC_NAME":"Triglochin scilloides","COMMON_NAME":"Lilaea","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Lilaea scilloides, Phallangium scilloides, Triglochin scilloides"}
 {"TAXON_ID":"509162","SCIENTIFIC_NAME":"Triglochin spp.","COMMON_NAME":"Water Ribbons","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Triglochin spp."}
 {"TAXON_ID":"503449","SCIENTIFIC_NAME":"Triglochin striata","COMMON_NAME":"Streaked Arrowgrass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Triglochin striata, Triglochin striatum"}
 {"TAXON_ID":"505513","SCIENTIFIC_NAME":"Triglochin striata (flat leaf variant)","COMMON_NAME":"Streaked Arrowgrass","PRIMARY_DISCIPLINE":"Flora","SCIENTIFIC_NME_SYNONYM":"Triglochin striata (flat leaf variant), Triglochin striatum (flat leaf variant)"}
@@ -17102,9 +17102,9 @@
 {"TAXON_ID":"519905","SCIENTIFIC_NAME":"Cassythaphaga macarta","COMMON_NAME":"geometer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75223","SCIENTIFIC_NAME":"Castiarina cyanipes","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75224","SCIENTIFIC_NAME":"Castiarina insularis","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75225","SCIENTIFIC_NAME":"Castiarina jekelli","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75225","SCIENTIFIC_NAME":"Castiarina jekellii","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"75226","SCIENTIFIC_NAME":"Castiarina militaris","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75227","SCIENTIFIC_NAME":"Castiarina mimus","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75227","SCIENTIFIC_NAME":"Castiarina mima","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"519906","SCIENTIFIC_NAME":"Castulo doubledayi","COMMON_NAME":"moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"519907","SCIENTIFIC_NAME":"Castulo plagiata","COMMON_NAME":"moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"519908","SCIENTIFIC_NAME":"Catacometes hemiscia","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
@@ -18212,7 +18212,7 @@
 {"TAXON_ID":"520409","SCIENTIFIC_NAME":"Halone sejuncta","COMMON_NAME":"moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"520410","SCIENTIFIC_NAME":"Halone servilis","COMMON_NAME":"moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"10231","SCIENTIFIC_NAME":"Hamirostra melanosternon","COMMON_NAME":"Black-breasted Buzzard","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"19020","SCIENTIFIC_NAME":"Hapatesus hirtus","COMMON_NAME":"Potato Wireworm","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"19020","SCIENTIFIC_NAME":"Hapatesus (Hapatesus) hirtus","COMMON_NAME":"Potato Wireworm","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":"Hapatesus hirtus"}
 {"TAXON_ID":"518497","SCIENTIFIC_NAME":"Haplochernes ramosus","COMMON_NAME":"pseudoscorpion","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"520411","SCIENTIFIC_NAME":"Haplodyta noserodes","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"520412","SCIENTIFIC_NAME":"Haplodyta polybotrya","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
@@ -20789,6 +20789,17 @@
 {"TAXON_ID":"521251","SCIENTIFIC_NAME":"Telocharacta metachroa","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"523413","SCIENTIFIC_NAME":"Telostegus socius","COMMON_NAME":"spider wasp","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"521252","SCIENTIFIC_NAME":"Temnogyropa stenomorpha","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75228","SCIENTIFIC_NAME":"Temognatha barbiventris","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75229","SCIENTIFIC_NAME":"Temognatha congener","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75230","SCIENTIFIC_NAME":"Temognatha duboulayi","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75231","SCIENTIFIC_NAME":"Temognatha flavocincta","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75232","SCIENTIFIC_NAME":"Temognatha fortnumi","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75233","SCIENTIFIC_NAME":"Temognatha maculiventris","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75234","SCIENTIFIC_NAME":"Temognatha pascoei","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75235","SCIENTIFIC_NAME":"Temognatha sanguinea","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75236","SCIENTIFIC_NAME":"Temognatha sanguinipennis","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"15154","SCIENTIFIC_NAME":"Temognatha sanguiniventris","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
+{"TAXON_ID":"75237","SCIENTIFIC_NAME":"Temognatha tricolorata","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"518840","SCIENTIFIC_NAME":"Teranodes montana","COMMON_NAME":"funnel-web spider","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"518841","SCIENTIFIC_NAME":"Teranodes otwayensis","COMMON_NAME":"funnel-web spider","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"521253","SCIENTIFIC_NAME":"Termessa catocalina","COMMON_NAME":"moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
@@ -20865,17 +20876,6 @@
 {"TAXON_ID":"521299","SCIENTIFIC_NAME":"Thema psammoxantha","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"521300","SCIENTIFIC_NAME":"Thema stasiastica","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"521301","SCIENTIFIC_NAME":"Thema xiphochrysa","COMMON_NAME":"concealer moth","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75228","SCIENTIFIC_NAME":"Themognatha barbiventris","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75229","SCIENTIFIC_NAME":"Themognatha congener","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75230","SCIENTIFIC_NAME":"Themognatha duboulayi","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75231","SCIENTIFIC_NAME":"Themognatha flavocincta","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75232","SCIENTIFIC_NAME":"Themognatha fortnumi","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75233","SCIENTIFIC_NAME":"Themognatha maculiventris","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75234","SCIENTIFIC_NAME":"Themognatha pascoei","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75235","SCIENTIFIC_NAME":"Themognatha sanguinea","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75236","SCIENTIFIC_NAME":"Themognatha sanguinipennis","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"15154","SCIENTIFIC_NAME":"Themognatha sanguiniventris","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
-{"TAXON_ID":"75237","SCIENTIFIC_NAME":"Themognatha tricolorata","COMMON_NAME":"Jewel Beetle","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"518854","SCIENTIFIC_NAME":"Theridiosoma circuloargenteum","COMMON_NAME":"ray spider","PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"519562","SCIENTIFIC_NAME":"Theristria delicatula","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
 {"TAXON_ID":"519563","SCIENTIFIC_NAME":"Theristria discolor","COMMON_NAME":null,"PRIMARY_DISCIPLINE":"Terrestrial fauna","SCIENTIFIC_NME_SYNONYM":null}
