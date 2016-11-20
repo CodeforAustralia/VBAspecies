@@ -41,3 +41,12 @@ overflow: auto;
 @media only screen and (max-width: 479px){
     #log { width: 90%; }
 }
+
+.bgimage {
+background-image: url(../img/responsive-background.jpg);
+background-size: 100%;
+}
+
+.bgimage-inside {
+padding-top: 37.36%; /* this is actually (426/1140)*100 */
+}

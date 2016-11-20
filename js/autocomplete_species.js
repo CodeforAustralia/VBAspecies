@@ -4,7 +4,8 @@
       	valor = $( "#Species" ).val();
       	console.log(valor);
         $.ajax( {
-          url: "http://54.206.104.145:8080/species?ALL=" + valor,
+          //url: "http://54.206.104.145:8080/species?ALL=" + valor,
+          url: "http://localhost:8080/species?ALL=" + valor,
           contentType: "application/json; charset=utf-8",
           dataType: "json",
           success: function( data ) {
@@ -40,7 +41,7 @@
                   } else {
                   ValidLinkSpecies = "";
                   $("#log").prepend( "<p>" + "<b>Scientific Name: </b>" + ui.item.value.italics()  + "<br/><b>Common Name: </b>" + ui.item.label 
-                  	+ "<br/><b>Taxon ID:</b> " + ui.item.taxon_id.fontcolor("green") + "<br/>" + "There is not Wikipedia Reference"+"</p>");
+                  	+ "<br/><b>Taxon ID:</b> " + ui.item.taxon_id.fontcolor("green") + "<br/>" + "There is no Wikipedia Reference"+"</p>");
                   console.log(pages.pageid);
                   }
             });
