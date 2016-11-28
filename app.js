@@ -1,29 +1,23 @@
 // app.js
 // Including dependencies
-var express  = require("express"),
-    app      = express(),
-    http     = require("http"),
-    server   = http.createServer(app),
-    mongoose = require('mongoose'),
-    cors = require('cors'),
-    port     = process.env.PORT || 8080; 
+const express     = require('express');
+const bodyParser  = require('body-parser');
+const mongoose    = require('mongoose');
+const morgan      = require('morgan');
+const app         = express();
+const port        = process.env.PORT || 8080;
 
-// Configuring the app to be able to work with REST method
-app.configure(function () {
-  app.use(express.logger('dev')); /* 'default', 'short', 'tiny', 'dev' */
-  app.use(express.bodyParser()); //JSON parser
-  app.use(express.methodOverride()); // HTTP PUT and DELETE support
-  app.use(app.router); // Route management
-  app.use(cors());
-});
+app.use(bodyParser.json());         
+app.use(morgan('dev')); //Console Logs request
 
 app.get('/', function(req, res) {
-  res.send("Hello Species of the World!");
+  res.send("Hello species of the state of Victoria!");
 });
 
-routes = require('./routes/species')(app);
+routes = require('./routes/speciesRoute');
+app.use('/', routes);
 
-// Conection DB 
+// MongoDB Connection 
 mongoose.connect('mongodb://localhost/species', function(err, res) {
 	if(err) {
 		console.log('ERROR: connecting to Database. ' + err);
@@ -33,6 +27,6 @@ mongoose.connect('mongodb://localhost/species', function(err, res) {
 });
 
 // Configuring the app's listen port
-server.listen(port, function() {
+app.listen(port, function() {
   console.log("Node server running on -> http://localhost:" + port);
 });
