@@ -56,38 +56,36 @@ exports.findSpeciesBy = function(req, res) {
     let apiPath = urlQueryParts.pathname;
     if(scientificName != null && scientificName != ''){
        let regex = new RegExp(scientificName, 'i');
-       console.log('regex' + regex);
        var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(20);
        //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
        getQuerySpecies(query);
     } 
     else if(primaryDiscipline != null && primaryDiscipline != ''){
        let regex = new RegExp(primaryDiscipline, 'i');
-       console.log('regexPD' + regex);
        var query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex }).limit(20);
        getQuerySpecies(query);
     }
     // Searching by Common Name
     else if(commonName != null && commonName != ''){
        let regex = new RegExp(commonName, 'i');
-       console.log('regex' + regex);
        var query = SpeciesModel.find({ COMMON_NAME: regex }).limit(20);
        getQuerySpecies(query);
     }
     // Searching by Scientific Name Synonym
     else if(scientificNameSynonym != null && scientificNameSynonym != ''){
        let regex = new RegExp(scientificNameSynonym, 'i');
-       console.log('regex SNS ' + regex);
        var query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex }).limit(20);
        getQuerySpecies(query);
     }
     // Searching by all
     else if(searchAllSpecies != null && searchAllSpecies != '' && apiPath == '/search'){
        let regex = new RegExp(searchAllSpecies, 'i');
-       console.log('regex SNS ' + regex);
        var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex}, 
        	                             { TAXON_ID: regex }, { PRIMARY_DISCIPLINE: regex} ]}).limit(20);
        getQuerySpecies(query);
+    }
+    else{
+        res.status(404).json({ error: "Resource not found, please try with a correct resource o parameter value (check the documentation)" });
     }
 };
 
