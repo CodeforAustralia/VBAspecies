@@ -52,8 +52,8 @@ exports.findSpeciesBy = function(req, res) {
     let commonName = req.query.commonName;
     let scientificNameSynonym = req.query.scientificNameSynonym;
     let searchAllSpecies = req.query.q;
-    console.log(searchAllSpecies);
-    console.log(req.query.search);
+    urlQueryParts = url.parse(req.url, true);
+    let apiPath = urlQueryParts.pathname;
     if(scientificName != null && scientificName != ''){
        let regex = new RegExp(scientificName, 'i');
        console.log('regex' + regex);
@@ -82,7 +82,7 @@ exports.findSpeciesBy = function(req, res) {
        getQuerySpecies(query);
     }
     // Searching by all
-    else if(searchAllSpecies != null && searchAllSpecies != ''){
+    else if(searchAllSpecies != null && searchAllSpecies != '' && apiPath == '/search'){
        let regex = new RegExp(searchAllSpecies, 'i');
        console.log('regex SNS ' + regex);
        var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex}, 
