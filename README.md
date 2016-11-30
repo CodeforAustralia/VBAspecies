@@ -2,7 +2,7 @@
 ----
 **Species**
 ----
-**List all the species**
+###List all the species
 
 ```
  GET /species
@@ -60,8 +60,68 @@ HTTP/1.1 404 OK
 ```json
 { "error": "Resource not found, please try with a correct resource o parameter value" }
 ```
+
+###List Species By ID
+
+```
+ GET /species/:ID
+```
+
+ List the information of a specific species'record on VBA (Victorian Biodiversity Atlas)
+ for the specified ID.
+ 
+ 
+ **Resource URL:**
+```
+  https://api.vicbioatlas.com/species/:ID
+```
+
+  
+**Parameters:**
+
+  Name | Type|Required| Description| Example
+------------ | -------------| -------------| -------------| -------------
+ID | string| optional| Retrieve species information by its ID.| 11113
+
+
+**Example request:**
+
+```
+curl -X GET \ 
+-H "Accept: application/json" \
+https://api.vicbioatlas.com/species/11113
+```
+
+**Success Response:**
+
+```
+HTTP/1.1 200 OK
+```  
+```json
+[
+	{
+		"_id": "583e19c00640fd08b509c365",
+		"PRIMARY_DISCIPLINE": "Terrestrial fauna",
+		"SCIENTIFIC_NAME": "Trichosurus vulpecula",
+		"COMMON_NAME": "Common Brushtail Possum",
+		"SCIENTIFIC_NME_SYNONYM": null,
+		"TAXON_TYPE": "Mammals",
+		"TAXON_ID": "11113"
+	}
+]
+```
+  **Error Response:**
+```
+HTTP/1.1 404 OK
+```  
+
+```json
+{ "error": "Resource not found, please try with a correct resource o parameter value" }
+```
 **Notes:**
 
-At the moment the API is under construction and it is not implemented in a production environment yet,
+* In this API's version you do not require an authenticated user to list the species data.
+
+* At the moment the API is under construction and it is not implemented in a production environment yet,
 therefore, if you want to have access to the current development version, you need to replace the host
 name *api.vicbioatlas.com* by *54.206.104.145* and you must specify the port number *8080*.
