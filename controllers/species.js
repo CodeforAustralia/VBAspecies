@@ -4,6 +4,9 @@ const url          = require('url');
 const SpeciesModel = require('../models/specie.js');
 //const mongoose    = require('mongoose');
 //cors    = require('cors'),
+var query;
+
+
 
 //Method GET - Return species in the DB
 exports.findSpecies = function(req, res) {
@@ -37,16 +40,7 @@ exports.findSpeciesId = function(req, res) {
 
 //Method GET - Return species by specific search patron
 exports.findSpeciesBy = function(req, res) {
-    function getQuerySpecies(err, species){
-                   query.exec(function(err, species) {
-                      if (!err) {
-                          res.send(species, {'Content-Type': 'application/json'}, 200);
-                          console.log(species);
-                      } else {
-                          res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
-                      }
-                   });
-    };
+
     let scientificName = req.query.scientificName;
     let primaryDiscipline = req.query.primaryDiscipline;
     let commonName = req.query.commonName;
@@ -85,9 +79,23 @@ exports.findSpeciesBy = function(req, res) {
        getQuerySpecies(query);
     }
     else{
-        res.status(404).json({ error: "Resource not found, please try with a correct resource o parameter value (check the documentation)" });
-    }
+        res.status(404).json({ error: "Resource not found, please try with a correct resource o parameter value" });
+    };
+        function getQuerySpecies(err, species){
+    	            //console.log('SPECIES: ' + species);
+    	            //console.log(err);
+                   query.exec(function(err, species) {
+                      if (!err) {
+                          res.send(species, {'Content-Type': 'application/json'}, 200);
+                          console.log(species);
+                      } else {
+                          res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
+                      }
+                   });
+    };
+
 };
+
 
 
 

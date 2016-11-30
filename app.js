@@ -7,7 +7,8 @@ const morgan      = require('morgan');
 const app         = express();
 const port        = process.env.PORT || 8080;
 
-app.use(bodyParser.json());         
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies         
 app.use(morgan('dev')); //Console Logs request
 
 app.get('/', function(req, res) {
