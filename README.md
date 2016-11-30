@@ -9,7 +9,6 @@
 ```
 
  Get the information of all species' record on VBA (Victorian Biodiversity Atlas).
- In this API's version you do not require an authenticated user to list all the species data.
  
  **Resource URL:**
 ```
