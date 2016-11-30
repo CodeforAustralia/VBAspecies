@@ -47,7 +47,6 @@ HTTP/1.1 200 OK
 		"SCIENTIFIC_NAME": "Trichosurus vulpecula",
 		"COMMON_NAME": "Common Brushtail Possum",
 		"SCIENTIFIC_NME_SYNONYM": null,
-		"TAXON_TYPE": "Mammals",
 		"TAXON_ID": "11113"
 	}
 ]
@@ -105,7 +104,6 @@ HTTP/1.1 200 OK
 		"SCIENTIFIC_NAME": "Trichosurus vulpecula",
 		"COMMON_NAME": "Common Brushtail Possum",
 		"SCIENTIFIC_NME_SYNONYM": null,
-		"TAXON_TYPE": "Mammals",
 		"TAXON_ID": "11113"
 	}
 ]
