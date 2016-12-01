@@ -11,6 +11,9 @@ var query;
 //Method GET - Return species in the DB
 exports.findSpecies = function(req, res) {
       console.log('List of all species');
+      urlQueryParts = url.parse(req.url, true);
+      let apiPath = urlQueryParts.path;
+      if (apiPath == '/species'){
             SpeciesModel.find(function(err, species) {
                 if(!err) {
                   res.send(species);
@@ -22,6 +25,7 @@ exports.findSpecies = function(req, res) {
                 }
             });
         };
+      };
 
 //Method GET - Return species by Id
 exports.findSpeciesId = function(req, res) {
@@ -95,8 +99,3 @@ exports.findSpeciesBy = function(req, res) {
     };
 
 };
-
-
-
-
-
