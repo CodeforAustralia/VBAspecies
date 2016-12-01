@@ -2,7 +2,7 @@
 ----
 **Species**
 ----
-###List all the species
+###List All The Species Information
 
 ```
  GET /species
@@ -14,7 +14,7 @@
 ```
   https://api.vicbioatlas.com/species
 ```
-**Example request:**
+**Example Request:**
 
 ```
 curl -X GET \ 
@@ -87,7 +87,7 @@ HTTP/1.1 404 OK
 ID | string| Required| Retrieve species information by its ID.| 11113
 
 
-**Example request:**
+**Example Request:**
 
 ```
 curl -X GET \ 
@@ -121,7 +121,7 @@ HTTP/1.1 404 OK
 { "error": "Resource not found, please try with a correct resource o parameter value" }
 ```
 
-###Search operation on species data
+###Search Operation On Species Data
 
 ```
  GET /species/search
@@ -143,7 +143,7 @@ commonName| string| optional| Retrieve species information by its common name.| 
 SynonymName|string| optional| Retrieve species information by its common or scientific name synonym.| Galaxias coxii
 primaryDiscipline|string| optional| Retrieve species information by its primary discipline.| Terrestrial fauna
 
-**Example request:**
+**Example Request:**
 
 ```
 curl -X GET \ 
