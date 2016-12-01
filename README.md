@@ -138,9 +138,10 @@ HTTP/1.1 404 OK
 
   Name | Type|Required| Description| Example
 ------------ | -------------| -------------| -------------| -------------
+query | string| optional| General search. Retrieve species information by its *scientificName* or *commonName* or *synonymName* or *primaryDiscipline* or *taxonID*.| Trichosurus vulpecula
 scientificName | string| optional| Retrieve species information by its scientific name.| Trichosurus vulpecula
 commonName| string| optional| Retrieve species information by its common name.| Common Brushtail Possum
-SynonymName|string| optional| Retrieve species information by its common or scientific name synonym.| Galaxias coxii
+synonymName|string| optional| Retrieve species information by its common or scientific name synonym.| Galaxias coxii
 primaryDiscipline|string| optional| Retrieve species information by its primary discipline.| Terrestrial fauna
 
 **Example Request:**

@@ -17,9 +17,4 @@ const cors          = require('cors');
 	return routerApiCtrl.findSpeciesId(req, res);
   });
 
-  routerApi.get('/search', cors(), function(req, res) {
-	return routerApiCtrl.findSpeciesBy(req, res);
-  });
-
-
   module.exports = routerApi;

@@ -76,7 +76,7 @@ exports.findSpeciesBy = function(req, res) {
        getQuerySpecies(query);
     }
     // Searching by all
-    else if(searchAllSpecies != null && searchAllSpecies != '' && apiPath == '/search'){
+    else if(searchAllSpecies != null && searchAllSpecies != ''){
        let regex = new RegExp(searchAllSpecies, 'i');
        var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex}, 
        	                             { TAXON_ID: regex }, { PRIMARY_DISCIPLINE: regex} ]}).limit(20);
