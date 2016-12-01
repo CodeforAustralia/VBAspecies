@@ -53,9 +53,6 @@ HTTP/1.1 200 OK
 	    "SCIENTIFIC_NME_SYNONYM": "Fuchsia gracilis, Fuchsia riccartonii, Fuchsia magellanica var. macrostemma, Fuchsia macrostemma, Fuchsia magellanica",
 	    "TAXON_ID": "503734"
     },
-    .
-    .
-    .
 ]
 ```
   **Error Response:**
