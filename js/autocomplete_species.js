@@ -5,7 +5,7 @@
       	console.log(valor);
         $.ajax( {
           //url: "http://54.206.104.145:8080/species?ALL=" + valor,
-          url: "http://localhost:8080/species?ALL=" + valor,
+          url: "http://localhost:8080/species/search?query=" + valor,
           contentType: "application/json; charset=utf-8",
           dataType: "json",
           success: function( data ) {
@@ -28,13 +28,18 @@
       select: function( event, ui ) {
           console.log(ui.item.value);
           var WikiLinkPattern = "https://en.wikipedia.org/?curid=";
-          var WikiSpecieWord = ui.item.value.replace(/ /g,"_");
+          var WikiSpecieWord = ui.item.value.replace(/ /g,"+");
           var promise = fnWikiApi(WikiSpecieWord);
           //execution and access to the succes event
           promise.success(function(JsonRes){
-            $.each( JsonRes.query.pages, function( i, pages ) {
-              if (typeof pages.pageid != "undefined") {
-                  ValidLinkSpecies = " <a target='_blank' href="+WikiLinkPattern+pages.pageid+"> Wikipedia Reference </a>";
+            console.log('first query pages and second jsonres');
+            //console.log(JsonRes.query.pages);
+            console.log(JsonRes);
+            console.log(JsonRes.media);
+            $.each( JsonRes.media, function( i, medium ) {
+              if (typeof medium.uri != "undefined") {
+                  //ValidLinkSpecies = " <a target='_blank' href="+WikiLinkPattern+pages.pageid+"> Wikipedia Reference </a>";
+                  ValidLinkSpecies = " <a target='_blank' href="+medium.uri+"> Wikipedia Reference </a>";
                   $("#log").prepend( "<p>" + "<b>Scientific Name: </b>" + ui.item.value.italics()  + "<br/><b>Common Name: </b>" + ui.item.label 
                   	+ "<br/><b>Taxon ID:</b> " + ui.item.taxon_id.fontcolor("green") + "<br/>" + ValidLinkSpecies+"</p>");
                   console.log(ValidLinkSpecies);
@@ -42,7 +47,7 @@
                   ValidLinkSpecies = "";
                   $("#log").prepend( "<p>" + "<b>Scientific Name: </b>" + ui.item.value.italics()  + "<br/><b>Common Name: </b>" + ui.item.label 
                   	+ "<br/><b>Taxon ID:</b> " + ui.item.taxon_id.fontcolor("green") + "<br/>" + "There is no Wikipedia Reference"+"</p>");
-                  console.log(pages.pageid);
+                  console.log(medium.uri);
                   }
             });
          });
