@@ -46,7 +46,7 @@ exports.findSpeciesBy = function(req, res) {
     let primaryDiscipline = req.query.primaryDiscipline;
     let commonName = req.query.commonName;
     let synonymName = req.query.synonymName;
-    let searchAllSpecies = req.query.query;
+    let searchAllSpecies = req.query.q;
     urlQueryParts = url.parse(req.url, true);
     let apiPath = urlQueryParts.pathname;
     if(scientificName != null && scientificName != ''){
