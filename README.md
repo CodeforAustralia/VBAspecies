@@ -12,14 +12,14 @@
  
  **Resource URL:**
 ```
-  https://api.vicbioatlas.com/species
+  https://vbaspecies.tk/species
 ```
 **Example Request:**
 
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://api.vicbioatlas.com/species
+https://vbaspecies.tk/species
 ```
 
 **Success Response:**
@@ -76,7 +76,7 @@ HTTP/1.1 404 OK
  
  **Resource URL:**
 ```
-  https://api.vicbioatlas.com/species/:ID
+  https://vbaspecies.tk/species/:ID
 ```
 
   
@@ -92,7 +92,7 @@ ID | string| Required| Retrieve species information by its ID.| 11113
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://api.vicbioatlas.com/species/11113
+https://vbaspecies.tk/species/11113
 ```
 
 **Success Response:**
@@ -132,7 +132,7 @@ HTTP/1.1 404 OK
  
  **Resource URL:**
 ```
-  https://api.vicbioatlas.com/species/search
+  https://vbaspecies.tk/species/search
 ```
 **Parameters:**
 
@@ -149,7 +149,7 @@ primaryDiscipline|string| optional| Retrieve species information by its primary 
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://api.vicbioatlas.com/species/search?commonName=Common+Brushtail+Possum
+https://vbaspecies.tk/species/search?commonName=Common+Brushtail+Possum
 ```
 
 **Success Response:**
@@ -183,7 +183,3 @@ HTTP/1.1 404 OK
 * In this API's version you do not require an authenticated user to list the species data.
 
 * At this time it only supports the GET verb and responses are in JSON only.
-
-* At the moment the API is under construction and it is not implemented in a production environment yet,
-therefore, if you want to have access to the current development version, you need to replace the host
-name *api.vicbioatlas.com* by *54.206.104.145* and you must specify the port number *8080*.
