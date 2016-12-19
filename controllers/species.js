@@ -74,11 +74,13 @@ exports.findSpeciesBy = function(req, res) {
        var query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex }).limit(20);
        return findSpeciesQuery(query, res);
     }
-    // Searching by all
+    // Searching by all fields
     else if(searchAllSpecies != null && searchAllSpecies != ''){
        let regex = new RegExp(searchAllSpecies, 'i');
        var query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex}, 
-       	                             { TAXON_ID: regex }, { PRIMARY_DISCIPLINE: regex} ]}).limit(20);
+       	                             { TAXON_ID: regex }, { PRIMARY_DISCIPLINE: regex}, {ORIGIN: regex}, {TAXON_TYPE: regex},
+                                     {COMMON_NME_SYNONYM: regex}, {FFG_ACT_STATUS: regex}, {EPBC_ACT_STATUS: regex}, {VIC_ADVISORY_STATUS: regex}
+                                     ]}).limit(20);
        return findSpeciesQuery(query, res);
     }
     else{

@@ -5,7 +5,7 @@
       	console.log(valor);
         $.ajax( {
           //url: "http://54.206.104.145:8080/species?ALL=" + valor,
-          url: "http://localhost:8080/species/search?q=" + valor,
+          url: "https://localhost:4443/species/search?q=" + valor,
           contentType: "application/json; charset=utf-8",
           dataType: "json",
           success: function( data ) {
