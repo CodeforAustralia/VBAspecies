@@ -10,7 +10,9 @@ function findSpeciesQuery(req, res)
    console.log('queries');
    req.exec(function(err, species) {
    if (!err) {
-     res.send(species, {'Content-Type': 'application/json'}, 200);
+     res.send(JSON.stringify(species, null, ' '), {'Content-Type': 'application/json'}, 200);
+     //res.send(species, {'Content-Type': 'application/json'}, 200);
+     //res.send(species);
      console.log(species);
      } else {
        res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
