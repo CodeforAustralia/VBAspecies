@@ -39,9 +39,31 @@ request.get({
     }
 
     //All is good. Print the body
-    let json = JSON.parse(body);
-    console.log(json);
-    console.log(body); // Show the HTML for the Modulus homepage.
+    let museumVicSpeciesJson = JSON.parse(body);
+    console.log(typeof museumVicSpeciesJson);
+    var museumVicSpeciesKeys = Object.keys(museumVicSpeciesJson);
+    console.log(museumVicSpeciesKeys);
+    console.log(museumVicSpeciesKeys.length);
+    if ( museumVicSpeciesKeys.length > 0 )
+    {
+      console.log('key is mayor than 0');
+      console.log(museumVicSpeciesJson[0].hasOwnProperty('recordType'));
+      var resultJsonFile = [];
+      for (var i = 0; i < museumVicSpeciesKeys.length; i++) {
+         if (museumVicSpeciesJson[i].hasOwnProperty("recordType")){
+
+           resultJsonFile.push({generalDescription: museumVicSpeciesJson[i].generalDescription, habitat: museumVicSpeciesJson[i].habitat});
+         };
+
+        //console.log("generalDescription: " + museumVicSpeciesJson[i].generalDescription);
+        //console.log("habitat: " + museumVicSpeciesJson[i].habitat);
+        //console.log(typeof museumVicSpeciesJson[i].media);
+      };
+      console.log(JSON.stringify(resultJsonFile))
+
+    };
+
+    console.log(typeof body); // Show the HTML for the Modulus homepage.
 
 });
 
