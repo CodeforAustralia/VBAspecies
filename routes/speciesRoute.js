@@ -9,11 +9,11 @@ var cors          = require('cors');
   });
 
   routerApi.get('/species/search', cors(), function(req, res) {
-	return routerApiCtrl.findSpeciesBy(req, res);
+//	console.log(res)
+  return routerApiCtrl.findSpeciesBy(req, res);
   });
 
   routerApi.get('/species/:id', cors(), function(req, res) {
-
 	return routerApiCtrl.findSpeciesId(req, res);
   });
 

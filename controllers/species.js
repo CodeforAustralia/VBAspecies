@@ -2,18 +2,35 @@
 const express      = require('express');
 const url          = require('url');
 const SpeciesModel = require('../models/specie.js');
+const museumVicApi = require('./museumVicApi');
 const cors    = require('cors');
 
 // Query execution
 function findSpeciesQuery(req, res)
 {
    console.log('queries');
+   //console.log(res);
    req.exec(function(err, species) {
    if (!err) {
      res.send(JSON.stringify(species, null, ' '), {'Content-Type': 'application/json'}, 200);
      //res.send(species, {'Content-Type': 'application/json'}, 200);
      //res.send(species);
-     console.log(species);
+     var objSpecies = JSON.parse(JSON.stringify(species));
+     var speciesKeys = Object.keys(objSpecies);
+     console.log(speciesKeys);
+     console.log(speciesKeys.length);
+     for (var i = 0; i < speciesKeys.length; i++) {
+        //console.log(species[speciesKeys[i]]); 
+        //console.log(typeof species[speciesKeys[i]]); 
+        //console.log(objSpecies[i].COMMON_NAME);
+        //console.log(objSpecies[i].SCIENTIFIC_NAME);
+        var scientificNameApi = objSpecies[i].SCIENTIFIC_NAME;
+        console.log(scientificNameApi);
+        console.log(typeof scientificNameApi);
+        console.log(typeof museumVicApi.museumVicApiSearch);
+        museumVicApi.museumVicApiSearch(scientificNameApi);
+
+      };
      } else {
        res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
      }
@@ -54,7 +71,8 @@ exports.findSpeciesBy = function(req, res) {
     if(scientificName != null && scientificName != ''){
        let regex = new RegExp(scientificName, 'i');
        var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(20);
-       console.log(query);
+       console.log('findSpeciesBy');
+       //console.log(query);
        //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
        //getQuerySpecies(query);
        return findSpeciesQuery(query, res);
