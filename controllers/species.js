@@ -15,7 +15,7 @@ function findSpeciesQuery(req, res)
      //res.send(JSON.stringify(species, null, ' '), {'Content-Type': 'application/json'}, 200);
      //res.send(species, {'Content-Type': 'application/json'}, 200);
      //res.send(species);
-     res.send(JSON.stringify(species, null, ' '));
+     //res.send(JSON.stringify(species, null, ' '));
      var objSpecies = JSON.parse(JSON.stringify(species));
      var speciesKeys = Object.keys(objSpecies);
      console.log(speciesKeys);
@@ -29,6 +29,10 @@ function findSpeciesQuery(req, res)
          console.log('YUUUUUUUUUUUUUHUUUUUUUUUUUUU');
          console.log(scientificNameApi);
          console.log(resp);
+         console.log(typeof resp);
+         var finalSpecies = objSpecies.concat(resp);
+         res.send(JSON.stringify(finalSpecies, null, ' '));
+         
         });
         //var mvSpecies = museumVicApi.museumVicApiSearch(scientificNameApi);
         //console.log(typeof mvSpecies);
