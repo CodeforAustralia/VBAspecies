@@ -12,24 +12,26 @@ function findSpeciesQuery(req, res)
    //console.log(res);
    req.exec(function(err, species) {
    if (!err) {
-     res.send(JSON.stringify(species, null, ' '), {'Content-Type': 'application/json'}, 200);
+     //res.send(JSON.stringify(species, null, ' '), {'Content-Type': 'application/json'}, 200);
      //res.send(species, {'Content-Type': 'application/json'}, 200);
      //res.send(species);
+     res.send(JSON.stringify(species, null, ' '));
      var objSpecies = JSON.parse(JSON.stringify(species));
      var speciesKeys = Object.keys(objSpecies);
      console.log(speciesKeys);
      console.log(speciesKeys.length);
      for (var i = 0; i < speciesKeys.length; i++) {
-        //console.log(species[speciesKeys[i]]); 
-        //console.log(typeof species[speciesKeys[i]]); 
-        //console.log(objSpecies[i].COMMON_NAME);
-        //console.log(objSpecies[i].SCIENTIFIC_NAME);
         var scientificNameApi = objSpecies[i].SCIENTIFIC_NAME;
         console.log(scientificNameApi);
         console.log(typeof scientificNameApi);
-        console.log(typeof museumVicApi.museumVicApiSearch);
-        museumVicApi.museumVicApiSearch(scientificNameApi);
-
+        //console.log(typeof museumVicApi.museumVicApiSearch);
+        museumVicApi.museumVicApiSearch(scientificNameApi, function(resp){
+         console.log('YUUUUUUUUUUUUUHUUUUUUUUUUUUU');
+         console.log(scientificNameApi);
+         console.log(resp);
+        });
+        //var mvSpecies = museumVicApi.museumVicApiSearch(scientificNameApi);
+        //console.log(typeof mvSpecies);
       };
      } else {
        res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
