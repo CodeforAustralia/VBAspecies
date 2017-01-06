@@ -4,3 +4,4 @@ py/data
 py/data/SpeciesList.csv
 py/data/SpeciesList.json
 .ssl
+npm-debug.log
