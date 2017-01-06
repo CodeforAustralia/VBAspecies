@@ -31,9 +31,10 @@ function findSpeciesQuery(req, res)
          console.log(resp);
          console.log(typeof resp);
          var finalSpecies = objSpecies.concat(resp);
-         res.send(JSON.stringify(finalSpecies, null, ' '));
+         res.send(JSON.stringify(finalSpecies, null, ' ')); 
          
         });
+
         //var mvSpecies = museumVicApi.museumVicApiSearch(scientificNameApi);
         //console.log(typeof mvSpecies);
       };
