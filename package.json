@@ -11,9 +11,13 @@
     "morgan": "^1.7.0",
     "cors": "^2.8.1",
     "express": "^4.14.0",
-    "mongoose": "3.6.11"
+    "mongoose": "3.6.11",
+    "request": "^2.74.0"
   },
   "engines": {
     "node": "6.7.0"
-  } 
+  },
+  "scripts": {
+    "start": "node index.js"
+  }  
 }
