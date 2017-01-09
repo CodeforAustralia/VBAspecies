@@ -1,6 +1,5 @@
 node_modules
 nohup.out
-py/data
 py/data/SpeciesList.csv
 py/data/SpeciesList.json
 .ssl

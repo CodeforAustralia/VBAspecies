@@ -10,6 +10,7 @@ var app         = express();
 var port        = process.env.PORT || 4443;
 var cors    = require('cors');
 var path = require('path');
+var mongoURL = process.env.MONGODB_URI || 'mongodb://localhost/species';
 
 // *** HTTPS configuration ***
 // var options = {
@@ -31,7 +32,7 @@ app.use('/', routes);
 app.use('/public', express.static(path.join(__dirname, 'public'))); 
 app.use('/js', express.static(path.join(__dirname, 'js')));
 // MongoDB Connection 
-mongoose.connect('mongodb://localhost/species', function(err, res) {
+mongoose.connect(mongoURL, function(err, res) {
 	if(err) {
 		console.log('ERROR: connecting to Database. ' + err);
 	} else {

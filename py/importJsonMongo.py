@@ -1,13 +1,14 @@
 import pymongo
 import json
 
-connection = pymongo.MongoClient("mongodb://localhost") #Connection MongoDB
-db = connection.species #Connection to species DB
+#connection = pymongo.MongoClient("mongodb://localhost") #Local Connection MongoDB
+connection = pymongo.MongoClient("mongodb://") #Connection MongoDB
+db = connection.heroku_n1n5mr5t #Connection to species DB
 collection = db.species #The collection data 
 fileJson = './data/SpeciesList.json'
 
 #Deleting the collection before load the data
-delCollection = collection.drop()
+##delCollection = collection.drop()
 
 print "\nInfo:"
 print "MongoDB: " + str(db)
