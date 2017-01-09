@@ -10,7 +10,8 @@ var app         = express();
 var port        = process.env.PORT || 4443;
 var cors    = require('cors');
 var path = require('path');
-var mongoURL = process.env.MONGODB_URI || 'mongodb://localhost/species';
+var mongoURL = 'mongodb://heroku_n1n5mr5t:4kd1j4sfum2ncmmtrm31ujnv7@ds157078.mlab.com:57078/heroku_n1n5mr5t';
+console.log(mongoURL);
 
 // *** HTTPS configuration ***
 // var options = {
