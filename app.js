@@ -10,8 +10,8 @@ var app         = express();
 var port        = process.env.PORT || 4443;
 var cors    = require('cors');
 var path = require('path');
-var mongoURL = process.env.MONGOLAB_URI ||
-               process.env.MONGOHQ_URL;
+var mongoURL = process.env.MONGODB_URI;
+               
 console.log(mongoURL);
 
 // *** HTTPS configuration ***
