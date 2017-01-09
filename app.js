@@ -34,7 +34,7 @@ app.use('/', routes);
 app.use('/public', express.static(path.join(__dirname, 'public'))); 
 app.use('/js', express.static(path.join(__dirname, 'js')));
 // MongoDB Connection 
-mongoose.connect('mongodb://vbaspecies:vbaspecies2017@ds157078.mlab.com:57078/heroku_n1n5mr5t', function(err, res) {
+mongoose.connect(mongoURL, function(err, res) {
 	if(err) {
 		console.log('ERROR: connecting to Database. ' + err);
 	} else {
