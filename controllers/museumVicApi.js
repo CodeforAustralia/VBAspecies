@@ -1,8 +1,8 @@
 //Load the request module
 const request = require('request');
-var finalSpeciesJson = [];
-
+// making the request to Museums Victoria
 exports.museumVicApiSearch = function(speciesReq, callback) {
+    console.log(speciesReq);
     var options = {
         uri : 'http://collections.museumvictoria.com.au/api/search',
         qs : {
@@ -10,9 +10,9 @@ exports.museumVicApiSearch = function(speciesReq, callback) {
          taxon: speciesReq
         },
         method : 'GET',
-        timeout: 10000,
-        followRedirect: true,
-        maxRedirects: 10
+        //timeout: 10000,
+        //followRedirect: true,
+        //maxRedirects: 10
     }; 
     var res = [];
     request(options, function (error, response, body) {
@@ -48,8 +48,9 @@ exports.museumVicApiSearch = function(speciesReq, callback) {
                 };
 
             };
-            
+            let finalSpeciesJson = [];
             if (typeof resultJsonFile != "undefined") {
+
                 finalSpeciesJson = resultJsonFile.concat(resultJsonMediaFileFiltered);
             };
             res = finalSpeciesJson;

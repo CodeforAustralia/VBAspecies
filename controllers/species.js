@@ -20,17 +20,23 @@ function findSpeciesQuery(req, res)
      var speciesKeys = Object.keys(objSpecies);
      console.log(speciesKeys);
      console.log(speciesKeys.length);
+     console.log(typeof speciesKeys.length)
+     if (speciesKeys.length == 1) {
+      var scientificNameApi = [];
+      
      for (var i = 0; i < speciesKeys.length; i++) {
-        var scientificNameApi = objSpecies[i].SCIENTIFIC_NAME;
+        scientificNameApi = objSpecies[i].SCIENTIFIC_NAME;
         console.log(scientificNameApi);
         console.log(typeof scientificNameApi);
         //console.log(typeof museumVicApi.museumVicApiSearch);
+
         museumVicApi.museumVicApiSearch(scientificNameApi, function(resp){
+         let finalSpecies = []; 
          console.log('YUUUUUUUUUUUUUHUUUUUUUUUUUUU');
          console.log(scientificNameApi);
          console.log(resp);
          console.log(typeof resp);
-         var finalSpecies = objSpecies.concat(resp);
+         finalSpecies = objSpecies.concat(resp);
          res.send(JSON.stringify(finalSpecies, null, ' ')); 
          
         });
@@ -38,6 +44,11 @@ function findSpeciesQuery(req, res)
         //var mvSpecies = museumVicApi.museumVicApiSearch(scientificNameApi);
         //console.log(typeof mvSpecies);
       };
+      } else { 
+        res.send(species);
+      };
+
+
      } else {
        res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
      }
