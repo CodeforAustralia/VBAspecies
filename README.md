@@ -12,14 +12,14 @@
  
  **Resource URL:**
 ```
-  https://vbaspecies.tk/species
+  https://vbaspecies.herokuapp.com/species
 ```
 **Example Request:**
 
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://vbaspecies.tk/species
+https://vbaspecies.herokuapp.com/species
 ```
 
 **Success Response:**
@@ -76,7 +76,7 @@ HTTP/1.1 404 OK
  
  **Resource URL:**
 ```
-  https://vbaspecies.tk/species/:ID
+  https://vbaspecies.herokuapp.com/species/:ID
 ```
 
   
@@ -92,7 +92,7 @@ ID | string| Required| Retrieve species information by its ID.| 11113
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://vbaspecies.tk/species/11113
+https://vbaspecies.herokuapp.com/species/11113
 ```
 
 **Success Response:**
@@ -132,13 +132,13 @@ HTTP/1.1 404 OK
  
  **Resource URL:**
 ```
-  https://vbaspecies.tk/species/search
+  https://vbaspecies.herokuapp.com/species/search
 ```
 **Parameters:**
 
   Name | Type|Required| Description| Example
 ------------ | -------------| -------------| -------------| -------------
-query | string| optional| General search. Retrieve species information by its *scientificName* or *commonName* or *synonymName* or *primaryDiscipline* or *taxonID*.| Trichosurus vulpecula
+q | string| optional| General search. Retrieve species information by its *scientificName* or *commonName* or *synonymName* or *primaryDiscipline* or *taxonID*.| Trichosurus vulpecula
 scientificName | string| optional| Retrieve species information by its scientific name.| Trichosurus vulpecula
 commonName| string| optional| Retrieve species information by its common name.| Common Brushtail Possum
 synonymName|string| optional| Retrieve species information by its common or scientific name synonym.| Galaxias coxii
@@ -149,7 +149,7 @@ primaryDiscipline|string| optional| Retrieve species information by its primary 
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://vbaspecies.tk/species/search?commonName=Common+Brushtail+Possum
+https://vbaspecies.herokuapp.com/species/search?commonName=Common+Brushtail+Possum
 ```
 
 **Success Response:**
