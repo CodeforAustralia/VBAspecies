@@ -55,13 +55,13 @@ function findSpeciesQuery(req, res)
    });
 };
 
-//Method GET - Return species in the DB
+//Method GET - Return species ALL in the DB
 exports.findSpecies = function(req, res) {
       console.log('List of all species');
       urlQueryParts = url.parse(req.url, true);
       let apiPath = urlQueryParts.path;
       if (apiPath == '/species'){
-           var query = SpeciesModel.find();
+           var query = SpeciesModel.find().limit(20);
            return findSpeciesQuery(query, res);
         } else {
           res.status(404).json({ error: "Resource not found, please try with a correct resource o parameter value" });
