@@ -29,38 +29,38 @@ HTTP/1.1 200 OK
 ```  
 ```json
 [
-  {
-    _id: "5873156f9df3d635cf2d3c43",
-    TAXON_ID: "505386",
-    SCIENTIFIC_NAME: "Austrostipa tenuifolia",
-    COMMON_NAME: "Long-awn Spear-grass",
-    PRIMARY_DISCIPLINE: "Flora",
-    ORIGIN: null,
-    TAXON_TYPE: "Monocotyledons",
-    FFG_ACT_STATUS: null,
-    EPBC_ACT_STATUS: null,
-    VIC_ADVISORY_STATUS: "Vulnerable",
-    SCIENTIFIC_NME_SYNONYM: "Austrostipa tenuifolia, Stipa eriopus, Stipa leptophylla, Stipa scabra var. pubescens, Stipa tenuifolia, Stipa scabra var. occidentalis, Stipa incurva",
-    COMMON_NME_SYNONYM: "Long-awn Spear-grass",
-    LAST_MOD: "20100916",
-    EXTRACT_DATE: "20170105"
-  },
-  {
-    _id: "5873156f9df3d635cf2d3c4a",
-    TAXON_ID: "500341",
-    SCIENTIFIC_NAME: "Avena fatua",
-    COMMON_NAME: "Wild Oat",
-    PRIMARY_DISCIPLINE: "Flora",
-    ORIGIN: "Introduced",
-    TAXON_TYPE: "Monocotyledons",
-    FFG_ACT_STATUS: null,
-    EPBC_ACT_STATUS: null,
-    VIC_ADVISORY_STATUS: null,
-    SCIENTIFIC_NME_SYNONYM: "Avena fatua",
-    COMMON_NME_SYNONYM: "Wild Oat",
-    LAST_MOD: "20100916",
-    EXTRACT_DATE: "20170105"
-  },...
+	{
+		"_id": "5873156f9df3d635cf2d3c43",
+		"TAXON_ID": "505386",
+		"SCIENTIFIC_NAME": "Austrostipa tenuifolia",
+		"COMMON_NAME": "Long-awn Spear-grass",
+		"PRIMARY_DISCIPLINE": "Flora",
+		"ORIGIN": null,
+		"TAXON_TYPE": "Monocotyledons",
+		"FFG_ACT_STATUS": null,
+		"EPBC_ACT_STATUS": null,
+		"VIC_ADVISORY_STATUS": "Vulnerable",
+		"SCIENTIFIC_NME_SYNONYM": "Austrostipa tenuifolia, Stipa eriopus, Stipa leptophylla, Stipa scabra var. pubescens, Stipa tenuifolia, Stipa scabra var. occidentalis, Stipa incurva",
+		"COMMON_NME_SYNONYM": "Long-awn Spear-grass",
+		"LAST_MOD": "20100916",
+		"EXTRACT_DATE": "20161222"
+	},
+	{
+		"_id": "5873156f9df3d635cf2d3c4a",
+		"TAXON_ID": "500341",
+		"SCIENTIFIC_NAME": "Avena fatua",
+		"COMMON_NAME": "Wild Oat",
+		"PRIMARY_DISCIPLINE": "Flora",
+		"ORIGIN": "Introduced",
+		"TAXON_TYPE": "Monocotyledons",
+		"FFG_ACT_STATUS": null,
+		"EPBC_ACT_STATUS": null,
+		"VIC_ADVISORY_STATUS": null,
+		"SCIENTIFIC_NME_SYNONYM": "Avena fatua",
+		"COMMON_NME_SYNONYM": "Wild Oat",
+		"LAST_MOD": "20100916",
+		"EXTRACT_DATE": "20161222"
+	},
 ]
 ```
   **Error Response:**
