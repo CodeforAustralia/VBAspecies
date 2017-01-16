@@ -29,30 +29,38 @@ HTTP/1.1 200 OK
 ```  
 ```json
 [
-	{
-		"_id": "583e19c00640fd08b509c365",
-		"PRIMARY_DISCIPLINE": "Terrestrial fauna",
-		"SCIENTIFIC_NAME": "Trichosurus vulpecula",
-		"COMMON_NAME": "Common Brushtail Possum",
-		"SCIENTIFIC_NME_SYNONYM": null,
-		"TAXON_ID": "11113"
-	},
-    {
-	    "_id": "5822bf4810262e688aaa95e9",
-	    "PRIMARY_DISCIPLINE": "Terrestrial fauna",
-	    "SCIENTIFIC_NAME": "Tachyglossus aculeatus",
-	    "COMMON_NAME": "Short-beaked Echidna",
-	    "SCIENTIFIC_NME_SYNONYM": null,
-	    "TAXON_ID": "11003"
-    },
-    {
-	    "_id": "5822bf4110262e688aaa68c1",
-	    "PRIMARY_DISCIPLINE": "Flora",
-	    "SCIENTIFIC_NAME": "Fuchsia magellanica",
-	    "COMMON_NAME": "Fuchsia",
-	    "SCIENTIFIC_NME_SYNONYM": "Fuchsia gracilis, Fuchsia riccartonii, Fuchsia magellanica var. macrostemma, Fuchsia macrostemma, Fuchsia magellanica",
-	    "TAXON_ID": "503734"
-    },
+  {
+    _id: "5873156f9df3d635cf2d3c43",
+    TAXON_ID: "505386",
+    SCIENTIFIC_NAME: "Austrostipa tenuifolia",
+    COMMON_NAME: "Long-awn Spear-grass",
+    PRIMARY_DISCIPLINE: "Flora",
+    ORIGIN: null,
+    TAXON_TYPE: "Monocotyledons",
+    FFG_ACT_STATUS: null,
+    EPBC_ACT_STATUS: null,
+    VIC_ADVISORY_STATUS: "Vulnerable",
+    SCIENTIFIC_NME_SYNONYM: "Austrostipa tenuifolia, Stipa eriopus, Stipa leptophylla, Stipa scabra var. pubescens, Stipa tenuifolia, Stipa scabra var. occidentalis, Stipa incurva",
+    COMMON_NME_SYNONYM: "Long-awn Spear-grass",
+    LAST_MOD: "20100916",
+    EXTRACT_DATE: "20170105"
+  },
+  {
+    _id: "5873156f9df3d635cf2d3c4a",
+    TAXON_ID: "500341",
+    SCIENTIFIC_NAME: "Avena fatua",
+    COMMON_NAME: "Wild Oat",
+    PRIMARY_DISCIPLINE: "Flora",
+    ORIGIN: "Introduced",
+    TAXON_TYPE: "Monocotyledons",
+    FFG_ACT_STATUS: null,
+    EPBC_ACT_STATUS: null,
+    VIC_ADVISORY_STATUS: null,
+    SCIENTIFIC_NME_SYNONYM: "Avena fatua",
+    COMMON_NME_SYNONYM: "Wild Oat",
+    LAST_MOD: "20100916",
+    EXTRACT_DATE: "20170105"
+  },...
 ]
 ```
   **Error Response:**
@@ -92,7 +100,7 @@ ID | string| Required| Retrieve species information by its ID.| 11113
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://vbaspecies.herokuapp.com/species/11113
+https://vbaspecies.herokuapp.com/species/11003
 ```
 
 **Success Response:**
@@ -103,12 +111,198 @@ HTTP/1.1 200 OK
 ```json
 [
 	{
-		"_id": "583e19c00640fd08b509c365",
+		"_id": "587315779df3d635cf2d73e4",
+		"TAXON_ID": "11003",
+		"SCIENTIFIC_NAME": "Tachyglossus aculeatus",
+		"COMMON_NAME": "Short-beaked Echidna",
 		"PRIMARY_DISCIPLINE": "Terrestrial fauna",
-		"SCIENTIFIC_NAME": "Trichosurus vulpecula",
-		"COMMON_NAME": "Common Brushtail Possum",
+		"ORIGIN": null,
+		"TAXON_TYPE": "Mammals",
+		"FFG_ACT_STATUS": null,
+		"EPBC_ACT_STATUS": null,
+		"VIC_ADVISORY_STATUS": null,
 		"SCIENTIFIC_NME_SYNONYM": null,
-		"TAXON_ID": "11113"
+		"COMMON_NME_SYNONYM": null,
+		"LAST_MOD": "20101202",
+		"EXTRACT_DATE": "20161222"
+	},
+	{
+		"generalDescription": "Body rounded and covered in sharp spines, with fur between. Spines yellow-cream with black tips. Smooth tubular snout. Long sharp claws. Body up to 44 cm.",
+		"habitat": "Range of areas, including forests.",
+		"nationalParks": [],
+		"diet": "Insects",
+		"briefId": "Spiny mammal with long snout.",
+		"endemicity": "Native to Australia"
+	},
+	{
+		"media": [
+			{
+				"alternativeText": "Short-beaked Echidna on gravel",
+				"large": {
+					"width": 2819,
+					"height": 1879,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-large.jpg",
+					"size": 1189258
+				},
+				"medium": {
+					"width": 1500,
+					"height": 1000,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-medium.jpg",
+					"size": 283994
+				},
+				"small": {
+					"width": 750,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-small.jpg",
+					"size": 89657
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-thumbnail.jpg",
+					"size": 13419
+				},
+				"dateModified": "2016-11-10T03:58:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus, sitting in a shallow depression in gravel.",
+				"creators": [
+					"Photographer: Mark Norman"
+				],
+				"sources": [
+					"Museums Victoria"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright Museums Victoria / CC BY",
+				"licence": {
+					"name": "Attribution 4.0 International",
+					"shortName": "CC BY",
+					"uri": "https://creativecommons.org/licenses/by/4.0"
+				}
+			},
+			{
+				"alternativeText": "A Short-beaked Echidna walking on a sealed road.",
+				"large": {
+					"width": 1280,
+					"height": 906,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-large.jpg",
+					"size": 426474
+				},
+				"medium": {
+					"width": 1280,
+					"height": 906,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-medium.jpg",
+					"size": 322155
+				},
+				"small": {
+					"width": 706,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-small.jpg",
+					"size": 123568
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-thumbnail.jpg",
+					"size": 16839
+				},
+				"dateModified": "2015-12-06T02:44:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus, sitting in a shallow depression in gravel.",
+				"creators": [
+					"Photographer: Rudie Kuiter"
+				],
+				"sources": [
+					"Rudie H. Kuiter / Aquatic Photographics"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright Rudie Kuiter / All Rights Reserved",
+				"licence": {
+					"name": "All Rights Reserved",
+					"shortName": "All Rights Reserved",
+					"uri": ""
+				}
+			},
+			{
+				"alternativeText": "A Short-beaked Echidna, photographed head on.",
+				"large": {
+					"width": 2000,
+					"height": 1333,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-large.jpg",
+					"size": 611633
+				},
+				"medium": {
+					"width": 1500,
+					"height": 1000,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-medium.jpg",
+					"size": 258560
+				},
+				"small": {
+					"width": 750,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-small.jpg",
+					"size": 87863
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-thumbnail.jpg",
+					"size": 14291
+				},
+				"dateModified": "2016-08-22T00:07:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus.",
+				"creators": [],
+				"sources": [
+					"flagstaffotos.com.au"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright flagstaffotos.com.au / All Rights Reserved",
+				"licence": {
+					"name": "All Rights Reserved",
+					"shortName": "All Rights Reserved",
+					"uri": ""
+				}
+			},
+			{
+				"alternativeText": "A baby Short-beaked Echidna (a 'puggle'), held in the palm of someone's hand.",
+				"large": {
+					"width": 3000,
+					"height": 2025,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-large.jpg",
+					"size": 948676
+				},
+				"medium": {
+					"width": 1500,
+					"height": 1013,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-medium.jpg",
+					"size": 250239
+				},
+				"small": {
+					"width": 741,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-small.jpg",
+					"size": 74689
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-thumbnail.jpg",
+					"size": 11829
+				},
+				"dateModified": "2016-11-10T03:58:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus, baby (called a 'puggle').",
+				"creators": [
+					"Photographer: Ian R McCann"
+				],
+				"sources": [
+					"Museums Victoria"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright Museums Victoria / CC BY",
+				"licence": {
+					"name": "Attribution 4.0 International",
+					"shortName": "CC BY",
+					"uri": "https://creativecommons.org/licenses/by/4.0"
+				}
+			}
+		]
 	}
 ]
 ```
@@ -149,7 +343,7 @@ primaryDiscipline|string| optional| Retrieve species information by its primary 
 ```
 curl -X GET \ 
 -H "Accept: application/json" \
-https://vbaspecies.herokuapp.com/species/search?commonName=Common+Brushtail+Possum
+https://vbaspecies.herokuapp.com/species/search?commonName=Short-beaked+Echidna
 ```
 
 **Success Response:**
@@ -160,12 +354,198 @@ HTTP/1.1 200 OK
 ```json
 [
 	{
-		"_id": "583e19c00640fd08b509c365",
+		"_id": "587315779df3d635cf2d73e4",
+		"TAXON_ID": "11003",
+		"SCIENTIFIC_NAME": "Tachyglossus aculeatus",
+		"COMMON_NAME": "Short-beaked Echidna",
 		"PRIMARY_DISCIPLINE": "Terrestrial fauna",
-		"SCIENTIFIC_NAME": "Trichosurus vulpecula",
-		"COMMON_NAME": "Common Brushtail Possum",
+		"ORIGIN": null,
+		"TAXON_TYPE": "Mammals",
+		"FFG_ACT_STATUS": null,
+		"EPBC_ACT_STATUS": null,
+		"VIC_ADVISORY_STATUS": null,
 		"SCIENTIFIC_NME_SYNONYM": null,
-		"TAXON_ID": "11113"
+		"COMMON_NME_SYNONYM": null,
+		"LAST_MOD": "20101202",
+		"EXTRACT_DATE": "20161222"
+	},
+	{
+		"generalDescription": "Body rounded and covered in sharp spines, with fur between. Spines yellow-cream with black tips. Smooth tubular snout. Long sharp claws. Body up to 44 cm.",
+		"habitat": "Range of areas, including forests.",
+		"nationalParks": [],
+		"diet": "Insects",
+		"briefId": "Spiny mammal with long snout.",
+		"endemicity": "Native to Australia"
+	},
+	{
+		"media": [
+			{
+				"alternativeText": "Short-beaked Echidna on gravel",
+				"large": {
+					"width": 2819,
+					"height": 1879,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-large.jpg",
+					"size": 1189258
+				},
+				"medium": {
+					"width": 1500,
+					"height": 1000,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-medium.jpg",
+					"size": 283994
+				},
+				"small": {
+					"width": 750,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-small.jpg",
+					"size": 89657
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/27/728777-thumbnail.jpg",
+					"size": 13419
+				},
+				"dateModified": "2016-11-10T03:58:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus, sitting in a shallow depression in gravel.",
+				"creators": [
+					"Photographer: Mark Norman"
+				],
+				"sources": [
+					"Museums Victoria"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright Museums Victoria / CC BY",
+				"licence": {
+					"name": "Attribution 4.0 International",
+					"shortName": "CC BY",
+					"uri": "https://creativecommons.org/licenses/by/4.0"
+				}
+			},
+			{
+				"alternativeText": "A Short-beaked Echidna walking on a sealed road.",
+				"large": {
+					"width": 1280,
+					"height": 906,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-large.jpg",
+					"size": 426474
+				},
+				"medium": {
+					"width": 1280,
+					"height": 906,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-medium.jpg",
+					"size": 322155
+				},
+				"small": {
+					"width": 706,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-small.jpg",
+					"size": 123568
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/42/360392-thumbnail.jpg",
+					"size": 16839
+				},
+				"dateModified": "2015-12-06T02:44:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus, sitting in a shallow depression in gravel.",
+				"creators": [
+					"Photographer: Rudie Kuiter"
+				],
+				"sources": [
+					"Rudie H. Kuiter / Aquatic Photographics"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright Rudie Kuiter / All Rights Reserved",
+				"licence": {
+					"name": "All Rights Reserved",
+					"shortName": "All Rights Reserved",
+					"uri": ""
+				}
+			},
+			{
+				"alternativeText": "A Short-beaked Echidna, photographed head on.",
+				"large": {
+					"width": 2000,
+					"height": 1333,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-large.jpg",
+					"size": 611633
+				},
+				"medium": {
+					"width": 1500,
+					"height": 1000,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-medium.jpg",
+					"size": 258560
+				},
+				"small": {
+					"width": 750,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-small.jpg",
+					"size": 87863
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/40/360390-thumbnail.jpg",
+					"size": 14291
+				},
+				"dateModified": "2016-08-22T00:07:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus.",
+				"creators": [],
+				"sources": [
+					"flagstaffotos.com.au"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright flagstaffotos.com.au / All Rights Reserved",
+				"licence": {
+					"name": "All Rights Reserved",
+					"shortName": "All Rights Reserved",
+					"uri": ""
+				}
+			},
+			{
+				"alternativeText": "A baby Short-beaked Echidna (a 'puggle'), held in the palm of someone's hand.",
+				"large": {
+					"width": 3000,
+					"height": 2025,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-large.jpg",
+					"size": 948676
+				},
+				"medium": {
+					"width": 1500,
+					"height": 1013,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-medium.jpg",
+					"size": 250239
+				},
+				"small": {
+					"width": 741,
+					"height": 500,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-small.jpg",
+					"size": 74689
+				},
+				"thumbnail": {
+					"width": 250,
+					"height": 250,
+					"uri": "http://collections.museumvictoria.com.au/content/media/41/360391-thumbnail.jpg",
+					"size": 11829
+				},
+				"dateModified": "2016-11-10T03:58:00Z",
+				"caption": "Short-beaked Echidna, Tachyglossus aculeatus, baby (called a 'puggle').",
+				"creators": [
+					"Photographer: Ian R McCann"
+				],
+				"sources": [
+					"Museums Victoria"
+				],
+				"credit": null,
+				"rightsStatement": "Copyright Museums Victoria / CC BY",
+				"licence": {
+					"name": "Attribution 4.0 International",
+					"shortName": "CC BY",
+					"uri": "https://creativecommons.org/licenses/by/4.0"
+				}
+			}
+		]
 	}
 ]
 ```
