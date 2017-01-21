@@ -12,10 +12,6 @@ function findSpeciesQuery(req, res)
    //console.log(res);
    req.exec(function(err, species) {
    if (!err) {
-     //res.send(JSON.stringify(species, null, ' '), {'Content-Type': 'application/json'}, 200);
-     //res.send(species, {'Content-Type': 'application/json'}, 200);
-     //res.send(species);
-     //res.send(JSON.stringify(species, null, ' '));
      var objSpecies = JSON.parse(JSON.stringify(species));
      var speciesKeys = Object.keys(objSpecies);
      console.log(speciesKeys);
@@ -28,8 +24,7 @@ function findSpeciesQuery(req, res)
         scientificNameApi = objSpecies[i].SCIENTIFIC_NAME;
         console.log(scientificNameApi);
         console.log(typeof scientificNameApi);
-        //console.log(typeof museumVicApi.museumVicApiSearch);
-
+        //Calling Museums Victoria Function
         museumVicApi.museumVicApiSearch(scientificNameApi, function(resp){
          let finalSpecies = []; 
          console.log('YUUUUUUUUUUUUUHUUUUUUUUUUUUU');
@@ -40,9 +35,6 @@ function findSpeciesQuery(req, res)
          res.send(JSON.stringify(finalSpecies, null, ' ')); 
          
         });
-
-        //var mvSpecies = museumVicApi.museumVicApiSearch(scientificNameApi);
-        //console.log(typeof mvSpecies);
       };
       } else { 
         res.send(species);
@@ -57,11 +49,23 @@ function findSpeciesQuery(req, res)
 
 //Method GET - Return species ALL in the DB
 exports.findSpecies = function(req, res) {
-      console.log('List of all species');
+      console.log('List of species');
       urlQueryParts = url.parse(req.url, true);
       let apiPath = urlQueryParts.path;
       if (apiPath == '/species'){
            var query = SpeciesModel.find().limit(20);
+           return findSpeciesQuery(query, res);
+        } else {
+          res.status(404).json({ error: "Resource not found, please try with a correct resource o parameter value" });
+        };
+      };
+
+exports.findSpeciesAll = function(req, res) {
+      console.log('List of ALL species');
+      urlQueryParts = url.parse(req.url, true);
+      let apiPath = urlQueryParts.path;
+      if (apiPath == '/speciesAll'){
+           var query = SpeciesModel.find();
            return findSpeciesQuery(query, res);
         } else {
           res.status(404).json({ error: "Resource not found, please try with a correct resource o parameter value" });
