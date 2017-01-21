@@ -8,39 +8,24 @@ const cors    = require('cors');
 // Query execution
 function findSpeciesQuery(req, res)
 {
-   console.log('queries');
-   //console.log(res);
    req.exec(function(err, species) {
    if (!err) {
      var objSpecies = JSON.parse(JSON.stringify(species));
      var speciesKeys = Object.keys(objSpecies);
-     console.log(speciesKeys);
-     console.log(speciesKeys.length);
-     console.log(typeof speciesKeys.length)
      if (speciesKeys.length == 1) {
       var scientificNameApi = [];
-      
-     for (var i = 0; i < speciesKeys.length; i++) {
+      for (var i = 0; i < speciesKeys.length; i++) {
         scientificNameApi = objSpecies[i].SCIENTIFIC_NAME;
-        console.log(scientificNameApi);
-        console.log(typeof scientificNameApi);
         //Calling Museums Victoria Function
         museumVicApi.museumVicApiSearch(scientificNameApi, function(resp){
          let finalSpecies = []; 
-         console.log('YUUUUUUUUUUUUUHUUUUUUUUUUUUU');
-         console.log(scientificNameApi);
-         console.log(resp);
-         console.log(typeof resp);
          finalSpecies = objSpecies.concat(resp);
          res.send(JSON.stringify(finalSpecies, null, ' ')); 
-         
         });
       };
       } else { 
         res.send(species);
       };
-
-
      } else {
        res.send(JSON.stringify(err), {'Content-Type': 'application/json'}, 404);
      }
@@ -82,9 +67,6 @@ exports.findSpeciesBy = function(req, res) {
        let regex = new RegExp(scientificName, 'i');
        var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(20);
        console.log('findSpeciesBy');
-       //console.log(query);
-       //.sort({"updated_at":-1}).sort({"created_at":-1}).limit(20);
-       //getQuerySpecies(query);
        return findSpeciesQuery(query, res);
     } 
     else if(primaryDiscipline != null && primaryDiscipline != ''){
