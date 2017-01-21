@@ -8,12 +8,8 @@ var cors          = require('cors');
 	return routerApiCtrl.findSpecies(req, res);
   });
 
-  routerApi.get('/speciesAll', cors(), function(req, res) {
-	return routerApiCtrl.findSpeciesAll(req, res);
-  });
-
   routerApi.get('/species/search', cors(), function(req, res) {
-//	console.log(res)
+
   return routerApiCtrl.findSpeciesBy(req, res);
   });
 

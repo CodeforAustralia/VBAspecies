@@ -60,18 +60,6 @@ exports.findSpecies = function(req, res) {
         };
       };
 
-exports.findSpeciesAll = function(req, res) {
-      console.log('List of ALL species');
-      urlQueryParts = url.parse(req.url, true);
-      let apiPath = urlQueryParts.path;
-      if (apiPath == '/speciesAll'){
-           var query = SpeciesModel.find();
-           return findSpeciesQuery(query, res);
-        } else {
-          res.status(404).json({ error: "Resource not found, please try with a correct resource o parameter value" });
-        };
-      };
-
 //Method GET - Return species by Id
 exports.findSpeciesId = function(req, res) {
 	  console.log('List specie by ID');
