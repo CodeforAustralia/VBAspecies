@@ -38,9 +38,6 @@ exports.museumVicApiSearch = function(speciesReq, callback) {
                   var resultJsonMediaKeys = Object.keys(resultJsonMedia)
                   for (var j = 0; j < resultJsonMediaKeys.length; j++){
                       if ( resultJsonMedia[j].hasOwnProperty('alternativeText')){
-                           console.log("jota");
-                           console.log(j);
-                           //console.log(resultJsonMedia[j]);
                            resultJsonMediaFile = resultJsonMediaFile.concat(resultJsonMedia[j]);
                       };
                   };

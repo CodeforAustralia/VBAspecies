@@ -66,7 +66,6 @@ exports.findSpeciesBy = function(req, res) {
     if(scientificName != null && scientificName != ''){
        let regex = new RegExp(scientificName, 'i');
        var query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(20);
-       console.log('findSpeciesBy');
        return findSpeciesQuery(query, res);
     } 
     else if(primaryDiscipline != null && primaryDiscipline != ''){
