@@ -1,7 +1,7 @@
-var express       = require('express');
-var routerApi    = express.Router();
-var routerApiCtrl = require('../controllers/species.js');
-var cors          = require('cors');
+const express       = require('express');
+const routerApi    = express.Router();
+const routerApiCtrl = require('../controllers/species.js');
+const cors          = require('cors');
 
   //Link routes and functions
   routerApi.get('/species', cors(), function(req, res) {

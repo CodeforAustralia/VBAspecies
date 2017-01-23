@@ -1,16 +1,16 @@
 // app.js
 // Including dependencies
-var https       = require('https');
-var fs          = require('fs');
-var express     = require('express');
-var bodyParser  = require('body-parser');
-var mongoose    = require('mongoose');
-var morgan      = require('morgan');
-var app         = express();
-var port        = process.env.PORT || 4443;
-var cors    = require('cors');
-var path = require('path');
-var mongoURL = process.env.MONGODB_URI || 'mongodb://localhost/species';
+const https       = require('https');
+const fs          = require('fs');
+const express     = require('express');
+const bodyParser  = require('body-parser');
+const mongoose    = require('mongoose');
+const morgan      = require('morgan');
+const app         = express();
+const port        = process.env.PORT || 4443;
+const cors    = require('cors');
+const path = require('path');
+const mongoURL = process.env.MONGODB_URI || 'mongodb://localhost/species';
                
 console.log(mongoURL);
 
@@ -39,7 +39,7 @@ mongoose.connect(mongoURL, function(err, res) {
 	if(err) {
 		console.log('ERROR: connecting to Database. ' + err);
 	} else {
-		console.log('Connected to Database' + res);
+		console.log('Connected to Database: ' + mongoURL);
 	}
 });
 

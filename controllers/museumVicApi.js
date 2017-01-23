@@ -19,10 +19,10 @@ exports.museumVicApiSearch = function(speciesReq, callback) {
         if (!error && response.statusCode == 200) {
             //res = body;
             let museumVicSpeciesJson = JSON.parse(body);
-            var museumVicSpeciesKeys = Object.keys(museumVicSpeciesJson);
+            let museumVicSpeciesKeys = Object.keys(museumVicSpeciesJson);
             if ( museumVicSpeciesKeys.length > 0 ) {
                 var resultJsonFile = [];
-                var resultJsonMediaFile = [];
+                let resultJsonMediaFile = [];
                 var resultJsonMediaFileFiltered = [];
                 for (var i = 0; i < museumVicSpeciesKeys.length; i++) {
                   if (museumVicSpeciesJson[i].hasOwnProperty("recordType")) {
@@ -36,7 +36,7 @@ exports.museumVicApiSearch = function(speciesReq, callback) {
                     var resultJsonMedia = museumVicSpeciesJson[i].media;
                   };
                   var resultJsonMediaKeys = Object.keys(resultJsonMedia)
-                  for (var j = 0; j < resultJsonMediaKeys.length; j++){
+                  for (let j = 0; j < resultJsonMediaKeys.length; j++){
                       if ( resultJsonMedia[j].hasOwnProperty('alternativeText')){
                            resultJsonMediaFile = resultJsonMediaFile.concat(resultJsonMedia[j]);
                       };
