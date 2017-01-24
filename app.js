@@ -10,7 +10,7 @@ const app         = express();
 const port        = process.env.PORT || 4443;
 const cors    = require('cors');
 const path = require('path');
-const mongoURL = process.env.MONGODB_URI || 'mongodb://vbaspeciesdb:db_vbaspeciesl1st@ds127429.mlab.com:27429/species';
+const mongoURL = process.env.MONGODB_URI || 'mongodb://localhost/species';
                
 console.log(mongoURL);
 
