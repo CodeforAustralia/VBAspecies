@@ -1,9 +1,9 @@
 {
   "name": "vbaspecieslist",
   "version": "1.0.1",
-  "description": "Victorian Biodiversity Altas Species List",
+  "description": "Victorian Biodiversity Altas Species List API",
   "main": "app.js",
-  "author": "Veronica Farias",
+  "author": "Veronica Farias - Verofa",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.15.2",

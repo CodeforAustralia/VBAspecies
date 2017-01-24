@@ -12,14 +12,6 @@ const cors    = require('cors');
 const path = require('path');
 const mongoURL = process.env.MONGODB_URI || 'mongodb://localhost/species';
                
-console.log(mongoURL);
-
-// *** HTTPS configuration ***
-// var options = {
-   //  cert: fs.readFileSync('/home/verofa/virtualenvs/ns/apiSpecies/.ssl/apiSpeciescert.pem'),
-   //  key: fs.readFileSync('/home/verofa/virtualenvs/ns/apiSpecies/.ssl/apiSpecieskey.pem')
-// };
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies         
 app.use(morgan('dev')); //Console Logs request
@@ -47,9 +39,3 @@ mongoose.connect(mongoURL, function(err, res) {
 app.listen(port, function() {
   console.log("Node server running on -> http://localhost:" + port);
 });
-
-// *** HTTPS configuration ***
-//var server = https.createServer(options, app);
-//   server.listen(port, function(){
-//        console.log("server running at https://IP_ADDRESS:" + port)
-//    });
