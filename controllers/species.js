@@ -47,7 +47,7 @@ exports.findSpecies = function(req, res) {
 exports.findSpeciesId = function(req, res) {
 	  console.log('List specie by ID');
       let specieId = req.params.id;
-           let query = SpeciesModel.find({ TAXON_ID: specieId }).limit(20);
+           let query = SpeciesModel.find({ TAXON_ID: specieId });
            return findSpeciesQuery(query, res);
 };
 
@@ -63,7 +63,7 @@ exports.findSpeciesBy = function(req, res) {
     let apiPath = urlQueryParts.pathname;
     if(scientificName != null && scientificName != ''){
        let regex = new RegExp(scientificName, 'i');
-       let query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(20);
+       let query = SpeciesModel.find({ SCIENTIFIC_NAME: regex });
        return findSpeciesQuery(query, res);
     } 
     else if(primaryDiscipline != null && primaryDiscipline != ''){
@@ -74,13 +74,13 @@ exports.findSpeciesBy = function(req, res) {
     // Searching by Common Name
     else if(commonName != null && commonName != ''){
        let regex = new RegExp(commonName, 'i');
-       let query = SpeciesModel.find({ COMMON_NAME: regex }).limit(20);
+       let query = SpeciesModel.find({ COMMON_NAME: regex });
        return findSpeciesQuery(query, res);
     }
     // Searching by Scientific Name Synonym
     else if(synonymName != null && synonymName != ''){
        let regex = new RegExp(synonymName, 'i');
-       let query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex }).limit(20);
+       let query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex });
        return findSpeciesQuery(query, res);
     }
     // Searching by all fields
@@ -89,7 +89,7 @@ exports.findSpeciesBy = function(req, res) {
        let query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex}, 
        	                             { TAXON_ID: regex }, { PRIMARY_DISCIPLINE: regex}, {ORIGIN: regex}, {TAXON_TYPE: regex},
                                      {COMMON_NME_SYNONYM: regex}, {FFG_ACT_STATUS: regex}, {EPBC_ACT_STATUS: regex}, {VIC_ADVISORY_STATUS: regex}
-                                     ]}).limit(20);
+                                     ]});
        return findSpeciesQuery(query, res);
     }
     else{
