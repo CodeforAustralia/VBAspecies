@@ -1,6 +1,22 @@
-**[VBAspecies](https://drive.google.com/file/d/0B4_d6lADgcbeVjQwVTI5bWhVa3c/view?usp=sharing) API**
+**VBAspecies API**
 ----
-**Species**
+**Introduction**
+----
+The Victorian Biodiversity Atlas [(VBA)](https://vba.dse.vic.gov.au/) is a tool for government agencies, environmental consultants, researchers and the public to share information about the distribution and abundance of species in Victoria that feeds into the habitat distribution models. It assists DELWP to manage the large volume of species records collected as well as allowing contributors to manage their own records.
+
+###Which species are included?
+The VBA encompasses vertebrate and invertebrate animals, fungi, vascular and non-vascular plants from terrestrial and aquatic environments, including marine waters to the three nautical mile statutory limit. It includes both native and naturalised exotic species (including weeds and pests) but is not intended to hold data on cultivated or domesticated species.
+
+**VBAspecies API**
+----
+
+VBAspecies API is an application programming interface created from the [VBA web-based information system](https://vba.dse.vic.gov.au/) and [Museums Victoria API](http://collections.museumvictoria.com.au/developers) to provide programmatic access to read and share information about about wildlife in Victoria. The API includes species attribute information, including origin and conservation status.
+
+In this API's version you do not require an authenticated user to list the species data.
+
+At this time it only supports the GET verb and responses are in JSON only.
+
+**API How To's**
 ----
 ###List All The Species Information
 
@@ -332,7 +348,7 @@ HTTP/1.1 404 OK
 
   Name | Type|Required| Description| Example
 ------------ | -------------| -------------| -------------| -------------
-q | string| optional| General search. Retrieve species information by its *scientificName* or *commonName* or *synonymName* or *primaryDiscipline* or *taxonID*.| Trichosurus vulpecula
+q | string| optional| General search. Retrieve species information by its *scientificName* or *commonName* or *synonymName* or *primaryDiscipline* or *taxonID* or *scientificNameSynonym* or *origin* or *taxonType* or *commonNameSynonym*.| Trichosurus vulpecula
 scientificName | string| optional| Retrieve species information by its scientific name.| Trichosurus vulpecula
 commonName| string| optional| Retrieve species information by its common name.| Common Brushtail Possum
 synonymName|string| optional| Retrieve species information by its common or scientific name synonym.| Galaxias coxii
@@ -558,8 +574,3 @@ HTTP/1.1 404 OK
 { "error": "Resource not found, please try with a correct resource o parameter value" }
 ```
 
-**Notes:**
-
-* In this API's version you do not require an authenticated user to list the species data.
-
-* At this time it only supports the GET verb and responses are in JSON only.

@@ -63,12 +63,12 @@ exports.findSpeciesBy = function(req, res) {
     let apiPath = urlQueryParts.pathname;
     if(scientificName != null && scientificName != ''){
        let regex = new RegExp(scientificName, 'i');
-       let query = SpeciesModel.find({ SCIENTIFIC_NAME: regex });
+       let query = SpeciesModel.find({ SCIENTIFIC_NAME: regex }).limit(35);
        return findSpeciesQuery(query, res);
     } 
     else if(primaryDiscipline != null && primaryDiscipline != ''){
        let regex = new RegExp(primaryDiscipline, 'i');
-       let query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex });
+       let query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex }).limit(35);
        return findSpeciesQuery(query, res);
     }
     // Searching by Common Name
@@ -80,7 +80,7 @@ exports.findSpeciesBy = function(req, res) {
     // Searching by Scientific Name Synonym
     else if(synonymName != null && synonymName != ''){
        let regex = new RegExp(synonymName, 'i');
-       let query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex });
+       let query = SpeciesModel.find({ SCIENTIFIC_NME_SYNONYM: regex }).limit(35);
        return findSpeciesQuery(query, res);
     }
     // Searching by all fields
@@ -88,8 +88,8 @@ exports.findSpeciesBy = function(req, res) {
        let regex = new RegExp(searchAllSpecies, 'i');
        let query = SpeciesModel.find({ $or : [{SCIENTIFIC_NAME: regex}, {COMMON_NAME: regex}, {SCIENTIFIC_NME_SYNONYM: regex}, 
        	                             { TAXON_ID: regex }, { PRIMARY_DISCIPLINE: regex}, {ORIGIN: regex}, {TAXON_TYPE: regex},
-                                     {COMMON_NME_SYNONYM: regex}, {FFG_ACT_STATUS: regex}, {EPBC_ACT_STATUS: regex}, {VIC_ADVISORY_STATUS: regex}
-                                     ]});
+                                     {COMMON_NME_SYNONYM: regex}
+                                     ]}).limit(35);
        return findSpeciesQuery(query, res);
     }
     else{
