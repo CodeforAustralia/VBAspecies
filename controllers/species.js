@@ -68,7 +68,7 @@ exports.findSpeciesBy = function(req, res) {
     } 
     else if(primaryDiscipline != null && primaryDiscipline != ''){
        let regex = new RegExp(primaryDiscipline, 'i');
-       let query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex }).limit(20);
+       let query = SpeciesModel.find({ PRIMARY_DISCIPLINE: regex });
        return findSpeciesQuery(query, res);
     }
     // Searching by Common Name
