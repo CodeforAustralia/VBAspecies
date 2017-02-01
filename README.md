@@ -10,7 +10,7 @@ The VBA encompasses vertebrate and invertebrate animals, fungi, vascular and non
 **VBAspecies API**
 ----
 
-VBAspecies API is an application programming interface created from the [VBA web-based information system](https://vba.dse.vic.gov.au/) and [Museums Victoria API](http://collections.museumvictoria.com.au/developers) to provide programmatic access to read and share information about about wildlife in Victoria. The API includes species attribute information, including origin and conservation status.
+VBAspecies API is an application programming interface created from the [VBA web-based information system](https://vba.dse.vic.gov.au/) and [Museums Victoria API](http://collections.museumvictoria.com.au/developers) to provide programmatic access to read and share information about wildlife in Victoria. The API includes species attribute information, including origin and conservation status.
 
 In this API's version you do not require an authenticated user to list the species data.
 
