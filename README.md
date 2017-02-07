@@ -1,14 +1,5 @@
 **VBAspecies API**
 ----
-**Introduction**
-----
-The Victorian Biodiversity Atlas [(VBA)](https://vba.dse.vic.gov.au/) is a tool for government agencies, environmental consultants, researchers and the public to share information about the distribution and abundance of species in Victoria that feeds into the habitat distribution models. It assists DELWP to manage the large volume of species records collected as well as allowing contributors to manage their own records.
-
-###Which species are included?
-The VBA encompasses vertebrate and invertebrate animals, fungi, vascular and non-vascular plants from terrestrial and aquatic environments, including marine waters to the three nautical mile statutory limit. It includes both native and naturalised exotic species (including weeds and pests) but is not intended to hold data on cultivated or domesticated species.
-
-**VBAspecies API**
-----
 
 VBAspecies API is an application programming interface created from the [VBA web-based information system](https://vba.dse.vic.gov.au/) and [Museums Victoria API](http://collections.museumvictoria.com.au/developers) to provide programmatic access to read and share information about wildlife in Victoria. The API includes species attribute information, including origin and conservation status.
 
